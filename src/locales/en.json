@@ -14,7 +14,7 @@
   "common": {
     "home": "Home",
     "more": "More",
-    "playNow": "Play on Steam",
+    "playNow": "Play on Roblox",
     "switchLanguage": "Switch Language",
     "switchTheme": "Switch Theme",
     "lightMode": "Light Mode",
@@ -52,696 +52,485 @@
     }
   },
   "gameFeature": {
-    "title": "Lucid Blocks Gameplay",
-    "description": "Explore surreal biomes, fuse items with Apotheosis, and survive strange creatures in this dreamlike voxel sandbox on Steam."
+    "title": "Anime Expeditions Gameplay",
+    "description": "Summon anime-inspired units, evolve powerful abilities, clear Expeditions, defeat enemy waves and bosses, and build your strongest team in this Roblox anime tower defense adventure."
   },
   "tools": {
-    "title": "Lucid Blocks",
+    "title": "Anime Expeditions",
     "titleHighlight": "Resources",
-    "subtitle": "Everything you need to explore, craft, and survive in Lucid Blocks",
+    "subtitle": "Everything you need for codes, units, traits, evolutions, raids and farming in Anime Expeditions.",
     "cards": [
       {
+        "icon": "Gift",
+        "title": "Anime Expeditions Codes",
+        "description": "Active codes, rewards and redemption steps"
+      },
+      {
         "icon": "BookOpen",
-        "title": "Beginner Guide",
-        "description": "First steps, exploration, and early progression"
+        "title": "Anime Expeditions Beginner Guide",
+        "description": "First-hour route, summoning and early team"
       },
       {
-        "icon": "Sparkles",
-        "title": "Apotheosis Crafting",
-        "description": "Freeform fusion system and early recipes"
+        "icon": "Crown",
+        "title": "Anime Expeditions Unit Tier List",
+        "description": "Rankings for Story, Boss and Raid teams"
       },
       {
-        "icon": "Hammer",
-        "title": "Tools and Weapons",
-        "description": "Frost Pick, Azrael, Hookshot, and more"
+        "icon": "Users",
+        "title": "Anime Expeditions Units and Summon Guide",
+        "description": "Banners, pity rules and the full unit roster"
       },
       {
-        "icon": "Package",
-        "title": "Storage and Inventory",
-        "description": "Cache Cubes, Cabinets, and Qualia storage"
+        "icon": "Shuffle",
+        "title": "Anime Expeditions Traits and Rerolls",
+        "description": "Best traits, roll rates and reroll advice"
       },
       {
-        "icon": "Home",
-        "title": "Qualia and Base Building",
-        "description": "Personal Qualia and home base setup"
+        "icon": "Zap",
+        "title": "Anime Expeditions Evolution Guide",
+        "description": "Evolution targets, materials and order"
       },
       {
-        "icon": "Eye",
-        "title": "World Regions",
-        "description": "Fog Meadow, Essence Morass, and more"
+        "icon": "Swords",
+        "title": "Anime Expeditions Story, Expeditions and Raids",
+        "description": "Mode rules, unlock levels and team plans"
       },
       {
-        "icon": "AlertTriangle",
-        "title": "Creatures and Enemies",
-        "description": "Manikins, spiders, and how to survive"
-      },
-      {
-        "icon": "ArrowRight",
-        "title": "Mobility Gear",
-        "description": "Hookshot, Glider Glove, Bee Glider"
-      },
-      {
-        "icon": "TrendingUp",
-        "title": "Farming and Growth",
-        "description": "Seed progression and material farming"
-      },
-      {
-        "icon": "Star",
-        "title": "Best Early Unlocks",
-        "description": "Priority upgrades for the first hour"
-      },
-      {
-        "icon": "ClipboardCheck",
-        "title": "Achievement Tracker",
-        "description": "All 19 Steam achievements and conditions"
-      },
-      {
-        "icon": "MessageCircle",
-        "title": "Singleplayer FAQ",
-        "description": "Platform, price, co-op, and language questions"
-      },
-      {
-        "icon": "Gamepad2",
-        "title": "Steam Deck and Controller",
-        "description": "Proton 9.0.4 setup and controller tips"
-      },
-      {
-        "icon": "Settings",
-        "title": "Settings and Accessibility",
-        "description": "Hide hands, Vulkan, and display options"
-      },
-      {
-        "icon": "Clock",
-        "title": "Updates and Patch Notes",
-        "description": "Recent fixes and roadmap notes"
-      },
-      {
-        "icon": "Shield",
-        "title": "Crash Fix",
-        "description": "Vulkan check, logs path, and bug reporting"
+        "icon": "Coins",
+        "title": "Anime Expeditions Gems, Yen and Time Chamber Farming",
+        "description": "Best currency routes and spending priorities"
       }
     ]
   },
   "modules": {
-    "lucidBlocksBeginnerGuide": {
-      "title": "Lucid Blocks Beginner Guide",
-      "displayType": "steps",
-      "intro": "Start by learning how exploration, fusion, and progression connect. Lucid Blocks rewards experimentation, so early progress comes from gathering unusual materials, testing combinations, and unlocking your personal Qualia.",
+    "animeExpeditionsCodes": {
+      "title": "Anime Expeditions Codes",
+      "eyebrow": "Free Rewards",
+      "subtitle": "Redeem the latest codes for free Gems and Trait Crystals. Enter each code exactly as displayed.",
+      "intro": "Open Anime Expeditions, select the three-dot menu in the upper-left corner and choose Redeem Codes. Paste a working code into the Enter Code field, then press Redeem Code to collect the rewards.",
+      "codes": [
+        {
+          "code": "EA+",
+          "status": "Active",
+          "rewards": ["2,500 Gems", "30 Trait Crystals"],
+          "requirement": "EA+ access",
+          "expires": "No expiration date listed"
+        },
+        {
+          "code": "EA",
+          "status": "Active",
+          "rewards": ["2,500 Gems", "20 Trait Crystals"],
+          "requirement": "Early Access",
+          "expires": "No expiration date listed"
+        },
+        {
+          "code": "RELEASE",
+          "status": "Active",
+          "rewards": ["2,500 Gems", "30 Trait Crystals"],
+          "requirement": "Game access",
+          "expires": "No expiration date listed"
+        }
+      ]
+    },
+    "animeExpeditionsBeginnerGuide": {
+      "title": "Anime Expeditions Beginner Guide",
+      "eyebrow": "New Player Guide",
+      "subtitle": "Build a usable starting team, clear early Story stages and avoid wasting Gems, Trait Crystals or upgrade currency.",
+      "intro": "Anime Expeditions combines unit summoning with wave-based tower defense. Your early goal is to obtain a balanced roster, place an affordable opening unit and invest most of your battle currency into one reliable damage dealer.",
       "steps": [
         {
-          "title": "Explore Before You Commit",
-          "description": "Walk outward, mine common blocks, and keep any strange drops you find. Early progress is less about fixed quests and more about discovering what materials can become."
+          "step": 1,
+          "title": "Redeem the Launch Codes",
+          "description": "Redeem EA+, EA and RELEASE from the three-dot menu before summoning. The rewards provide up to 7,500 Gems and 80 Trait Crystals when every access requirement is met.",
+          "tip": "Save Trait Crystals until you own a unit that will remain in your main team."
         },
         {
-          "title": "Unlock Your Personal Qualia Early",
-          "description": "Your personal Qualia is one of the most important early milestones. It gives you a reliable place to regroup and build around."
+          "step": 2,
+          "title": "Complete the Beginner Path",
+          "description": "Follow the True Saint Beginner Path objectives and collect every available beginner reward. These quests introduce summoning, unit management and the main progression systems.",
+          "tip": "Claim each completed objective immediately so its tickets and resources can be used during the next step."
         },
         {
-          "title": "Use Osmium for Fast Early Progress",
-          "description": "Osmium is one of the most useful early materials. A popular early route is combining Osmium with sticks to make a Frost Pick for fast mining."
+          "step": 3,
+          "title": "Use the Beginner Banner",
+          "description": "Spend Beginner Banner tickets before committing large amounts of Gems to other banners. Build a roster containing an inexpensive opener, an area-damage unit, a boss damage dealer and either control or support.",
+          "tip": "Use the Rates button and watch the Legendary and Mythic pity counters before every large summon session."
         },
         {
-          "title": "Record Good Fusions",
-          "description": "Keep track of successful combinations in your journal. Lucid Blocks has many possible fusion paths, so writing down useful results saves a lot of time."
-        }
-      ],
-      "quickTips": [
-        "Apotheosis does not require a fixed recipe list.",
-        "Infinite world generation means moving higher or deeper can reveal completely different materials.",
-        "Movement tools and utility gear become a major quality-of-life boost once you start unlocking them.",
-        "Getting lost early is normal, but useful tools, storage, and movement options snowball fast once your first good fusions start working."
-      ]
-    },
-    "lucidBlocksApotheosisCrafting": {
-      "title": "Lucid Blocks Apotheosis Crafting",
-      "displayType": "cards",
-      "intro": "Apotheosis is the game's unrestricted fusion system. Instead of memorizing a traditional recipe book, you combine materials, watch the result, and build your own crafting knowledge over time.",
-      "cards": [
-        {
-          "name": "Freeform Fusion",
-          "description": "Apotheosis lets you fuse together different items without needing to follow a fixed recipe list."
+          "step": 4,
+          "title": "Start Story Mode",
+          "description": "Place your cheapest dependable unit near a path section where it can attack enemies for a long time. Add a second unit only when the first placement cannot safely handle the incoming wave.",
+          "tip": "Corners, bends and overlapping lanes usually provide better coverage than placing directly beside the entrance."
         },
         {
-          "name": "Multiple Useful Outcomes",
-          "description": "Different materials often push toward certain results. Community discoveries show that similar inputs can still lead to practical tools, storage, or combat upgrades."
+          "step": 5,
+          "title": "Upgrade Before Overplacing",
+          "description": "Concentrate early battle currency on the unit producing most of your damage. Add control, support and extra coverage after your main carry can defeat normal waves without leaking enemies.",
+          "tip": "Several low-upgrade units are often weaker than one properly upgraded carry supported by a slow or damage buff."
         },
         {
-          "name": "Journal-First Crafting",
-          "description": "The best way to learn Apotheosis is to track your successful combinations. Your journal quickly becomes your own crafting reference."
-        },
-        {
-          "name": "Community-Tested Early Fusions",
-          "description": "Popular early examples include Osmium plus Stick for a Frost Pick, Stick plus Tungsten Appendage for Azrael, and Azrael plus Magnetite for the Tendril Rapier."
-        }
-      ],
-      "milestones": [
-        "Fuse an item",
-        "Fuse a vermin",
-        "Fuse a divine artifact"
-      ]
-    },
-    "lucidBlocksToolsAndWeapons": {
-      "title": "Lucid Blocks Tools and Weapons",
-      "displayType": "itemCards",
-      "intro": "Lucid Blocks mixes official utility gear with community-discovered early weapons. The best setup is usually a blend of fast mining, safe traversal, and one dependable combat option.",
-      "items": [
-        {
-          "name": "Frost Pick",
-          "type": "Mining Tool",
-          "description": "A fast and affordable early pick made from Osmium and Stick. Players use it to speed up early material gathering."
-        },
-        {
-          "name": "Azrael",
-          "type": "Starter Weapon",
-          "description": "A practical early weapon route crafted from Stick and Tungsten Appendage."
-        },
-        {
-          "name": "Tendril Rapier",
-          "type": "Upgraded Weapon",
-          "description": "A stronger follow-up made by combining Azrael with Magnetite. It is one of the most useful early-mid combat paths shared by players."
-        },
-        {
-          "name": "Hookshot",
-          "type": "Mobility Tool",
-          "description": "An official traversal item that greatly improves movement and vertical exploration."
-        },
-        {
-          "name": "Bee Glider",
-          "type": "Mobility Tool",
-          "description": "An official movement item that helps cover space more safely and efficiently."
-        },
-        {
-          "name": "Ball Wand",
-          "type": "Utility Weapon",
-          "description": "An official ranged utility item that expands your combat and puzzle options."
-        },
-        {
-          "name": "Scuba Diving Gear",
-          "type": "Traversal Gear",
-          "description": "An official utility item for reaching areas that would otherwise slow down exploration."
-        },
-        {
-          "name": "Explosives",
-          "type": "Utility Damage",
-          "description": "Officially highlighted as part of the core toolset and useful for breaking through threats or obstacles."
+          "step": 6,
+          "title": "Level and Evolve Your Core Team",
+          "description": "Use Story, Expeditions and other available modes to obtain account resources, unit experience and evolution materials. Invest first in units that appear in most of your successful teams.",
+          "tip": "Do not spend rare evolution or reroll materials on temporary units that you plan to replace after the next banner."
         }
       ]
     },
-    "lucidBlocksStorageAndInventory": {
-      "title": "Lucid Blocks Storage and Inventory",
-      "displayType": "solutionCards",
-      "intro": "Inventory pressure starts early in Lucid Blocks, so building storage should be one of your first goals. Several real player-tested solutions already stand out.",
-      "solutions": [
+    "animeExpeditionsTierList": {
+      "title": "Anime Expeditions Unit Tier List",
+      "eyebrow": "Unit Rankings",
+      "subtitle": "A role-based ranking for Story, Expeditions, Raids and general progression. Team utility, upgrade value and mode coverage matter more than rarity alone.",
+      "intro": "Cursed Student provides the strongest disclosed scaling damage kit, while Salmon Sorcerer and The Hero fill important control and support roles. Other Mythic, Secret and Exclusive units should be selected according to their attack coverage, evolution and team synergy.",
+      "tiers": [
         {
-          "name": "Cache Cube",
-          "role": "Chest-Like Storage",
-          "description": "Cache Cubes are one of the earliest practical storage answers and are treated by players as the game's main chest-style container."
+          "tier": "S",
+          "label": "Scaling Carry",
+          "units": [
+            {
+              "name": "Cursed Student (True Love)",
+              "rarity": "Mythic",
+              "role": "Scaling DPS",
+              "reason": "Every third regular attack triggers a copied follow-up attack. Bleed stacks inside its range can also create up to three Bat Spirits that perform additional attacks."
+            }
+          ]
         },
         {
-          "name": "Cabinet",
-          "role": "Simple Base Storage",
-          "description": "Cabinets are another confirmed storage option. A shared early recipe uses 1 Cut Wood and 1 String."
+          "tier": "A",
+          "label": "Control",
+          "units": [
+            {
+              "name": "Salmon Sorcerer (Grade 1)",
+              "rarity": "Mythic",
+              "role": "Slow and Stagger control",
+              "reason": "Applies a 20% Slow through its upgrades and can Stagger nearby enemies for two seconds when Plummet activates."
+            }
+          ]
         },
         {
-          "name": "Personal Qualia",
-          "role": "Long-Term Storage Hub",
-          "description": "Once unlocked, your personal Qualia becomes a natural place to organize materials, craft in peace, and expand your base setup."
+          "tier": "A",
+          "label": "Team Support",
+          "units": [
+            {
+              "name": "The Hero",
+              "rarity": "Legendary",
+              "role": "Physical damage support",
+              "reason": "Hero Blessing increases the damage of Physical units within range, with the buff increasing by another 5% at each upgrade."
+            }
+          ]
         },
         {
-          "name": "Journal Tracking",
-          "role": "Inventory Efficiency",
-          "description": "Recording useful combinations in your journal reduces wasted materials and makes inventory management much easier."
-        }
-      ],
-      "managementTips": [
-        "Prioritize one dependable storage option before hoarding rare drops.",
-        "Build around your personal Qualia once it becomes available.",
-        "Keep crafting materials, combat tools, and movement gear separated so upgrades are easier to plan.",
-        "Use your journal as part of inventory management, not just crafting discovery."
-      ]
-    },
-    "lucidBlocksQualiaAndBaseBuilding": {
-      "title": "Lucid Blocks Qualia and Base Building",
-      "displayType": "cards",
-      "intro": "Qualia is one of the most important progression milestones in Lucid Blocks. It gives you a personal space to regroup, store materials, and gradually turn exploration progress into a real home base.",
-      "cards": [
-        {
-          "name": "Personal Qualia",
-          "description": "Unlocking a Qualia is an early milestone that gives you a more reliable place to return to while exploring the wider world."
+          "tier": "Specialist",
+          "label": "Build-Dependent Mythics",
+          "units": [
+            {
+              "name": "Flame Emperor (Reincarnate)",
+              "rarity": "Mythic",
+              "role": "Fire area damage"
+            },
+            {
+              "name": "String Demon (Awakened)",
+              "rarity": "Mythic",
+              "role": "Ranged area damage"
+            },
+            {
+              "name": "Puppet (Telekinetic)",
+              "rarity": "Mythic",
+              "role": "Summoning and control"
+            },
+            {
+              "name": "Lady Giant (Envy)",
+              "rarity": "Mythic",
+              "role": "Close-range area damage"
+            },
+            {
+              "name": "Elf Mage (Unleashed)",
+              "rarity": "Mythic",
+              "role": "Magic damage and support"
+            },
+            {
+              "name": "Hollow (Blaze)",
+              "rarity": "Mythic",
+              "role": "Damage dealer"
+            },
+            {
+              "name": "Reaper (Released)",
+              "rarity": "Mythic",
+              "role": "Damage dealer"
+            }
+          ]
         },
         {
-          "name": "Storage-First Building",
-          "description": "Many players start using their Qualia as a storage hub before turning it into a larger base with organized crafting and building space."
-        },
-        {
-          "name": "Creative Home Building",
-          "description": "Lucid Blocks supports creative building, and players are already using Qualia spaces to make houses and personalized layouts."
-        },
-        {
-          "name": "Progression Hub",
-          "description": "A strong base helps you separate exploration loot, crafting materials, seeds, tools, and mobility gear so your next upgrades are easier to plan."
-        }
-      ],
-      "highlights": [
-        "Enter a qualia",
-        "Store materials safely",
-        "Expand from utility to decoration",
-        "Use base space to support crafting and farming"
-      ]
-    },
-    "lucidBlocksWorldRegions": {
-      "title": "Lucid Blocks World Regions",
-      "displayType": "regionCards",
-      "intro": "Lucid Blocks uses infinite world generation, so players keep discovering new environments and structures. A few named places are already showing up in achievements and community discussions.",
-      "regions": [
-        {
-          "name": "Fog Meadow",
-          "type": "Community-Noted Area",
-          "description": "Fog Meadow is already known among players as a tense area associated with hidden threats and dangerous encounters."
-        },
-        {
-          "name": "Tiamana Leyline",
-          "type": "Discovery Landmark",
-          "description": "The tiamana leyline is important enough to have its own achievement milestone, making it one of the clearest named world discoveries so far."
-        },
-        {
-          "name": "Clonaqualia",
-          "type": "Build Space",
-          "description": "Players are already using Clonaqualia as a place to build houses, store materials, and experiment with more permanent layouts."
-        },
-        {
-          "name": "Essence Morass",
-          "type": "Farming Area",
-          "description": "Essence Morass is being shared by players as a useful farming location, especially for fighting slimes and gaining experience."
-        }
-      ]
-    },
-    "lucidBlocksCreaturesAndEnemies": {
-      "title": "Lucid Blocks Creatures and Enemies",
-      "displayType": "creatureCards",
-      "intro": "Lucid Blocks mixes surreal creatures with real danger. Official descriptions and community posts point to a world full of strange life, hostile threats, and a few standout encounters players remember quickly.",
-      "creatures": [
-        {
-          "name": "Manikins",
-          "role": "Hostile Enemy",
-          "description": "Manikins are one of the officially named foes in the world and part of the game's surreal threat roster."
-        },
-        {
-          "name": "Squishy Gels",
-          "role": "Hostile Enemy",
-          "description": "Squishy gels are another officially named enemy type and help define the game's strange biological style."
-        },
-        {
-          "name": "Higher-Dimensional Beings",
-          "role": "Hostile Enemy",
-          "description": "These beings are presented as part of the world's more abstract and unsettling enemy lineup."
-        },
-        {
-          "name": "Colossal Spiders",
-          "role": "Major Threat",
-          "description": "Spiders are one of the most immediately feared enemies in community discussions and are clearly a memorable danger."
-        },
-        {
-          "name": "Bubblebear",
-          "role": "Named Creature",
-          "description": "Bubblebear is notable enough to have its own achievement, which makes it one of the clearest named creature encounters in the game."
-        },
-        {
-          "name": "Cute Vermin",
-          "role": "Interactable Creature",
-          "description": "Vermin are not only part of fusion progression, they can also be renamed, giving them a more personal role than standard enemies."
-        },
-        {
-          "name": "Blasphemous Creature",
-          "role": "Elite Threat",
-          "description": "The blasphemous creature is tied to a dedicated combat achievement, marking it as a significant enemy encounter."
+          "tier": "Endgame",
+          "label": "Secret and Exclusive Targets",
+          "units": [
+            {
+              "name": "8th Sword (Berserker)",
+              "rarity": "Secret"
+            },
+            {
+              "name": "Shadow (Divine)",
+              "rarity": "Secret"
+            },
+            {
+              "name": "Crimson (Brother)",
+              "rarity": "Exclusive"
+            },
+            {
+              "name": "Toy Maker",
+              "rarity": "Exclusive"
+            },
+            {
+              "name": "True Saint (Holy)",
+              "rarity": "Exclusive"
+            }
+          ]
         }
       ]
     },
-    "lucidBlocksMobilityGear": {
-      "title": "Lucid Blocks Mobility Gear",
-      "displayType": "itemCards",
-      "intro": "Movement upgrades are one of the biggest quality-of-life jumps in Lucid Blocks. Once you unlock your first traversal tools, exploration becomes faster, safer, and much more rewarding.",
-      "items": [
-        {
-          "name": "Hookshot",
-          "type": "Traversal Tool",
-          "description": "The hookshot is one of the clearest movement milestones in the game and has its own dedicated achievement."
-        },
-        {
-          "name": "Glider Glove",
-          "type": "Air Mobility",
-          "description": "The glider glove opens up much smoother travel and is another major progression milestone with its own achievement."
-        },
-        {
-          "name": "Bee Glider",
-          "type": "Traversal Tool",
-          "description": "Bee gliders are officially highlighted as part of the game's movement toolkit for covering space more efficiently."
-        },
-        {
-          "name": "Ball Wand",
-          "type": "Utility Gear",
-          "description": "Ball wands are one of the officially highlighted special tools and expand how you move through or interact with the world."
-        },
-        {
-          "name": "Scuba Diving Gear",
-          "type": "Exploration Gear",
-          "description": "Scuba diving gear is officially listed as part of the core utility set for reaching areas that would otherwise be harder to explore."
-        },
-        {
-          "name": "Explosives",
-          "type": "Utility Damage",
-          "description": "Explosives are both officially highlighted and linked to an achievement milestone, making them part of the game's core utility progression."
-        }
-      ],
-      "unlockMilestones": [
-        "Command a hookshot",
-        "Fly with the glider glove",
-        "Brandish a projectile wand",
-        "Brandish an explosive"
-      ]
-    },
-    "lucidBlocksFarmingAndGrowth": {
-      "title": "Lucid Blocks Farming and Growth",
-      "displayType": "mixedCards",
-      "intro": "Growth is part of real progression in Lucid Blocks. Farming is not only about planting and harvesting, but also about setting up repeatable material routes that keep your tools, weapons, and crafting options flowing.",
-      "sections": [
-        {
-          "name": "Seed Progression",
-          "description": "Planting and fertilizing seeds is a real milestone in the game, and harvesting a fully-grown nut is part of the same growth path."
-        },
-        {
-          "name": "Material Farming",
-          "description": "A practical early farming loop is creating Mercury Capsules, which spawn small slimes that drop Tendrils and goo for repeatable crafting materials."
-        },
-        {
-          "name": "Tool Sustain",
-          "description": "Resource farming becomes much stronger once you can consistently gather Osmium, glass shards, plants, and slime materials for follow-up crafts."
-        },
-        {
-          "name": "Base Routine",
-          "description": "The best farming setup supports more than food. It should feed your storage, movement tools, weapon upgrades, and future fusion experiments."
-        }
-      ],
-      "growthMilestones": [
-        "Fertilize a seed",
-        "Harvest a fully-grown nut",
-        "Create repeatable material loops",
-        "Turn farming into long-term progression"
-      ]
-    },
-    "lucidBlocksBestEarlyUnlocks": {
-      "title": "Lucid Blocks Best Early Unlocks",
-      "displayType": "priorityCards",
-      "intro": "The strongest early unlocks are the ones that improve safety, storage, and movement. In Lucid Blocks, a few practical upgrades can make the entire rest of the game much smoother.",
-      "priorities": [
-        {
-          "name": "Personal Qualia",
-          "priority": "Essential",
-          "description": "As soon as you get access to your personal Qualia, your run becomes much more stable. It acts as a reliable hub for storage, building, and regrouping."
-        },
-        {
-          "name": "Frost Pick",
-          "priority": "Very High",
-          "description": "A fast and cheap early mining tool made from Osmium and Stick. It is one of the most useful upgrades for accelerating early resource collection."
-        },
-        {
-          "name": "Cache Cube",
-          "priority": "Very High",
-          "description": "Storage pressure starts early, so getting your first dependable chest-style container is a major quality-of-life upgrade."
-        },
-        {
-          "name": "Hookshot",
-          "priority": "High",
-          "description": "The hookshot is one of the clearest movement milestones in the game and quickly makes exploration faster and safer."
-        },
-        {
-          "name": "Glider Glove",
-          "priority": "High",
-          "description": "The glider glove adds another major mobility boost and makes long-distance movement far more efficient."
-        },
-        {
-          "name": "Projectile Wand or Bombs",
-          "priority": "High",
-          "description": "A ranged tool or explosive option gives you a safer answer to dangerous enemies and trial-style encounters."
-        }
-      ]
-    },
-    "lucidBlocksAchievementTracker": {
-      "title": "Lucid Blocks Achievement Tracker",
-      "displayType": "achievementGrid",
-      "intro": "Lucid Blocks currently has 19 Steam achievements, and they naturally split into exploration, crafting, mobility, combat, and growth progression.",
+    "animeExpeditionsUnitsAndSummon": {
+      "title": "Anime Expeditions Units and Summon Guide",
+      "eyebrow": "Units and Banners",
+      "subtitle": "Learn how the Beginner, Standard and Mini banners work, then browse the known roster by rarity and combat role.",
+      "intro": "Gems are the main summoning currency, while Beginner Path quests provide tickets for the starter banner. The summon screen supports single and 10x pulls, displays current drop rates and tracks separate Legendary and Mythic pity goals.",
       "groups": [
         {
-          "name": "Exploration",
-          "achievements": [
-            {
-              "title": "Angel α",
-              "description": "Enter a qualia."
-            },
-            {
-              "title": "Angel γ",
-              "description": "Discover a tiamana leyline."
-            },
-            {
-              "title": "Angel δ",
-              "description": "Overcome a tiamana challenge."
-            },
-            {
-              "title": "Angel ε",
-              "description": "Hidden achievement."
-            }
+          "type": "banner",
+          "name": "Beginner Banner",
+          "meta": "Beginner Path reward banner",
+          "detail": "Complete the True Saint Beginner Path to earn tickets. The featured pool includes Puppet, String Demon, Hollow, Lady Giant, Elf Mage, Flame Emperor, Salmon Sorcerer and Cursed Student."
+        },
+        {
+          "type": "banner",
+          "name": "Standard Banner",
+          "meta": "Permanent summon banner",
+          "detail": "Use this banner for general roster building and long-term pity progress. Open the Rates panel before summoning to view the current unit pool and drop percentages."
+        },
+        {
+          "type": "banner",
+          "name": "Mini Banner",
+          "meta": "Rotating featured banner",
+          "detail": "Mini Banners spotlight a smaller selection of units and are best used when the featured Mythic fills a missing role in your team."
+        },
+        {
+          "type": "system",
+          "name": "Summon Pity",
+          "meta": "Legendary pity 20 summons / Mythic pity 50 summons",
+          "detail": "The summon interface shows both pity counters beside the active banner and supports Summon 1x and Summon 10x. A qualifying high-rarity pull completes the matching pity cycle."
+        },
+        {
+          "type": "rarity-group",
+          "name": "Secret",
+          "units": [
+            { "name": "8th Sword (Berserker)", "role": "Secret damage unit" },
+            { "name": "Shadow (Divine)", "role": "Secret carry" }
           ]
         },
         {
-          "name": "Crafting and Summoning",
-          "achievements": [
-            {
-              "title": "Apotheosis α",
-              "description": "Fuse an item."
-            },
-            {
-              "title": "Apotheosis β",
-              "description": "Fuse a vermin."
-            },
-            {
-              "title": "Apotheosis γ",
-              "description": "Fuse a divine artifact."
-            },
-            {
-              "title": "Archangel β",
-              "description": "Summon your faith."
-            }
+          "type": "rarity-group",
+          "name": "Exclusive",
+          "units": [
+            { "name": "Crimson (Brother)", "role": "Exclusive unit" },
+            { "name": "Toy Maker", "role": "Exclusive unit" },
+            { "name": "True Saint (Holy)", "role": "Beginner Path and exclusive progression unit" }
           ]
         },
         {
-          "name": "Mobility and Utility",
-          "achievements": [
-            {
-              "title": "Virtue α",
-              "description": "Fly with the glider glove."
-            },
-            {
-              "title": "Virtue β",
-              "description": "Command a hookshot."
-            },
-            {
-              "title": "Archangel α",
-              "description": "Brandish a projectile wand."
-            },
-            {
-              "title": "Archangel γ",
-              "description": "Brandish an explosive."
-            }
+          "type": "rarity-group",
+          "name": "Mythic",
+          "units": [
+            { "name": "Cursed Student (True Love)", "role": "Scaling DPS" },
+            { "name": "Elf Mage (Unleashed)", "role": "Magic damage and support" },
+            { "name": "Flame Emperor (Reincarnate)", "role": "Area damage" },
+            { "name": "Hollow (Blaze)", "role": "Damage dealer" },
+            { "name": "Lady Giant (Envy)", "role": "Close-range area damage" },
+            { "name": "Puppet (Telekinetic)", "role": "Summoning and control" },
+            { "name": "Reaper (Released)", "role": "Damage dealer" },
+            { "name": "Salmon Sorcerer (Grade 1)", "role": "Crowd control" },
+            { "name": "String Demon (Awakened)", "role": "Ranged area damage" }
           ]
         },
         {
-          "name": "Combat and Creatures",
-          "achievements": [
-            {
-              "title": "Bubblebear Massacre",
-              "description": "Defeat innocent bubblebears."
-            },
-            {
-              "title": "Archangel δ",
-              "description": "Eliminate a blasphemous creature."
-            },
-            {
-              "title": "Angel β",
-              "description": "Die."
-            },
-            {
-              "title": "Dominion γ",
-              "description": "Rename a cute vermin."
-            }
+          "type": "rarity-group",
+          "name": "Legendary",
+          "units": [
+            { "name": "Ice Queen", "role": "Legendary unit" },
+            { "name": "Greed", "role": "Legendary unit" },
+            { "name": "Forbidden Teacher", "role": "Legendary unit" },
+            { "name": "Ramen Guy", "role": "Legendary unit" },
+            { "name": "Scissor", "role": "Legendary unit" },
+            { "name": "Water Princess", "role": "Legendary unit" },
+            { "name": "The Hero", "role": "Physical damage support" }
           ]
         },
         {
-          "name": "Growth and Farming",
-          "achievements": [
-            {
-              "title": "Dominion α",
-              "description": "Fertilize a seed."
-            },
-            {
-              "title": "Dominion β",
-              "description": "Harvest a fully-grown nut."
-            },
-            {
-              "title": "Dominion δ",
-              "description": "Hidden achievement."
-            }
+          "type": "rarity-group",
+          "name": "Epic and Rare",
+          "units": [
+            { "name": "Stone Alchemist", "role": "Epic unit" },
+            { "name": "Bounty Hunter", "role": "Epic unit" },
+            { "name": "Ice Mage", "role": "Epic unit" },
+            { "name": "Demon Cyborg", "role": "Epic unit" },
+            { "name": "Nen Hunter", "role": "Epic unit" },
+            { "name": "Corps Captain", "role": "Epic unit" },
+            { "name": "Curly Brow", "role": "Rare unit" },
+            { "name": "Kid Assassin", "role": "Rare unit" },
+            { "name": "Reishi Archer", "role": "Rare unit" },
+            { "name": "Thunder Shinobi", "role": "Rare unit" },
+            { "name": "Carrot", "role": "Rare unit" },
+            { "name": "Rubber Boy", "role": "Rare unit" }
           ]
         }
       ]
     },
-    "lucidBlocksSingleplayerAndPlatformFAQ": {
-      "title": "Lucid Blocks Singleplayer and Platform FAQ",
-      "displayType": "accordion",
-      "intro": "These are the core platform and access questions players keep asking before buying Lucid Blocks.",
-      "faqs": [
+    "animeExpeditionsTraits": {
+      "title": "Anime Expeditions Traits and Rerolls",
+      "eyebrow": "Unit Optimization",
+      "subtitle": "Compare the strongest damage, speed, range, critical and placement bonuses. Save Trait Crystals for permanent Mythic and Secret units.",
+      "intro": "Traits are permanent passive bonuses rolled through the Trait station in the Upgrades area. Autoroll can repeat rolls automatically, while the trait history records recent results. Prioritize your main damage carry and stop on a strong high-tier trait instead of spending every Trait Crystal chasing Unbound.",
+      "traits": [
         {
-          "question": "Is Lucid Blocks singleplayer?",
-          "answer": "Yes. Lucid Blocks is a singleplayer game."
+          "trait": "Unbound",
+          "rollRate": "0.1%",
+          "bonuses": "+350% damage, -5% SPA, +10% range",
+          "bestFor": "A single high-investment boss carry with strong upgrades and abilities",
+          "advice": "Keep immediately. Chase only on a unit that remains effective with one placement."
         },
         {
-          "question": "Is multiplayer or co-op planned?",
-          "answer": "No. Multiplayer is not planned for release or future updates."
+          "trait": "Primordial",
+          "rollRate": "Mythic-tier roll",
+          "bonuses": "+35% damage, -15% SPA, +20% range",
+          "bestFor": "General DPS units, magic attackers and long-range carries",
+          "advice": "An excellent stopping point for Story, Expeditions and Raids."
         },
         {
-          "question": "Where can I play Lucid Blocks?",
-          "answer": "It is currently available on Steam for Windows."
+          "trait": "Forsaken",
+          "rollRate": "Mythic-tier roll",
+          "bonuses": "+35% critical chance, +35% critical damage, +10% range",
+          "bestFor": "Fast attackers, multi-hit units and high-damage boss killers",
+          "advice": "Keep on critical-focused carries unless specifically chasing Unbound."
         },
         {
-          "question": "How much does Lucid Blocks cost?",
-          "answer": "$9.99 on Steam."
-        },
-        {
-          "question": "Does Lucid Blocks support controllers?",
-          "answer": "Yes, but controller play is not recommended because the menus are not designed around it."
-        },
-        {
-          "question": "Does Lucid Blocks work on Steam Deck?",
-          "answer": "Yes. Proton 9.0 or 9.0.4 is the commonly recommended setup for Steam Deck."
-        },
-        {
-          "question": "Does Lucid Blocks work on Linux?",
-          "answer": "Yes. Proton 9.0 is reported to work well for Linux and Steam Deck."
-        },
-        {
-          "question": "Will Mac or Android be supported?",
-          "answer": "They may be supported in the future, but they are not current launch platforms."
-        },
-        {
-          "question": "Does Lucid Blocks have translations?",
-          "answer": "No. There are currently no translations planned."
-        },
-        {
-          "question": "Will Lucid Blocks keep getting updates?",
-          "answer": "Yes. Some content updates are planned after release, but they are not intended to continue on an indefinite regular schedule."
+          "trait": "Draconic",
+          "rollRate": "Mythic-tier roll",
+          "bonuses": "+20% damage, +50% damage-over-time damage, -10% placement cost",
+          "bestFor": "Damage-over-time units and expensive early placements",
+          "advice": "Keep on burn or bleed units; reroll on pure attackers only when better options are affordable."
         }
       ]
     },
-    "lucidBlocksSteamDeckAndController": {
-      "title": "Lucid Blocks Steam Deck and Controller",
-      "displayType": "accordion",
-      "intro": "Lucid Blocks can run on Steam Deck, but the default setup may need adjustment. Keyboard and mouse remains the smoother option for menus and general play.",
-      "faqs": [
+    "animeExpeditionsEvolution": {
+      "title": "Anime Expeditions Evolution Guide",
+      "eyebrow": "Unit Progression",
+      "subtitle": "Evolution changes a unit's form and unlocks stronger attacks or abilities. Build one dependable carry before spreading materials across the roster.",
+      "intro": "Use the Evolution station in the Upgrades area to inspect each unit's level requirement, evolution items and Yen cost. Evolution recipes are unit-specific, so select the unit first and farm the materials displayed in its recipe rather than collecting unrelated drops.",
+      "stages": [
         {
-          "question": "Does Lucid Blocks work on Steam Deck?",
-          "answer": "Yes. Proton 9.0 works well, and Proton 9.0.4 is a commonly shared fix for Steam Deck issues."
+          "stage": 1,
+          "unit": "Shadow",
+          "evolvedForm": "Divine",
+          "role": "Secret boss DPS and summon-based carry",
+          "requirements": "Required unit level, Shadow-specific evolution materials and the Yen cost displayed at the Evolution station",
+          "result": "Higher damage, stronger summoned attackers and an expanded evolved ability set",
+          "priority": "Evolve first when Shadow is the main boss killer in Story and Raid teams."
         },
         {
-          "question": "What should I do if Steam Deck controls are not working?",
-          "answer": "Force compatibility and switch the game to Proton 9.0.4. The default configuration may not accept controller input correctly."
+          "stage": 2,
+          "unit": "Lady Giant",
+          "evolvedForm": "Envy",
+          "role": "Melee area damage and lane control",
+          "requirements": "Required unit level, Lady Giant evolution materials and the Yen cost displayed at the Evolution station",
+          "result": "Improved area coverage, stronger upgrades and better performance against grouped enemies",
+          "priority": "Evolve early when the team lacks reliable crowd clearing."
         },
         {
-          "question": "Does Lucid Blocks support controllers?",
-          "answer": "Yes, but controller play is not recommended because the game's menus are not designed around it."
+          "stage": 3,
+          "unit": "Second Damage Carry",
+          "evolvedForm": "Unit-specific evolved form",
+          "role": "Covers the damage type or range missing from the first evolved unit",
+          "requirements": "Complete the displayed recipe without using materials reserved for the primary carry",
+          "result": "A balanced team capable of handling both enemy waves and high-health bosses",
+          "priority": "Choose ranged damage if the first evolution is melee, or boss damage if the first evolution is mainly AoE."
         },
         {
-          "question": "Is Linux support possible?",
-          "answer": "Yes. Proton 9.0 is reported to work well for Linux and Steam Deck."
-        },
-        {
-          "question": "What is the best input setup?",
-          "answer": "Keyboard and mouse is the smoothest option for menu navigation and general moment-to-moment play."
+          "stage": 4,
+          "unit": "Support or Economy Unit",
+          "evolvedForm": "Unit-specific evolved form",
+          "role": "Buffing, control, farming or team utility",
+          "requirements": "Required level, evolution materials and currency after the core damage team is complete",
+          "result": "Faster clears, stronger carry damage or improved resource generation",
+          "priority": "Evolve after two dependable damage units can clear the target content consistently."
         }
       ]
     },
-    "lucidBlocksSettingsAndAccessibility": {
-      "title": "Lucid Blocks Settings and Accessibility",
-      "displayType": "settingCards",
-      "intro": "Lucid Blocks already has a few practical settings and compatibility notes that matter immediately when players first launch the game.",
-      "settings": [
+    "animeExpeditionsStoryRaids": {
+      "title": "Anime Expeditions Story, Expeditions and Raids",
+      "eyebrow": "Game Modes",
+      "subtitle": "Start with Story to build your account, enter Expeditions for objective-based missions and prepare a specialized team before farming Raids.",
+      "intro": "Each mode rewards a different kind of team. Story favors balanced and affordable units, Expeditions require players to protect an objective while managing resources, and Raids demand concentrated boss damage supported by crowd control and early-wave coverage.",
+      "modes": [
         {
-          "name": "Display Settings",
-          "type": "Comfort Option",
-          "description": "Display Settings includes an option that lets players hide the on-screen hands."
+          "mode": "Story",
+          "unlock": "Available at the beginning of account progression",
+          "objective": "Defend the route through enemy waves, complete each act and meet the displayed star conditions.",
+          "rewards": "Gems, Yen or Gold, player EXP, unit EXP, star rewards, Trait Rerolls and evolution materials",
+          "teamPlan": "Use one cheap opening unit, one AoE attacker and one boss-focused carry. Place units where paths overlap and upgrade the unit that answers the first dangerous wave."
         },
         {
-          "name": "Graphics Compatibility",
-          "type": "System Requirement",
-          "description": "Vulkan support is required for the graphics to render properly. Systems without Vulkan can run into crashes and severe graphical glitches."
+          "mode": "Expeditions and Payload",
+          "unlock": "Account level 20",
+          "objective": "Gather resources, build the required base structures and complete a rotating Payload objective such as escorting, defending or delivering.",
+          "rewards": "Progression materials, equipment-related resources, currency and objective completion rewards",
+          "teamPlan": "Assign one player to early defense and another to objective calls. Bring cheap coverage, wide AoE, control near the Payload and a scaling unit for the final threat."
         },
         {
-          "name": "Input Preference",
-          "type": "Control Setup",
-          "description": "Controller support exists, but keyboard and mouse gives a smoother experience because menus are not built around controller use."
-        },
-        {
-          "name": "Language Support",
-          "type": "Localization",
-          "description": "The current setup is English-only, and no translations are planned right now."
+          "mode": "Raids",
+          "unlock": "Account level 25",
+          "objective": "Survive the opening waves, clear supporting enemies and defeat a powerful boss before the timer expires.",
+          "rewards": "Evolution materials, Spirit Tokens, character drops, Gems, Yen or Gold and Trait Rerolls",
+          "teamPlan": "Bring a dedicated boss carry, an AoE unit for adds, a buffer or debuffer and enough cheap defense to survive before the main carry is upgraded."
         }
       ]
     },
-    "lucidBlocksUpdatesAndPatchNotes": {
-      "title": "Lucid Blocks Updates and Patch Notes",
-      "displayType": "timeline",
-      "intro": "Lucid Blocks is already receiving quick post-launch fixes and small usability updates.",
-      "entries": [
+    "animeExpeditionsFarming": {
+      "title": "Anime Expeditions Gems, Yen and Time Chamber Farming",
+      "eyebrow": "Resource Farming",
+      "subtitle": "Use first-clear rewards and quests for high-value currency, then switch to repeatable stages or the Time Chamber based on your current upgrade goal.",
+      "intro": "Active play provides the fastest account progression because Story stars, quests, Expeditions and Raids award targeted resources. The Time Chamber is best used between active sessions to collect passive rewards without replacing limited daily, weekly or first-clear bonuses.",
+      "resources": [
         {
-          "title": "Update 2.8.2",
-          "type": "UI Update",
-          "description": "Renamed \"awaken\" to \"exit\" in the main menu."
+          "resource": "Gems",
+          "usedFor": "Summoning units and reaching banner pity",
+          "bestSources": "Story first clears, star objectives, daily and weekly quests, achievements, Beginner Path, Battle Pass and events",
+          "activeFarm": "Complete unclaimed stars and quests first, then repeat the fastest stage that provides useful secondary rewards.",
+          "spendingRule": "Save Gems for a defined banner target instead of using isolated pulls across several banners."
         },
         {
-          "title": "Small Patch for Start-Up Crashes",
-          "type": "Hotfix",
-          "description": "A dedicated patch was released for players whose game was crashing on launch."
+          "resource": "Yen or Gold",
+          "usedFor": "Unit progression, evolution costs and other account upgrades",
+          "bestSources": "Story clears, quests, mode rewards, Expeditions and passive Time Chamber income",
+          "activeFarm": "Repeat a short stage that clears consistently and also levels the units used in the main team.",
+          "spendingRule": "Upgrade the small group of units used in most teams before investing in collection units."
         },
         {
-          "title": "Post-Launch Content Support",
-          "type": "Roadmap Note",
-          "description": "Some content updates are planned after release, but they are not intended to continue on an indefinite regular schedule."
-        }
-      ]
-    },
-    "lucidBlocksCrashFixAndTroubleshooting": {
-      "title": "Lucid Blocks Crash Fix and Troubleshooting",
-      "displayType": "steps",
-      "intro": "Most immediate launch and crash issues should be checked in a simple order: patch level, graphics support, platform compatibility, and logs.",
-      "steps": [
-        {
-          "title": "Install the Latest Crash Hotfix",
-          "description": "If the game is crashing on start, update first and test again with the latest start-up crash patch."
+          "resource": "Trait Crystals and Rerolls",
+          "usedFor": "Replacing a unit's passive trait",
+          "bestSources": "Story stars, daily and weekly quests, Raid rewards, Battle Pass milestones, events and redemption rewards",
+          "activeFarm": "Prioritize objectives that directly display Trait Crystal or reroll rewards.",
+          "spendingRule": "Use rerolls on permanent Mythic and Secret carries; keep Primordial, Forsaken or a role-matched Draconic roll."
         },
         {
-          "title": "Check Vulkan Support",
-          "description": "Lucid Blocks requires Vulkan support. Systems without Vulkan can suffer from crashes or major rendering problems."
+          "resource": "Evolution Materials",
+          "usedFor": "Unlocking evolved forms and stronger abilities",
+          "bestSources": "Story chapters, Expeditions, Raids, crafting and mode-specific reward shops",
+          "activeFarm": "Select the unit at the Evolution station, identify its recipe and farm only the stage or mode containing that material.",
+          "spendingRule": "Finish the main damage carry before dividing rare materials between several units."
         },
         {
-          "title": "Use Proton 9.0.4 on Steam Deck",
-          "description": "If Steam Deck input or launch behavior is broken, force compatibility and switch to Proton 9.0.4."
-        },
-        {
-          "title": "Collect Crash Logs",
-          "description": "Open Windows Run, paste %APPDATA%, go to lucid blocks/logs, and gather the .txt files for troubleshooting."
-        },
-        {
-          "title": "Report the Issue Properly",
-          "description": "Share the logs and device details through the official Discord bug-reports forum or on the Steam community page."
+          "resource": "Unit and Player EXP",
+          "usedFor": "Raising unit levels, account level and mode unlocks",
+          "bestSources": "Story progression, repeatable stages, quests, EXP rewards and the Time Chamber",
+          "activeFarm": "Push new Story acts until the team reaches a wall, then repeat the fastest stable clear.",
+          "spendingRule": "Keep the active Story and Raid team near the level cap before leveling unused units."
         }
       ]
     }
@@ -749,43 +538,51 @@
   "faq": {
     "title": "Frequently Asked",
     "titleHighlight": "Questions",
-    "subtitle": "Everything you need to know about Lucid Blocks",
+    "subtitle": "Everything you need to know about Anime Expeditions",
     "questions": [
       {
-        "question": "Is Lucid Blocks a singleplayer game?",
-        "answer": "Yes. Lucid Blocks is a singleplayer-only game with no multiplayer or co-op planned."
+        "question": "What is Anime Expeditions?",
+        "answer": "Anime Expeditions is a Roblox anime tower defense game developed by Expeditions Entertainment. You summon anime-inspired units, evolve their abilities, and defend against enemy waves and bosses across Story, Expeditions and Raid modes."
       },
       {
-        "question": "What is the Apotheosis system in Lucid Blocks?",
-        "answer": "Apotheosis is Lucid Blocks' freeform fusion crafting system. Instead of following fixed recipes, you combine materials and discover your own crafting paths."
+        "question": "How do I redeem codes in Anime Expeditions?",
+        "answer": "Open Anime Expeditions, tap the three-dot menu in the upper-left corner and choose Redeem Codes. Paste a working code into the Enter Code field and press Redeem Code to collect free Gems and Trait Crystals."
       },
       {
-        "question": "Where can I play Lucid Blocks?",
-        "answer": "Lucid Blocks is currently available on Steam for Windows. Linux and Steam Deck support is available through Proton 9.0."
+        "question": "What are the best units in Anime Expeditions?",
+        "answer": "Cursed Student (True Love) is the strongest disclosed scaling carry, Salmon Sorcerer (Grade 1) provides top-tier control, and The Hero is a strong physical support. Secret and Exclusive units like Shadow (Divine) and True Saint (Holy) are endgame targets."
       },
       {
-        "question": "How much does Lucid Blocks cost?",
-        "answer": "Lucid Blocks costs $9.99 on Steam."
+        "question": "How does summoning pity work in Anime Expeditions?",
+        "answer": "The summon screen tracks a Legendary pity at 20 summons and a Mythic pity at 50 summons. A qualifying high-rarity pull completes the matching pity cycle, and you can summon 1x or 10x at a time."
       },
       {
-        "question": "Does Lucid Blocks support controllers?",
-        "answer": "Yes, but controller play is not recommended because the menus are not designed around it. Keyboard and mouse is the smoother option."
+        "question": "What are Traits in Anime Expeditions?",
+        "answer": "Traits are permanent passive bonuses rolled at the Trait station in the Upgrades area. Unbound, Primordial, Forsaken and Draconic are the strongest options, and you should save Trait Crystals for permanent Mythic and Secret carries."
       },
       {
-        "question": "Will Lucid Blocks receive updates?",
-        "answer": "Yes. Some content updates are planned after release, but they are not intended to continue on an indefinite regular schedule."
+        "question": "How do I evolve units in Anime Expeditions?",
+        "answer": "Use the Evolution station in the Upgrades area to inspect each unit's level requirement, evolution items and Yen cost. Recipes are unit-specific, so select the unit first and farm only the materials shown in its recipe."
+      },
+      {
+        "question": "What is the Time Chamber in Anime Expeditions?",
+        "answer": "The Time Chamber collects passive rewards between active sessions. It supplements, but does not replace, limited daily, weekly and first-clear bonuses from Story, quests, Expeditions and Raids."
+      },
+      {
+        "question": "Is Anime Expeditions free to play?",
+        "answer": "Yes. Anime Expeditions is free to play on Roblox. Optional summons and progression are accelerated through codes, quests, the Battle Pass and events."
       }
     ]
   },
   "cta": {
     "title": "Ready to Play Anime Expeditions?",
-    "description": "Join the Anime Expeditions community on Discord for codes, updates, guides, and co-op Raid discussions!",
+    "description": "Join the Anime Expeditions community on Discord for codes, updates, guides and co-op Raid discussions!",
     "joinCommunity": "Join Discord",
     "joinGame": "Play on Roblox"
   },
   "footer": {
     "title": "Anime Expeditions Wiki",
-    "description": "Your complete resource hub for Anime Expeditions codes, tier lists, units, traits, evolutions, raids, and Time Chamber guides.",
+    "description": "Your complete resource hub for Anime Expeditions codes, tier lists, units, traits, evolutions, raids and Time Chamber guides.",
     "resources": "Resources",
     "community": "Community",
     "legal": "Legal",
@@ -802,124 +599,124 @@
   },
   "pages": {
     "guides": {
-      "title": "Lucid Blocks Guides",
-      "description": "Complete gameplay guides from beginner basics to advanced Apotheosis strategies. Master survival and crafting.",
-      "metaTitle": "Lucid Blocks Guides - Beginner to Advanced Strategies",
-      "metaDescription": "Complete Lucid Blocks guides covering beginner tips, Apotheosis system, survival strategies, and expert tactics for mastering the surreal sandbox.",
+      "title": "Anime Expeditions Guides",
+      "description": "Complete Anime Expeditions guides from beginner basics to advanced unit, trait and raid strategies.",
+      "metaTitle": "Anime Expeditions Guides - Beginner to Advanced Strategies",
+      "metaDescription": "Complete Anime Expeditions guides covering beginner tips, summoning, units, traits, evolutions and raid strategies for the Roblox anime tower defense game.",
       "categoryLabel": "GAME GUIDES",
       "whatIs": "What are Guides?",
-      "whatIsDescription": "Comprehensive guides covering gameplay mechanics, survival strategies, and the Apotheosis crafting system. Learn everything from first steps to advanced techniques.",
+      "whatIsDescription": "Comprehensive guides covering Anime Expeditions gameplay mechanics, summoning, unit building and progression. Learn everything from first steps to advanced team strategies.",
       "why": "Why read guides?",
       "whySteps": {
         "step1Title": "Learn Core Mechanics",
-        "step1Description": "Understand the Apotheosis system and avoid common beginner mistakes",
+        "step1Description": "Understand summoning, banners and pity to avoid common beginner mistakes",
         "step2Title": "Fast Progression",
-        "step2Description": "Follow proven paths to survive and thrive in the surreal world",
+        "step2Description": "Follow proven routes to clear Story, Expeditions and Raids",
         "step3Title": "Master Strategies",
-        "step3Description": "Develop advanced tactics for exploration and crafting"
+        "step3Description": "Develop advanced tactics for team building and boss fights"
       },
       "featured": "Featured & Essential",
       "all": "All Guides"
     },
-    "crafting": {
-      "title": "Lucid Blocks Crafting",
-      "description": "Master the Apotheosis fusion system with essence mechanics, recipes, and crafting strategies for powerful items.",
-      "metaTitle": "Lucid Blocks Crafting - Apotheosis System & Recipes",
-      "metaDescription": "Master Lucid Blocks Apotheosis crafting system. Learn essence mechanics, fusion recipes, and strategies for creating powerful tools and weapons.",
-      "categoryLabel": "CRAFTING SYSTEM",
-      "whatIs": "What is Crafting?",
-      "whatIsDescription": "The Apotheosis system is a unique essence-driven fusion mechanic where you combine up to six items to discover new recipes. No fixed crafting menus—experimentation is key.",
-      "why": "Why master crafting?",
+    "units": {
+      "title": "Anime Expeditions Units",
+      "description": "Detailed Anime Expeditions unit guides covering rarity, roles, attack types, stats and recommended game modes.",
+      "metaTitle": "Anime Expeditions Units - Roster, Stats & Roles",
+      "metaDescription": "Complete Anime Expeditions unit database including Mythic, Secret and Exclusive units. Learn stats, roles, attack types and the best modes for each unit.",
+      "categoryLabel": "UNITS & ROSTER",
+      "whatIs": "What are Units?",
+      "whatIsDescription": "Comprehensive guides for every obtainable Anime Expeditions unit. Learn rarity, roles, attack styles, stats and optimal team placements.",
+      "why": "Why check unit guides?",
       "whySteps": {
-        "step1Title": "Unlock Powerful Items",
-        "step1Description": "Discover essential tools, weapons, and mobility gear through fusion",
-        "step2Title": "Understand Essences",
-        "step2Description": "Learn how item essences combine to create predictable results",
-        "step3Title": "Optimize Resources",
-        "step3Description": "Use dilution mechanics to maximize output from cheap materials"
-      },
-      "featured": "Featured & Essential",
-      "all": "All Crafting Guides"
-    },
-    "items": {
-      "title": "Lucid Blocks Items",
-      "description": "Detailed item guides covering tools, weapons, mobility gear, and storage solutions with crafting recipes and usage tips.",
-      "metaTitle": "Lucid Blocks Items - Tools, Weapons & Gear Guide",
-      "metaDescription": "Complete item database for Lucid Blocks including tools, weapons, mobility gear, and storage. Learn how to craft and use every item effectively.",
-      "categoryLabel": "ITEMS & EQUIPMENT",
-      "whatIs": "What are Items?",
-      "whatIsDescription": "Comprehensive guides for tools, weapons, mobility gear, and functional items. Learn crafting recipes, usage strategies, and optimal combinations.",
-      "why": "Why check item guides?",
-      "whySteps": {
-        "step1Title": "Learn Crafting Recipes",
-        "step1Description": "Discover how to craft essential tools and weapons using Apotheosis",
+        "step1Title": "Know the Roster",
+        "step1Description": "Browse Mythic, Legendary, Secret and Exclusive units by role",
         "step2Title": "Optimize Equipment",
-        "step2Description": "Choose the best items for your playstyle and progression stage",
-        "step3Title": "Improve Survival",
-        "step3Description": "Equip mobility gear and weapons to navigate the dangerous world"
+        "step2Description": "Choose the best units for your playstyle and progression stage",
+        "step3Title": "Improve Teams",
+        "step3Description": "Pair carries, control and support for stronger defenses"
       },
       "featured": "Featured & Essential",
-      "all": "All Items"
+      "all": "All Units"
     },
-    "biomes": {
-      "title": "Lucid Blocks Biomes",
-      "description": "Explore world regions, environmental features, resource locations, and survival tips for each biome.",
-      "metaTitle": "Lucid Blocks Biomes - World Regions & Exploration",
-      "metaDescription": "Explore Lucid Blocks biomes including Tiamana Leylines, Fog Meadow, and surreal regions. Find resources, avoid dangers, and navigate the infinite world.",
-      "categoryLabel": "WORLD REGIONS",
-      "whatIs": "What are Biomes?",
-      "whatIsDescription": "Guides to different world regions, environmental features, resource distribution, and danger zones. Learn what to expect and how to prepare for each area.",
-      "why": "Why explore biomes?",
+    "tierlist": {
+      "title": "Anime Expeditions Tier List",
+      "description": "Rank every Anime Expeditions unit for Story, Expeditions, Raids and general progression.",
+      "metaTitle": "Anime Expeditions Tier List - Best Units Ranked",
+      "metaDescription": "Anime Expeditions unit tier list ranking the best carries, control and support units for Story, Boss, Raid and general progression.",
+      "categoryLabel": "TIER LIST",
+      "whatIs": "What is the Tier List?",
+      "whatIsDescription": "A role-based ranking of Anime Expeditions units using damage, range, attack speed, cost and utility across every game mode.",
+      "why": "Why use the tier list?",
       "whySteps": {
-        "step1Title": "Find Resources",
-        "step1Description": "Locate rare materials and essences specific to each region",
-        "step2Title": "Avoid Dangers",
-        "step2Description": "Understand environmental hazards and hostile creatures",
-        "step3Title": "Plan Exploration",
-        "step3Description": "Prepare the right tools and gear for each biome type"
+        "step1Title": "Find the Best Units",
+        "step1Description": "See which carries and supports lead the current meta",
+        "step2Title": "Plan Investments",
+        "step2Description": "Spend Gems and materials on units that stay strong",
+        "step3Title": "Build Teams",
+        "step3Description": "Combine tiers into balanced Story and Raid teams"
       },
       "featured": "Featured & Essential",
-      "all": "All Biomes"
+      "all": "All Rankings"
     },
-    "building": {
-      "title": "Lucid Blocks Building",
-      "description": "Master Qualia personal dimensions, base building, storage management, and creative construction techniques.",
-      "metaTitle": "Lucid Blocks Building - Qualia & Base Construction",
-      "metaDescription": "Master Lucid Blocks building with Qualia personal dimensions, base construction, storage solutions, and creative building techniques.",
-      "categoryLabel": "BUILDING & BASES",
-      "whatIs": "What is Building?",
-      "whatIsDescription": "Guides to the Qualia personal dimension system, base construction, storage management, and creative building. Learn to create your safe haven in the surreal world.",
-      "why": "Why build bases?",
+    "traits": {
+      "title": "Anime Expeditions Traits",
+      "description": "Compare Anime Expeditions traits, roll rates, bonuses and reroll priorities.",
+      "metaTitle": "Anime Expeditions Traits - Best Traits & Reroll Guide",
+      "metaDescription": "Master Anime Expeditions traits including Unbound, Primordial, Forsaken and Draconic. Compare bonuses, roll rates and reroll priorities.",
+      "categoryLabel": "TRAITS & REROLLS",
+      "whatIs": "What are Traits?",
+      "whatIsDescription": "Traits are permanent passive bonuses rolled at the Trait station. Compare the strongest damage, speed, range, critical and placement bonuses.",
+      "why": "Why optimize traits?",
       "whySteps": {
-        "step1Title": "Create Safe Spaces",
-        "step1Description": "Establish secure bases for storage and crafting operations",
-        "step2Title": "Manage Resources",
-        "step2Description": "Organize materials efficiently with storage solutions",
-        "step3Title": "Unlock Qualia",
-        "step3Description": "Access personal pocket dimensions for ultimate convenience"
+        "step1Title": "Maximize Damage",
+        "step1Description": "Pick traits that match each unit's attack style",
+        "step2Title": "Spend Smartly",
+        "step2Description": "Save Trait Crystals for permanent Mythic and Secret units",
+        "step3Title": "Stop on Value",
+        "step3Description": "Keep strong high-tier traits instead of chasing every roll"
       },
       "featured": "Featured & Essential",
-      "all": "All Building Guides"
+      "all": "All Traits"
     },
-    "support": {
-      "title": "Lucid Blocks Support",
-      "description": "Technical support, platform compatibility, performance optimization, and troubleshooting for common issues.",
-      "metaTitle": "Lucid Blocks Support - Technical Help & Fixes",
-      "metaDescription": "Get technical support for Lucid Blocks including Steam Deck setup, crash fixes, performance optimization, and platform compatibility guides.",
-      "categoryLabel": "TECHNICAL SUPPORT",
-      "whatIs": "What is Support?",
-      "whatIsDescription": "Technical guides covering platform compatibility, performance optimization, crash fixes, and common issues. Get help with Steam Deck, multiplayer questions, and settings.",
-      "why": "Why check support?",
+    "raids": {
+      "title": "Anime Expeditions Raids",
+      "description": "Anime Expeditions Raid guides covering unlock levels, boss mechanics, team plans and rewards.",
+      "metaTitle": "Anime Expeditions Raids - Boss Guides & Team Plans",
+      "metaDescription": "Anime Expeditions Raid guides with unlock conditions, boss mechanics, recommended teams, and reward farming routes.",
+      "categoryLabel": "RAIDS & MODES",
+      "whatIs": "What are Raids?",
+      "whatIsDescription": "Cooperative Anime Expeditions modes that demand concentrated boss damage supported by crowd control and early-wave coverage.",
+      "why": "Why run Raids?",
       "whySteps": {
-        "step1Title": "Fix Technical Issues",
-        "step1Description": "Resolve crashes, performance problems, and compatibility issues",
-        "step2Title": "Optimize Performance",
-        "step2Description": "Configure settings for best experience on your platform",
-        "step3Title": "Platform Compatibility",
-        "step3Description": "Learn about Steam Deck, controller support, and system requirements"
+        "step1Title": "Earn Rare Materials",
+        "step1Description": "Farm evolution materials, Spirit Tokens and character drops",
+        "step2Title": "Beat Boss Mechanics",
+        "step2Description": "Learn phases, add waves and high-health targets",
+        "step3Title": "Build Raid Teams",
+        "step3Description": "Combine a boss carry, AoE and defense"
       },
       "featured": "Featured & Essential",
-      "all": "All Support Articles"
+      "all": "All Raid Guides"
+    },
+    "updates": {
+      "title": "Anime Expeditions Updates",
+      "description": "Track Anime Expeditions updates, new units, modes, events and balance changes.",
+      "metaTitle": "Anime Expeditions Updates - Patch Notes & New Content",
+      "metaDescription": "Stay current with Anime Expeditions updates including new units, modes, events, buffs, nerfs and fixes.",
+      "categoryLabel": "UPDATES & PATCH NOTES",
+      "whatIs": "What are Updates?",
+      "whatIsDescription": "Version logs for Anime Expeditions covering new characters, modes, events and balance adjustments.",
+      "why": "Why follow updates?",
+      "whySteps": {
+        "step1Title": "Catch New Units",
+        "step1Description": "See newly added Mythic, Secret and Exclusive units",
+        "step2Title": "Adapt to Balance",
+        "step2Description": "Adjust teams after buffs and nerfs",
+        "step3Title": "Join Events",
+        "step3Description": "Plan around limited-time activities and rewards"
+      },
+      "featured": "Featured & Essential",
+      "all": "All Updates"
     }
   }
 }

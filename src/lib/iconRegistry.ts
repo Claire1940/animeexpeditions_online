@@ -38,6 +38,14 @@ export const iconRegistry: Record<string, LucideIcon> = {
   Clock: LucideIcons.Clock,
   X: LucideIcons.X,
 
+  // Anime Expeditions 主题图标
+  Gift: LucideIcons.Gift,
+  Crown: LucideIcons.Crown,
+  Shuffle: LucideIcons.Shuffle,
+  Zap: LucideIcons.Zap,
+  Swords: LucideIcons.Swords,
+  Coins: LucideIcons.Coins,
+
   // 默认回退图标
   HelpCircle: LucideIcons.HelpCircle,
 }
