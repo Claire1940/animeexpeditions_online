@@ -1,1 +1,470 @@
-{}
+{
+  "en": {
+    "codes": [
+      {
+        "slug": "anime-expeditions-codes",
+        "file": "anime-expeditions-codes"
+      }
+    ],
+    "features": [
+      {
+        "slug": "anime-expeditions-game-passes",
+        "file": "anime-expeditions-game-passes"
+      },
+      {
+        "slug": "anime-expeditions-maps",
+        "file": "anime-expeditions-maps"
+      },
+      {
+        "slug": "anime-expeditions-raids",
+        "file": "anime-expeditions-raids"
+      },
+      {
+        "slug": "anime-expeditions-time-chamber",
+        "file": "anime-expeditions-time-chamber"
+      }
+    ],
+    "guide": [
+      {
+        "slug": "anime-expeditions-beginner-guide",
+        "file": "anime-expeditions-beginner-guide"
+      },
+      {
+        "slug": "anime-expeditions-f2p-guide",
+        "file": "anime-expeditions-f2p-guide"
+      },
+      {
+        "slug": "anime-expeditions-progression-guide",
+        "file": "anime-expeditions-progression-guide"
+      },
+      {
+        "slug": "anime-expeditions-summoning-guide",
+        "file": "anime-expeditions-summoning-guide"
+      },
+      {
+        "slug": "anime-expeditions-team-building-guide",
+        "file": "anime-expeditions-team-building-guide"
+      },
+      {
+        "slug": "anime-expeditions-unit-placement-guide",
+        "file": "anime-expeditions-unit-placement-guide"
+      },
+      {
+        "slug": "anime-expeditions-upgrade-order",
+        "file": "anime-expeditions-upgrade-order"
+      }
+    ],
+    "progression": [
+      {
+        "slug": "anime-expeditions-evolution-guide",
+        "file": "anime-expeditions-evolution-guide"
+      },
+      {
+        "slug": "anime-expeditions-gems-farming",
+        "file": "anime-expeditions-gems-farming"
+      },
+      {
+        "slug": "anime-expeditions-player-exp-farming",
+        "file": "anime-expeditions-player-exp-farming"
+      },
+      {
+        "slug": "anime-expeditions-shiny-units",
+        "file": "anime-expeditions-shiny-units"
+      },
+      {
+        "slug": "anime-expeditions-unbound-units",
+        "file": "anime-expeditions-unbound-units"
+      }
+    ],
+    "ranking": [
+      {
+        "slug": "anime-expeditions-best-damage-units",
+        "file": "anime-expeditions-best-damage-units"
+      },
+      {
+        "slug": "anime-expeditions-best-starter-units",
+        "file": "anime-expeditions-best-starter-units"
+      },
+      {
+        "slug": "anime-expeditions-best-support-units",
+        "file": "anime-expeditions-best-support-units"
+      },
+      {
+        "slug": "anime-expeditions-tier-list",
+        "file": "anime-expeditions-tier-list"
+      }
+    ],
+    "release": [
+      {
+        "slug": "anime-expeditions-afk-early-access",
+        "file": "anime-expeditions-afk-early-access"
+      },
+      {
+        "slug": "anime-expeditions-early-access-requirements",
+        "file": "anime-expeditions-early-access-requirements"
+      },
+      {
+        "slug": "anime-expeditions-early-access-rewards",
+        "file": "anime-expeditions-early-access-rewards"
+      },
+      {
+        "slug": "anime-expeditions-early-access",
+        "file": "anime-expeditions-early-access"
+      },
+      {
+        "slug": "anime-expeditions-launch-time",
+        "file": "anime-expeditions-launch-time"
+      },
+      {
+        "slug": "anime-expeditions-release-date",
+        "file": "anime-expeditions-release-date"
+      }
+    ],
+    "units": [
+      {
+        "slug": "anime-expeditions-choso",
+        "file": "anime-expeditions-choso"
+      },
+      {
+        "slug": "anime-expeditions-frieren",
+        "file": "anime-expeditions-frieren"
+      },
+      {
+        "slug": "anime-expeditions-gowther",
+        "file": "anime-expeditions-gowther"
+      },
+      {
+        "slug": "anime-expeditions-kenpachi",
+        "file": "anime-expeditions-kenpachi"
+      },
+      {
+        "slug": "anime-expeditions-megumi",
+        "file": "anime-expeditions-megumi"
+      },
+      {
+        "slug": "anime-expeditions-secret-units",
+        "file": "anime-expeditions-secret-units"
+      },
+      {
+        "slug": "anime-expeditions-true-saint",
+        "file": "anime-expeditions-true-saint"
+      },
+      {
+        "slug": "anime-expeditions-units",
+        "file": "anime-expeditions-units"
+      }
+    ]
+  },
+  "es": {
+    "codes": [
+      {
+        "slug": "anime-expeditions-codes",
+        "file": "anime-expeditions-codes"
+      }
+    ],
+    "features": [
+      {
+        "slug": "anime-expeditions-game-passes",
+        "file": "anime-expeditions-game-passes"
+      },
+      {
+        "slug": "anime-expeditions-maps",
+        "file": "anime-expeditions-maps"
+      },
+      {
+        "slug": "anime-expeditions-raids",
+        "file": "anime-expeditions-raids"
+      },
+      {
+        "slug": "anime-expeditions-time-chamber",
+        "file": "anime-expeditions-time-chamber"
+      }
+    ],
+    "guide": [
+      {
+        "slug": "anime-expeditions-beginner-guide",
+        "file": "anime-expeditions-beginner-guide"
+      },
+      {
+        "slug": "anime-expeditions-f2p-guide",
+        "file": "anime-expeditions-f2p-guide"
+      },
+      {
+        "slug": "anime-expeditions-progression-guide",
+        "file": "anime-expeditions-progression-guide"
+      },
+      {
+        "slug": "anime-expeditions-summoning-guide",
+        "file": "anime-expeditions-summoning-guide"
+      },
+      {
+        "slug": "anime-expeditions-team-building-guide",
+        "file": "anime-expeditions-team-building-guide"
+      },
+      {
+        "slug": "anime-expeditions-unit-placement-guide",
+        "file": "anime-expeditions-unit-placement-guide"
+      },
+      {
+        "slug": "anime-expeditions-upgrade-order",
+        "file": "anime-expeditions-upgrade-order"
+      }
+    ],
+    "progression": [
+      {
+        "slug": "anime-expeditions-evolution-guide",
+        "file": "anime-expeditions-evolution-guide"
+      },
+      {
+        "slug": "anime-expeditions-gems-farming",
+        "file": "anime-expeditions-gems-farming"
+      },
+      {
+        "slug": "anime-expeditions-player-exp-farming",
+        "file": "anime-expeditions-player-exp-farming"
+      },
+      {
+        "slug": "anime-expeditions-shiny-units",
+        "file": "anime-expeditions-shiny-units"
+      },
+      {
+        "slug": "anime-expeditions-unbound-units",
+        "file": "anime-expeditions-unbound-units"
+      }
+    ],
+    "ranking": [
+      {
+        "slug": "anime-expeditions-best-damage-units",
+        "file": "anime-expeditions-best-damage-units"
+      },
+      {
+        "slug": "anime-expeditions-best-starter-units",
+        "file": "anime-expeditions-best-starter-units"
+      },
+      {
+        "slug": "anime-expeditions-best-support-units",
+        "file": "anime-expeditions-best-support-units"
+      },
+      {
+        "slug": "anime-expeditions-tier-list",
+        "file": "anime-expeditions-tier-list"
+      }
+    ],
+    "release": [
+      {
+        "slug": "anime-expeditions-afk-early-access",
+        "file": "anime-expeditions-afk-early-access"
+      },
+      {
+        "slug": "anime-expeditions-early-access-requirements",
+        "file": "anime-expeditions-early-access-requirements"
+      },
+      {
+        "slug": "anime-expeditions-early-access-rewards",
+        "file": "anime-expeditions-early-access-rewards"
+      },
+      {
+        "slug": "anime-expeditions-early-access",
+        "file": "anime-expeditions-early-access"
+      },
+      {
+        "slug": "anime-expeditions-launch-time",
+        "file": "anime-expeditions-launch-time"
+      },
+      {
+        "slug": "anime-expeditions-release-date",
+        "file": "anime-expeditions-release-date"
+      }
+    ],
+    "units": [
+      {
+        "slug": "anime-expeditions-choso",
+        "file": "anime-expeditions-choso"
+      },
+      {
+        "slug": "anime-expeditions-frieren",
+        "file": "anime-expeditions-frieren"
+      },
+      {
+        "slug": "anime-expeditions-gowther",
+        "file": "anime-expeditions-gowther"
+      },
+      {
+        "slug": "anime-expeditions-kenpachi",
+        "file": "anime-expeditions-kenpachi"
+      },
+      {
+        "slug": "anime-expeditions-megumi",
+        "file": "anime-expeditions-megumi"
+      },
+      {
+        "slug": "anime-expeditions-secret-units",
+        "file": "anime-expeditions-secret-units"
+      },
+      {
+        "slug": "anime-expeditions-true-saint",
+        "file": "anime-expeditions-true-saint"
+      },
+      {
+        "slug": "anime-expeditions-units",
+        "file": "anime-expeditions-units"
+      }
+    ]
+  },
+  "pt": {
+    "codes": [
+      {
+        "slug": "anime-expeditions-codes",
+        "file": "anime-expeditions-codes"
+      }
+    ],
+    "features": [
+      {
+        "slug": "anime-expeditions-game-passes",
+        "file": "anime-expeditions-game-passes"
+      },
+      {
+        "slug": "anime-expeditions-maps",
+        "file": "anime-expeditions-maps"
+      },
+      {
+        "slug": "anime-expeditions-raids",
+        "file": "anime-expeditions-raids"
+      },
+      {
+        "slug": "anime-expeditions-time-chamber",
+        "file": "anime-expeditions-time-chamber"
+      }
+    ],
+    "guide": [
+      {
+        "slug": "anime-expeditions-beginner-guide",
+        "file": "anime-expeditions-beginner-guide"
+      },
+      {
+        "slug": "anime-expeditions-f2p-guide",
+        "file": "anime-expeditions-f2p-guide"
+      },
+      {
+        "slug": "anime-expeditions-progression-guide",
+        "file": "anime-expeditions-progression-guide"
+      },
+      {
+        "slug": "anime-expeditions-summoning-guide",
+        "file": "anime-expeditions-summoning-guide"
+      },
+      {
+        "slug": "anime-expeditions-team-building-guide",
+        "file": "anime-expeditions-team-building-guide"
+      },
+      {
+        "slug": "anime-expeditions-unit-placement-guide",
+        "file": "anime-expeditions-unit-placement-guide"
+      },
+      {
+        "slug": "anime-expeditions-upgrade-order",
+        "file": "anime-expeditions-upgrade-order"
+      }
+    ],
+    "progression": [
+      {
+        "slug": "anime-expeditions-evolution-guide",
+        "file": "anime-expeditions-evolution-guide"
+      },
+      {
+        "slug": "anime-expeditions-gems-farming",
+        "file": "anime-expeditions-gems-farming"
+      },
+      {
+        "slug": "anime-expeditions-player-exp-farming",
+        "file": "anime-expeditions-player-exp-farming"
+      },
+      {
+        "slug": "anime-expeditions-shiny-units",
+        "file": "anime-expeditions-shiny-units"
+      },
+      {
+        "slug": "anime-expeditions-unbound-units",
+        "file": "anime-expeditions-unbound-units"
+      }
+    ],
+    "ranking": [
+      {
+        "slug": "anime-expeditions-best-damage-units",
+        "file": "anime-expeditions-best-damage-units"
+      },
+      {
+        "slug": "anime-expeditions-best-starter-units",
+        "file": "anime-expeditions-best-starter-units"
+      },
+      {
+        "slug": "anime-expeditions-best-support-units",
+        "file": "anime-expeditions-best-support-units"
+      },
+      {
+        "slug": "anime-expeditions-tier-list",
+        "file": "anime-expeditions-tier-list"
+      }
+    ],
+    "release": [
+      {
+        "slug": "anime-expeditions-afk-early-access",
+        "file": "anime-expeditions-afk-early-access"
+      },
+      {
+        "slug": "anime-expeditions-early-access-requirements",
+        "file": "anime-expeditions-early-access-requirements"
+      },
+      {
+        "slug": "anime-expeditions-early-access-rewards",
+        "file": "anime-expeditions-early-access-rewards"
+      },
+      {
+        "slug": "anime-expeditions-early-access",
+        "file": "anime-expeditions-early-access"
+      },
+      {
+        "slug": "anime-expeditions-launch-time",
+        "file": "anime-expeditions-launch-time"
+      },
+      {
+        "slug": "anime-expeditions-release-date",
+        "file": "anime-expeditions-release-date"
+      }
+    ],
+    "units": [
+      {
+        "slug": "anime-expeditions-choso",
+        "file": "anime-expeditions-choso"
+      },
+      {
+        "slug": "anime-expeditions-frieren",
+        "file": "anime-expeditions-frieren"
+      },
+      {
+        "slug": "anime-expeditions-gowther",
+        "file": "anime-expeditions-gowther"
+      },
+      {
+        "slug": "anime-expeditions-kenpachi",
+        "file": "anime-expeditions-kenpachi"
+      },
+      {
+        "slug": "anime-expeditions-megumi",
+        "file": "anime-expeditions-megumi"
+      },
+      {
+        "slug": "anime-expeditions-secret-units",
+        "file": "anime-expeditions-secret-units"
+      },
+      {
+        "slug": "anime-expeditions-true-saint",
+        "file": "anime-expeditions-true-saint"
+      },
+      {
+        "slug": "anime-expeditions-units",
+        "file": "anime-expeditions-units"
+      }
+    ]
+  }
+}

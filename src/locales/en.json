@@ -10,7 +10,15 @@
       "twitterDescription": "Anime Expeditions Wiki with working codes, unit tier lists, traits, evolutions, banners, raids, and Time Chamber guides for the Roblox anime tower defense game."
     }
   },
-  "nav": {},
+  "nav": {
+    "codes": "Codes",
+    "guide": "Guide",
+    "units": "Units",
+    "ranking": "Ranking",
+    "progression": "Progression",
+    "features": "Features",
+    "release": "Release"
+  },
   "common": {
     "home": "Home",
     "more": "More",
@@ -112,21 +120,30 @@
         {
           "code": "EA+",
           "status": "Active",
-          "rewards": ["2,500 Gems", "30 Trait Crystals"],
+          "rewards": [
+            "2,500 Gems",
+            "30 Trait Crystals"
+          ],
           "requirement": "EA+ access",
           "expires": "No expiration date listed"
         },
         {
           "code": "EA",
           "status": "Active",
-          "rewards": ["2,500 Gems", "20 Trait Crystals"],
+          "rewards": [
+            "2,500 Gems",
+            "20 Trait Crystals"
+          ],
           "requirement": "Early Access",
           "expires": "No expiration date listed"
         },
         {
           "code": "RELEASE",
           "status": "Active",
-          "rewards": ["2,500 Gems", "30 Trait Crystals"],
+          "rewards": [
+            "2,500 Gems",
+            "30 Trait Crystals"
+          ],
           "requirement": "Game access",
           "expires": "No expiration date listed"
         }
@@ -321,63 +338,162 @@
           "type": "rarity-group",
           "name": "Secret",
           "units": [
-            { "name": "8th Sword (Berserker)", "role": "Secret damage unit" },
-            { "name": "Shadow (Divine)", "role": "Secret carry" }
+            {
+              "name": "8th Sword (Berserker)",
+              "role": "Secret damage unit"
+            },
+            {
+              "name": "Shadow (Divine)",
+              "role": "Secret carry"
+            }
           ]
         },
         {
           "type": "rarity-group",
           "name": "Exclusive",
           "units": [
-            { "name": "Crimson (Brother)", "role": "Exclusive unit" },
-            { "name": "Toy Maker", "role": "Exclusive unit" },
-            { "name": "True Saint (Holy)", "role": "Beginner Path and exclusive progression unit" }
+            {
+              "name": "Crimson (Brother)",
+              "role": "Exclusive unit"
+            },
+            {
+              "name": "Toy Maker",
+              "role": "Exclusive unit"
+            },
+            {
+              "name": "True Saint (Holy)",
+              "role": "Beginner Path and exclusive progression unit"
+            }
           ]
         },
         {
           "type": "rarity-group",
           "name": "Mythic",
           "units": [
-            { "name": "Cursed Student (True Love)", "role": "Scaling DPS" },
-            { "name": "Elf Mage (Unleashed)", "role": "Magic damage and support" },
-            { "name": "Flame Emperor (Reincarnate)", "role": "Area damage" },
-            { "name": "Hollow (Blaze)", "role": "Damage dealer" },
-            { "name": "Lady Giant (Envy)", "role": "Close-range area damage" },
-            { "name": "Puppet (Telekinetic)", "role": "Summoning and control" },
-            { "name": "Reaper (Released)", "role": "Damage dealer" },
-            { "name": "Salmon Sorcerer (Grade 1)", "role": "Crowd control" },
-            { "name": "String Demon (Awakened)", "role": "Ranged area damage" }
+            {
+              "name": "Cursed Student (True Love)",
+              "role": "Scaling DPS"
+            },
+            {
+              "name": "Elf Mage (Unleashed)",
+              "role": "Magic damage and support"
+            },
+            {
+              "name": "Flame Emperor (Reincarnate)",
+              "role": "Area damage"
+            },
+            {
+              "name": "Hollow (Blaze)",
+              "role": "Damage dealer"
+            },
+            {
+              "name": "Lady Giant (Envy)",
+              "role": "Close-range area damage"
+            },
+            {
+              "name": "Puppet (Telekinetic)",
+              "role": "Summoning and control"
+            },
+            {
+              "name": "Reaper (Released)",
+              "role": "Damage dealer"
+            },
+            {
+              "name": "Salmon Sorcerer (Grade 1)",
+              "role": "Crowd control"
+            },
+            {
+              "name": "String Demon (Awakened)",
+              "role": "Ranged area damage"
+            }
           ]
         },
         {
           "type": "rarity-group",
           "name": "Legendary",
           "units": [
-            { "name": "Ice Queen", "role": "Legendary unit" },
-            { "name": "Greed", "role": "Legendary unit" },
-            { "name": "Forbidden Teacher", "role": "Legendary unit" },
-            { "name": "Ramen Guy", "role": "Legendary unit" },
-            { "name": "Scissor", "role": "Legendary unit" },
-            { "name": "Water Princess", "role": "Legendary unit" },
-            { "name": "The Hero", "role": "Physical damage support" }
+            {
+              "name": "Ice Queen",
+              "role": "Legendary unit"
+            },
+            {
+              "name": "Greed",
+              "role": "Legendary unit"
+            },
+            {
+              "name": "Forbidden Teacher",
+              "role": "Legendary unit"
+            },
+            {
+              "name": "Ramen Guy",
+              "role": "Legendary unit"
+            },
+            {
+              "name": "Scissor",
+              "role": "Legendary unit"
+            },
+            {
+              "name": "Water Princess",
+              "role": "Legendary unit"
+            },
+            {
+              "name": "The Hero",
+              "role": "Physical damage support"
+            }
           ]
         },
         {
           "type": "rarity-group",
           "name": "Epic and Rare",
           "units": [
-            { "name": "Stone Alchemist", "role": "Epic unit" },
-            { "name": "Bounty Hunter", "role": "Epic unit" },
-            { "name": "Ice Mage", "role": "Epic unit" },
-            { "name": "Demon Cyborg", "role": "Epic unit" },
-            { "name": "Nen Hunter", "role": "Epic unit" },
-            { "name": "Corps Captain", "role": "Epic unit" },
-            { "name": "Curly Brow", "role": "Rare unit" },
-            { "name": "Kid Assassin", "role": "Rare unit" },
-            { "name": "Reishi Archer", "role": "Rare unit" },
-            { "name": "Thunder Shinobi", "role": "Rare unit" },
-            { "name": "Carrot", "role": "Rare unit" },
-            { "name": "Rubber Boy", "role": "Rare unit" }
+            {
+              "name": "Stone Alchemist",
+              "role": "Epic unit"
+            },
+            {
+              "name": "Bounty Hunter",
+              "role": "Epic unit"
+            },
+            {
+              "name": "Ice Mage",
+              "role": "Epic unit"
+            },
+            {
+              "name": "Demon Cyborg",
+              "role": "Epic unit"
+            },
+            {
+              "name": "Nen Hunter",
+              "role": "Epic unit"
+            },
+            {
+              "name": "Corps Captain",
+              "role": "Epic unit"
+            },
+            {
+              "name": "Curly Brow",
+              "role": "Rare unit"
+            },
+            {
+              "name": "Kid Assassin",
+              "role": "Rare unit"
+            },
+            {
+              "name": "Reishi Archer",
+              "role": "Rare unit"
+            },
+            {
+              "name": "Thunder Shinobi",
+              "role": "Rare unit"
+            },
+            {
+              "name": "Carrot",
+              "role": "Rare unit"
+            },
+            {
+              "name": "Rubber Boy",
+              "role": "Rare unit"
+            }
           ]
         }
       ]
@@ -598,125 +714,145 @@
     "disclaimer": "Unofficial fan-made resource website."
   },
   "pages": {
-    "guides": {
+    "codes": {
+      "title": "Anime Expeditions Codes",
+      "description": "Latest working Anime Expeditions codes for free Gems, stat chips, trait rerolls, and summon tickets. Redeem instantly and boost your team.",
+      "metaTitle": "Anime Expeditions Codes - Free Gems & Tickets (Updated)",
+      "metaDescription": "Redeem the latest working Anime Expeditions codes for free Gems, stat chips, trait rerolls and mythic summon tickets. Active codes updated daily.",
+      "categoryLabel": "REDEEM CODES",
+      "whatIs": "What are Anime Expeditions Codes?",
+      "whatIsDescription": "Anime Expeditions codes are promotional codes released by Expeditions Entertainment that grant free Gems, stat chips, trait rerolls and summon tickets. Enter them in the in-game code box to claim instant rewards for summoning and upgrading.",
+      "why": "Why redeem codes?",
+      "whySteps": {
+        "step1Title": "Instant Free Resources",
+        "step1Description": "Claim Gems and tickets without spending Robux to summon and upgrade faster",
+        "step2Title": "Faster Unit Collection",
+        "step2Description": "Use free summons and tickets to unlock Mythic and Secret units early",
+        "step3Title": "Never Miss Rewards",
+        "step3Description": "New codes drop around updates and events, so check back often to claim everything"
+      },
+      "featured": "Featured & Essential",
+      "all": "All Codes"
+    },
+    "guide": {
       "title": "Anime Expeditions Guides",
-      "description": "Complete Anime Expeditions guides from beginner basics to advanced unit, trait and raid strategies.",
-      "metaTitle": "Anime Expeditions Guides - Beginner to Advanced Strategies",
-      "metaDescription": "Complete Anime Expeditions guides covering beginner tips, summoning, units, traits, evolutions and raid strategies for the Roblox anime tower defense game.",
+      "description": "Step-by-step Anime Expeditions guides covering beginner progression, summoning, unit placement, team building, F2P routes and upgrade order.",
+      "metaTitle": "Anime Expeditions Guides - Beginner to Advanced Strategy",
+      "metaDescription": "Master Anime Expeditions with complete guides on beginner progression, summoning, unit placement, team building, F2P routes and upgrade order.",
       "categoryLabel": "GAME GUIDES",
-      "whatIs": "What are Guides?",
-      "whatIsDescription": "Comprehensive guides covering Anime Expeditions gameplay mechanics, summoning, unit building and progression. Learn everything from first steps to advanced team strategies.",
+      "whatIs": "What are Anime Expeditions Guides?",
+      "whatIsDescription": "In-depth walkthroughs that explain Anime Expeditions mechanics from first summon to late-game strategy, including banners, pity, upgrades, placement and team composition.",
       "why": "Why read guides?",
       "whySteps": {
         "step1Title": "Learn Core Mechanics",
-        "step1Description": "Understand summoning, banners and pity to avoid common beginner mistakes",
-        "step2Title": "Fast Progression",
-        "step2Description": "Follow proven routes to clear Story, Expeditions and Raids",
-        "step3Title": "Master Strategies",
-        "step3Description": "Develop advanced tactics for team building and boss fights"
+        "step1Description": "Understand summoning, banners, pity and upgrade order to avoid early mistakes",
+        "step2Title": "Faster Progression",
+        "step2Description": "Follow proven routes through Story, Expeditions and Raids",
+        "step3Title": "Smarter Team Building",
+        "step3Description": "Combine the right units and placements to clear every wave and boss"
       },
       "featured": "Featured & Essential",
       "all": "All Guides"
     },
     "units": {
       "title": "Anime Expeditions Units",
-      "description": "Detailed Anime Expeditions unit guides covering rarity, roles, attack types, stats and recommended game modes.",
-      "metaTitle": "Anime Expeditions Units - Roster, Stats & Roles",
-      "metaDescription": "Complete Anime Expeditions unit database including Mythic, Secret and Exclusive units. Learn stats, roles, attack types and the best modes for each unit.",
-      "categoryLabel": "UNITS & ROSTER",
-      "whatIs": "What are Units?",
-      "whatIsDescription": "Comprehensive guides for every obtainable Anime Expeditions unit. Learn rarity, roles, attack styles, stats and optimal team placements.",
-      "why": "Why check unit guides?",
+      "description": "Complete Anime Expeditions unit database with rarity, roles, stats, skills, evolutions, banner sources and how to unlock every unit.",
+      "metaTitle": "Anime Expeditions Units - Stats, Skills & Evolutions",
+      "metaDescription": "Browse every Anime Expeditions unit with rarity, role, base and upgraded stats, skills, evolutions, banner sources and unlock requirements.",
+      "categoryLabel": "UNIT DATABASE",
+      "whatIs": "What are Anime Expeditions Units?",
+      "whatIsDescription": "Units are the characters you summon and deploy in Anime Expeditions. Each has a rarity, role, attack range, skills and an evolution path that defines its strength in Story, Raid and Boss fights.",
+      "why": "Why study units?",
       "whySteps": {
-        "step1Title": "Know the Roster",
-        "step1Description": "Browse Mythic, Legendary, Secret and Exclusive units by role",
-        "step2Title": "Optimize Equipment",
-        "step2Description": "Choose the best units for your playstyle and progression stage",
-        "step3Title": "Improve Teams",
-        "step3Description": "Pair carries, control and support for stronger defenses"
+        "step1Title": "Know Every Source",
+        "step1Description": "Find out which banners and methods unlock each unit, including Secret and Mythic units",
+        "step2Title": "Understand Stats and Skills",
+        "step2Description": "Compare damage, range, cost and skills to build the right team",
+        "step3Title": "Plan Evolutions",
+        "step3Description": "See the materials and requirements needed to evolve your best units"
       },
       "featured": "Featured & Essential",
       "all": "All Units"
     },
-    "tierlist": {
+    "ranking": {
       "title": "Anime Expeditions Tier List",
-      "description": "Rank every Anime Expeditions unit for Story, Expeditions, Raids and general progression.",
-      "metaTitle": "Anime Expeditions Tier List - Best Units Ranked",
-      "metaDescription": "Anime Expeditions unit tier list ranking the best carries, control and support units for Story, Boss, Raid and general progression.",
-      "categoryLabel": "TIER LIST",
-      "whatIs": "What is the Tier List?",
-      "whatIsDescription": "A role-based ranking of Anime Expeditions units using damage, range, attack speed, cost and utility across every game mode.",
-      "why": "Why use the tier list?",
+      "description": "Anime Expeditions tier lists and best-unit rankings for Story, Boss, Raid and support roles, plus the strongest starter units to prioritize.",
+      "metaTitle": "Anime Expeditions Tier List - Best Units & Rankings",
+      "metaDescription": "Find the best Anime Expeditions units with tier lists for Story, Boss and Raid, plus rankings for starter, damage and support units.",
+      "categoryLabel": "TIER LISTS",
+      "whatIs": "What is the Anime Expeditions Tier List?",
+      "whatIsDescription": "A comparative ranking that grades every unit from S to D based on damage, utility, range and value across Story, Boss and Raid content, so you know which units to build first.",
+      "why": "Why use a tier list?",
       "whySteps": {
-        "step1Title": "Find the Best Units",
-        "step1Description": "See which carries and supports lead the current meta",
-        "step2Title": "Plan Investments",
-        "step2Description": "Spend Gems and materials on units that stay strong",
-        "step3Title": "Build Teams",
-        "step3Description": "Combine tiers into balanced Story and Raid teams"
+        "step1Title": "Invest Smartly",
+        "step1Description": "Spend Gems and materials on the units that perform best in the current meta",
+        "step2Title": "Build the Right Roles",
+        "step2Description": "Identify the strongest damage and support units for every mode",
+        "step3Title": "Pick Strong Starters",
+        "step3Description": "Choose beginner-friendly units that carry you through early content"
       },
       "featured": "Featured & Essential",
-      "all": "All Rankings"
+      "all": "All Tier Lists"
     },
-    "traits": {
-      "title": "Anime Expeditions Traits",
-      "description": "Compare Anime Expeditions traits, roll rates, bonuses and reroll priorities.",
-      "metaTitle": "Anime Expeditions Traits - Best Traits & Reroll Guide",
-      "metaDescription": "Master Anime Expeditions traits including Unbound, Primordial, Forsaken and Draconic. Compare bonuses, roll rates and reroll priorities.",
-      "categoryLabel": "TRAITS & REROLLS",
-      "whatIs": "What are Traits?",
-      "whatIsDescription": "Traits are permanent passive bonuses rolled at the Trait station. Compare the strongest damage, speed, range, critical and placement bonuses.",
-      "why": "Why optimize traits?",
+    "progression": {
+      "title": "Anime Expeditions Progression",
+      "description": "Anime Expeditions progression guides for evolution, Unbound and Shiny units, plus efficient Gems and Player EXP farming routes.",
+      "metaTitle": "Anime Expeditions Progression - Evolution & Farming",
+      "metaDescription": "Level up faster with Anime Expeditions progression guides covering unit evolution, Unbound and Shiny upgrades, plus Gems and Player EXP farming.",
+      "categoryLabel": "PROGRESSION",
+      "whatIs": "What is Anime Expeditions Progression?",
+      "whatIsDescription": "Progression covers how you grow your units and account over time, including evolving units, unlocking Unbound and Shiny forms, and farming Gems and Player EXP efficiently.",
+      "why": "Why focus on progression?",
       "whySteps": {
-        "step1Title": "Maximize Damage",
-        "step1Description": "Pick traits that match each unit's attack style",
-        "step2Title": "Spend Smartly",
-        "step2Description": "Save Trait Crystals for permanent Mythic and Secret units",
-        "step3Title": "Stop on Value",
-        "step3Description": "Keep strong high-tier traits instead of chasing every roll"
+        "step1Title": "Evolve Your Best Units",
+        "step1Description": "Unlock stronger forms and skills with the right evolution materials",
+        "step2Title": "Farm Efficiently",
+        "step2Description": "Use the best Gems and EXP routes to upgrade and summon faster",
+        "step3Title": "Unlock Rare Upgrades",
+        "step3Description": "Pursue Unbound and Shiny upgrades that multiply unit power"
       },
       "featured": "Featured & Essential",
-      "all": "All Traits"
+      "all": "All Progression"
     },
-    "raids": {
-      "title": "Anime Expeditions Raids",
-      "description": "Anime Expeditions Raid guides covering unlock levels, boss mechanics, team plans and rewards.",
-      "metaTitle": "Anime Expeditions Raids - Boss Guides & Team Plans",
-      "metaDescription": "Anime Expeditions Raid guides with unlock conditions, boss mechanics, recommended teams, and reward farming routes.",
-      "categoryLabel": "RAIDS & MODES",
-      "whatIs": "What are Raids?",
-      "whatIsDescription": "Cooperative Anime Expeditions modes that demand concentrated boss damage supported by crowd control and early-wave coverage.",
-      "why": "Why run Raids?",
+    "features": {
+      "title": "Anime Expeditions Features",
+      "description": "Explore Anime Expeditions core features including the Time Chamber, Raids, maps and game passes with mechanics, rewards and unlock details.",
+      "metaTitle": "Anime Expeditions Features - Time Chamber, Raids & Maps",
+      "metaDescription": "Discover Anime Expeditions features like the Time Chamber for AFK rewards, Raids, maps and game passes with full mechanics and rewards.",
+      "categoryLabel": "GAME FEATURES",
+      "whatIs": "What are Anime Expeditions Features?",
+      "whatIsDescription": "Features are the systems that shape how you play Anime Expeditions, from the AFK-friendly Time Chamber and challenging Raids to the maps you clear and the game passes that boost your run.",
+      "why": "Why explore features?",
       "whySteps": {
-        "step1Title": "Earn Rare Materials",
-        "step1Description": "Farm evolution materials, Spirit Tokens and character drops",
-        "step2Title": "Beat Boss Mechanics",
-        "step2Description": "Learn phases, add waves and high-health targets",
-        "step3Title": "Build Raid Teams",
-        "step3Description": "Combine a boss carry, AoE and defense"
+        "step1Title": "Earn Passive Rewards",
+        "step1Description": "Use the Time Chamber to collect Gems and items while away from the game",
+        "step2Title": "Conquer Raids",
+        "step2Description": "Learn raid mechanics, bosses and recommended teams for the best drops",
+        "step3Title": "Maximize Game Passes",
+        "step3Description": "See which passes and boosts give the most value for faster progress"
       },
       "featured": "Featured & Essential",
-      "all": "All Raid Guides"
+      "all": "All Features"
     },
-    "updates": {
-      "title": "Anime Expeditions Updates",
-      "description": "Track Anime Expeditions updates, new units, modes, events and balance changes.",
-      "metaTitle": "Anime Expeditions Updates - Patch Notes & New Content",
-      "metaDescription": "Stay current with Anime Expeditions updates including new units, modes, events, buffs, nerfs and fixes.",
-      "categoryLabel": "UPDATES & PATCH NOTES",
-      "whatIs": "What are Updates?",
-      "whatIsDescription": "Version logs for Anime Expeditions covering new characters, modes, events and balance adjustments.",
-      "why": "Why follow updates?",
+    "release": {
+      "title": "Anime Expeditions Release",
+      "description": "Everything about the Anime Expeditions release: official launch date, launch time, early access details, requirements and exclusive rewards.",
+      "metaTitle": "Anime Expeditions Release Date & Early Access",
+      "metaDescription": "Get the official Anime Expeditions release date, launch time, early access details, requirements and the exclusive rewards you can claim.",
+      "categoryLabel": "RELEASE & LAUNCH",
+      "whatIs": "What is the Anime Expeditions Release?",
+      "whatIsDescription": "Release content covers the official Anime Expeditions launch schedule, including the full release date, launch time, early access options, entry requirements and the rewards tied to launch events.",
+      "why": "Why track the release?",
       "whySteps": {
-        "step1Title": "Catch New Units",
-        "step1Description": "See newly added Mythic, Secret and Exclusive units",
-        "step2Title": "Adapt to Balance",
-        "step2Description": "Adjust teams after buffs and nerfs",
-        "step3Title": "Join Events",
-        "step3Description": "Plan around limited-time activities and rewards"
+        "step1Title": "Know the Launch Date",
+        "step1Description": "Plan ahead with the confirmed full release date and launch times",
+        "step2Title": "Get Early Access",
+        "step2Description": "Understand early access options and how to qualify for them",
+        "step3Title": "Claim Launch Rewards",
+        "step3Description": "Find the exclusive rewards and bonuses available at launch"
       },
       "featured": "Featured & Essential",
-      "all": "All Updates"
+      "all": "All Release Info"
     }
   }
 }

@@ -1,0 +1,193 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Raids de Anime Expeditions: Guia de Chefes e Farming de Unidade Secreta",
+  description: "Domine as raids de Anime Expeditions com nosso guia sobre como farmar o Kenpachi Unbound (0,1%), gerenciar totens de raid e combater passivas de chefes para 2026.",
+  category: "Features",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Anime+Expeditions+Raids",
+  date: "2026-07-16",
+  author: "Equipe da Wiki de Anime Expeditions"
+}
+
+<Callout type="info" title="Guia Rápido">
+- **Raids de Anime expeditions**: Conteúdo de endgame de alta dificuldade projetado para jogo em equipe para obter unidades secretas de 0,1%.
+- **Mecânica Principal**: Chefes como Kenpachi possuem passivas de roubo de HP que punem jogadores que não conseguem eliminar rapidamente os inimigos menores (mobs).
+- **Totens de Raid**: Itens essenciais que custam 75 Tokens de Espírito e fornecem multiplicadores de dano massivos (até 1,9x).
+- **Unidade Secreta**: Obter o Kenpachi Unbound requer completar estágios específicos de raid com uma baixa taxa de drop de 1% ou atingir o pity de 35 estágios.
+- **Estratégia Ideal**: Acumule unidades de suporte como Rukia e priorize traços "Unbound" para máxima eficiência de DPS.
+</Callout>
+
+<Section icon={Map} title="Mecânicas e Visão Geral das Raids de Anime Expeditions">
+
+O sistema de **raids de anime expeditions** representa o auge do desafio no meta atual. Ao contrário dos estágios padrão, as raids exigem uma compreensão profunda da sinergia entre unidades, gerenciamento de totens e modificadores específicos de chefes. Os jogadores devem navegar por múltiplos estágios de dificuldade crescente, muitas vezes exigindo uma equipe completa de três jogadores para derrotar o chefe final com sucesso. O objetivo principal para a maioria dos jogadores de alto nível é a aquisição de unidades secretas, como o Kenpachi Unbound, que ostenta uma taxa de drop base de apenas 1%.
+
+**Destaques do Vídeo:**
+- **Dificuldade da Raid**: Por que jogar em equipe é obrigatório para unidades incapazes de solar.
+- **Chefe Kenpachi**: Entendendo a passiva de roubo de HP que torna o estágio difícil.
+- **Poder do Totem**: Como o aumento de dano de 1,9x muda a velocidade do farming.
+- **Drop Secreto**: A aquisição e demonstração do Kenpachi Unbound de 0,1%.
+
+<YouTubeEmbed videoId="SyEhkcuPBqM" title="HES OP! Obtaining 0.1% UNBOUND Kenpachi in Anime Expeditions!" />
+
+<Callout type="tip" title="Sinergia de Equipe">
+Sempre traga pelo menos um jogador dedicado a unidades de suporte. Posicionar unidades como Rukia cedo pode fornecer o controle de grupo necessário para evitar que o chefe alcance seu potencial máximo.
+</Callout>
+
+| Recurso da Raid | Descrição | Importância |
+| :--- | :--- | :--- |
+| **Tokens de Espírito** | Moeda ganha por estágio (geralmente 15) | Alta |
+| **Totens de Raid** | Impulsionadores de dano comprados na loja da raid | Crítica |
+| **Sistema de Pity** | Unidade secreta garantida após 35 conclusões bem-sucedidas | Alta |
+| **Unidades Secretas** | Unidades com taxa de drop de 0,1% a 1% e passivas únicas | Máxima |
+| **Passivas de Chefes** | Modificadores únicos que mudam a cada 24 horas | Média |
+
+</Section>
+
+<Section icon={Target} title="Como Farmar a Unidade Secreta da Raid do Kenpachi">
+
+Farmar a unidade secreta do Kenpachi em **raids de anime expeditions** é um teste de resistência e gerenciamento de recursos. O chefe nesta raid é particularmente notório por sua habilidade passiva: ele rouba 10% de HP de todos os inimigos próximos. Se você não eliminar os mobs menores rapidamente, o chefe terá efetivamente vida infinita, tornando impossível terminar o estágio dentro do limite de tempo.
+
+<Steps>
+  <Step num="1" title="Acúmulo de Moeda">
+    Complete os estágios iniciais da raid para ganhar Tokens de Espírito. Você recebe aproximadamente 15 tokens por conclusão bem-sucedida.
+  </Step>
+  <Step num="2" title="Investimento em Totem">
+    Economize 75 Tokens de Espírito para comprar um Totem de Raid. Este item é caro, mas fornece um aumento significativo de dano que permite conclusões mais rápidas.
+  </Step>
+  <Step num="3" title="Composição de Equipe">
+    Certifique-se de que sua equipe tenha uma mistura de unidades de alto DPS (como Gala ou Megumi) e suportes de lentidão/atordoamento para manter os mobs dentro da sua zona de abate.
+  </Step>
+  <Step num="4" title="A Fase do Chefe">
+    Foque todo o fogo no chefe, garantindo que nenhum mob pequeno entre em seu raio de roubo de 10% de HP. Este é o ponto de falha mais comum.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Problemas de Otimização">
+Grandes ondas de inimigos em raids podem causar lag significativo em PCs mais fracos. Se sua taxa de quadros cair, posicione suas unidades mais atrás para garantir que elas tenham mais tempo para processar os ataques.
+</Callout>
+
+| Nível do Totem | Custo em Tokens | Multiplicador de Dano | Impacto no Tempo de Conclusão |
+| :--- | :--- | :--- | :--- |
+| **Sem Totem** | 0 | 1.0x | Muito Lento (10+ min) |
+| **Nível 1** | 75 | 1.3x | Moderado (8 min) |
+| **Nível 2** | 150 | 1.6x | Rápido (6 min) |
+| **Totem Máx** | 225 | 1.9x | Muito Rápido (4-5 min) |
+
+</Section>
+
+<Section icon={Swords} title="Kenpachi Unbound: Análise de Unidade e Passivas">
+
+Depois de obter a unidade secreta das **raids de anime expeditions**, o verdadeiro grind começa: obter o traço "Unbound". Esta unidade é uma potência de dano em área circular (AOE) que evolui de um ataque em cone para uma presença em tela cheia. Suas passivas a tornam uma das melhores escolhas tanto para raids quanto para o modo infinito.
+
+<CardGrid cols={3}>
+  <Card title="Estado Berserk">
+    Após **25 eliminações**, Kenpachi entra em um estado berserk por 15 segundos, aumentando significativamente o dano enquanto diminui o SPA.
+  </Card>
+  <Card title="Limpeza de Atordoamento">
+    Se o Kenpachi for atordoado por um chefe, ele limpa imediatamente o efeito e realiza um contra-ataque pesado de acompanhamento.
+  </Card>
+  <Card title="Executor">
+    Qualquer inimigo ao alcance com menos de **10% de vida** ativa um ataque imediato de acompanhamento com 100% de dano.
+  </Card>
+</CardGrid>
+
+<Callout type="success" title="Traço Unbound">
+O traço "Unbound" é o padrão ouro para o Kenpachi. Embora "Primordial" seja uma sólida segunda escolha, o Unbound fornece o escalonamento necessário para solar raids de final de jogo.
+</Callout>
+
+| Estágio de Upgrade | Tipo de Ataque | Dano Base (Nível 50) | Tipo de Alcance |
+| :--- | :--- | :--- | :--- |
+| **Base** | Alvo Único | 2.000 | Círculo Pequeno |
+| **Meio do Upgrade** | AOE em Cone | 15.000 | Cone Médio |
+| **Upgrade Final** | AOE em Círculo Total | 64.000+ | Círculo Grande |
+| **Unbound Máx** | AOE em Círculo Total | 120.000+ | Tela Cheia |
+
+</Section>
+
+<Section icon={Trophy} title="Checklist de Preparação para Raid">
+
+Antes de pular nas **raids de anime expeditions**, você deve garantir que sua conta esteja devidamente preparada. Entrar em uma raid com nível baixo ou sem os traços corretos resultará em perda de tempo e de tokens.
+
+<Checklist
+  id="raid-readiness"
+  title="Checklist de Prontidão para Raid:"
+  items={[
+    "Alcançar Nível 50 em pelo menos 3 unidades de DPS principais",
+    "Equipar Shinigami Sword ou equipamento de unidade equivalente",
+    "Acumular pelo menos 500 gemas para rerolls de traços",
+    "Desbloquear a unidade de suporte Rukia para mecânicas de congelamento",
+    "Verificar estabilidade da internet para evitar desconexões na onda 15"
+  ]}
+/>
+
+<Callout type="tip" title="Reroll de Traços">
+Não se contente com traços Raros ou Épicos. Para raids, você quer especificamente traços Míticos como Unbound, Primordial ou Godly para compensar os massivos pools de HP dos chefes.
+</Callout>
+
+| Unidade de Suporte | Função | Melhor Traço | Sinergia |
+| :--- | :--- | :--- | :--- |
+| **Rukia** | Congelamento/Lentidão | Swift | Todos os DPS |
+| **Uta** | Buff/Energia | Resourceful | Kenpachi/Gala |
+| **Bulma** | Dinheiro/Economia | Wealthy | Unidades de alto custo |
+
+</Section>
+
+<Section icon={Shield} title="Estratégias Avançadas de Raid e Economia">
+
+Gerenciar sua economia dentro das **raids de anime expeditions** é tão importante quanto o posicionamento de suas unidades. Como os totens de raid são muito caros (75 tokens), muitos jogadores escolhem ser "carregados" em suas primeiras corridas para economizar. No entanto, assim que tiver seu primeiro totem, você deve transitar para uma configuração de farming solo ou em dupla para maximizar a eficiência.
+
+<CardGrid cols={2}>
+  <Card title="Farming Solo">
+    - Requer **Totem Máximo** (1,9x de dano)
+    - Melhor para limpeza rápida de tiers mais baixos
+    - Alta eficiência de Gemas
+  </Card>
+  <Card title="Farming em Grupo">
+    - Melhor para caçar a **Unidade Secreta**
+    - Reduz os requisitos individuais de unidades
+    - Mais seguro contra vazamentos induzidos por lag
+  </Card>
+</CardGrid>
+
+<Callout type="info" title="Limite de Tokens de Espírito">
+Atualmente não há um limite rígido para Tokens de Espírito, mas a loja da raid reseta periodicamente. Certifique-se de comprar os pacotes "Secret Maniac" se planeja ascender suas unidades ao máximo.
+</Callout>
+
+| Item | Custo em Tokens | Benefício | Recomendação |
+| :--- | :--- | :--- | :--- |
+| **Pacote de Reroll** | 50 | 10 Rerolls de Traço | Compra Obrigatória |
+| **Comida de Unidade** | 20 | Nivelamento Rápido | Opcional |
+| **Fragmento Secreto** | 100 | Usado para Evoluções | Alta Prioridade |
+| **Skin Cosmética** | 500 | Apenas visual | Baixa Prioridade |
+
+</Section>
+
+<Section icon={Sparkles} title="Perguntas Frequentes">
+
+<FAQ items={[
+  {
+    question: "Qual é a maneira mais rápida de conseguir Tokens de Espírito nas raids de anime expeditions?",
+    answer: "A maneira mais rápida é entrar em um lobby de 3 jogadores com pessoas que já possuem o totem de dano de 1,9x. Você pode completar o estágio em menos de 5 minutos, rendendo 15 tokens por corrida."
+  },
+  {
+    question: "A unidade secreta do Kenpachi precisa de evolução?",
+    answer: "Sim, a unidade secreta base deve ser evoluída usando Machados de Raid e Fragmentos de Espírito encontrados na loja da raid para alcançar seu potencial Unbound."
+  },
+  {
+    question: "O traço Unbound é melhor que o Primordial para raids?",
+    answer: "Para o Kenpachi, o Unbound é superior porque escala melhor com suas passivas de múltiplos acertos. O Primordial é excelente para dano de explosão, mas perde força em lutas longas contra chefes de raid."
+  },
+  {
+    question: "Posso solar as raids de anime expeditions sem totens?",
+    answer: "É extremamente difícil solar sem pelo menos um totem de dano. A maioria dos jogadores deixará vazar mobs durante a fase do chefe porque o limite de dano é muito alto para unidades padrão."
+  }
+]} />
+
+</Section>

@@ -1,0 +1,193 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Anime Expeditions Raids: Secret Unit Farming & Boss Guide",
+  description: "Master anime expeditions raids with our guide on farming the 0.1% Unbound Kenpachi, managing raid totems, and countering boss passives for 2026.",
+  category: "Features",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Anime+Expeditions+Raids",
+  date: "2026-07-16",
+  author: "anime expeditions Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Anime expeditions raids**: High-difficulty endgame content designed for team play to obtain 0.1% secret units.
+- **Key Mechanic**: Bosses like Kenpachi possess HP-stealing passives that punish players who fail to spawn-kill small mobs.
+- **Raid Totems**: Essential items costing 75 Spirit Tokens that provide massive damage multipliers (up to 1.9x).
+- **Secret Unit**: Obtaining Unbound Kenpachi requires clearing specific raid stages with a low 1% drop rate or reaching the 35-stage pity.
+- **Optimal Strategy**: Stack support units like Rukia and prioritize "Unbound" traits for maximum DPS efficiency.
+</Callout>
+
+<Section icon={Map} title="Anime Expeditions Raids Mechanics and Overview">
+
+The **anime expeditions raids** system represents the pinnacle of challenge in the current meta. Unlike standard stages, raids require a deep understanding of unit synergy, totem management, and boss-specific modifiers. Players must navigate multiple stages of increasing difficulty, often requiring a full team of three players to successfully clear the final boss. The primary goal for most high-level players is the acquisition of secret units, such as the Unbound Kenpachi, which boasts a base drop rate of only 1%.
+
+**Video Highlights:**
+- **Raid Difficulty**: Why playing with a team is mandatory for solo-incapable units.
+- **Kenpachi Boss**: Understanding the HP steal passive that makes the stage difficult.
+- **Totem Power**: How the 1.9x damage boost changes the farming speed.
+- **Secret Drop**: The 0.1% Unbound Kenpachi acquisition and showcase.
+
+<YouTubeEmbed videoId="SyEhkcuPBqM" title="HES OP! Obtaining 0.1% UNBOUND Kenpachi in Anime Expeditions!" />
+
+<Callout type="tip" title="Team Synergy">
+Always bring at least one player dedicated to support units. Placing units like Rukia early can provide the necessary crowd control to prevent the boss from reaching its full potential.
+</Callout>
+
+| Raid Feature | Description | Importance |
+| :--- | :--- | :--- |
+| **Spirit Tokens** | Currency earned per stage (usually 15) | High |
+| **Raid Totems** | Damage boosters purchased in the raid shop | Critical |
+| **Pity System** | Guaranteed secret unit after 35 successful clears | High |
+| **Secret Units** | 0.1% to 1% drop rate units with unique passives | Maximum |
+| **Boss Passives** | Unique modifiers that change every 24 hours | Medium |
+
+</Section>
+
+<Section icon={Target} title="How to Farm the Kenpachi Raid Secret Unit">
+
+Farming the secret Kenpachi unit in **anime expeditions raids** is a test of endurance and resource management. The boss in this raid is particularly notorious for its passive ability: it steals 10% HP from all nearby enemies. If you do not clear the smaller mobs quickly, the boss will effectively have infinite health, making the stage impossible to finish within the time limit.
+
+<Steps>
+  <Step num="1" title="Currency Accumulation">
+    Complete the initial raid stages to earn Spirit Tokens. You receive approximately 15 tokens per successful clear.
+  </Step>
+  <Step num="2" title="Totem Investment">
+    Save 75 Spirit Tokens to purchase a Raid Totem. This item is expensive but provides a significant damage boost that allows for faster clears.
+  </Step>
+  <Step num="3" title="Team Composition">
+    Ensure your team has a mix of high-DPS units (like Gala or Megumi) and slow/stun supports to keep mobs within your kill zone.
+  </Step>
+  <Step num="4" title="The Boss Phase">
+    Focus all fire on the boss while ensuring no small mobs enter its 10% HP-steal radius. This is the most common point of failure.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Optimization Issues">
+Large waves of enemies in raids can cause significant lag on lower-end PCs. If your frame rate drops, place your units further back to ensure they have more time to process attacks.
+</Callout>
+
+| Totem Level | Token Cost | Damage Multiplier | Clear Time Impact |
+| :--- | :--- | :--- | :--- |
+| **No Totem** | 0 | 1.0x | Very Slow (10+ mins) |
+| **Level 1** | 75 | 1.3x | Moderate (8 mins) |
+| **Level 2** | 150 | 1.6x | Fast (6 mins) |
+| **Max Totem** | 225 | 1.9x | Very Fast (4-5 mins) |
+
+</Section>
+
+<Section icon={Swords} title="Unbound Kenpachi: Unit Analysis and Passives">
+
+Once you obtain the secret unit from **anime expeditions raids**, the real grind begins: obtaining the "Unbound" trait. This unit is a Circle AOE powerhouse that evolves from a cone attack to a full-screen presence. Its passives make it one of the best choices for both raids and infinite mode.
+
+<CardGrid cols={3}>
+  <Card title="Berserk State">
+    After **25 takedowns**, Kenpachi enters a berserk state for 15 seconds, significantly increasing damage while decreasing SPA.
+  </Card>
+  <Card title="Stun Cleanse">
+    If Kenpachi is stunned by a boss, he immediately cleanses the effect and performs a heavy follow-up counter-attack.
+  </Card>
+  <Card title="Executioner">
+    Any enemy in range with less than **10% health** triggers an immediate follow-up attack at 100% damage.
+  </Card>
+</CardGrid>
+
+<Callout type="success" title="Unbound Trait">
+The "Unbound" trait is the gold standard for Kenpachi. While "Primordial" is a solid second choice, Unbound provides the scaling necessary for soloing late-game raids.
+</Callout>
+
+| Upgrade Stage | Attack Type | Base Damage (Lvl 50) | Range Type |
+| :--- | :--- | :--- | :--- |
+| **Base** | Single Target | 2,000 | Small Circle |
+| **Mid-Upgrade** | Cone AOE | 15,000 | Medium Cone |
+| **Final Upgrade** | Full Circle AOE | 64,000+ | Large Circle |
+| **Unbound Max** | Full Circle AOE | 120,000+ | Full Screen |
+
+</Section>
+
+<Section icon={Trophy} title="Raid Preparation Checklist">
+
+Before jumping into **anime expeditions raids**, you must ensure your account is properly prepared. Entering a raid under-leveled or without the correct traits will result in wasted time and lost tokens.
+
+<Checklist
+  id="raid-readiness"
+  title="Raid Readiness Checklist:"
+  items={[
+    "Reach Level 50 on at least 3 core DPS units",
+    "Equip Shinigami Sword or equivalent unit equipment",
+    "Stockpile at least 500 gems for trait rerolls",
+    "Unlock the Rukia support unit for freeze mechanics",
+    "Verify Internet stability to avoid disconnects in wave 15"
+  ]}
+/>
+
+<Callout type="tip" title="Trait Rerolling">
+Do not settle for Rare or Epic traits. For raids, you specifically want Mythic traits like Unbound, Primordial, or Godly to compensate for the massive boss HP pools.
+</Callout>
+
+| Support Unit | Role | Best Trait | Synergy |
+| :--- | :--- | :--- | :--- |
+| **Rukia** | Freeze/Slow | Swift | All DPS |
+| **Uta** | Buff/Energy | Resourceful | Kenpachi/Gala |
+| **Bulma** | Money/Economy | Wealthy | High-cost units |
+
+</Section>
+
+<Section icon={Shield} title="Advanced Raid Strategies and Economy">
+
+Managing your economy within **anime expeditions raids** is just as important as your unit placement. Because raid totems are so expensive (75 tokens), many players choose to "leech" or get carried in their first few runs to save up. However, once you have your first totem, you should transition into a solo or duo farming setup to maximize efficiency.
+
+<CardGrid cols={2}>
+  <Card title="Solo Farming">
+    - Requires **Max Totem** (1.9x damage)
+    - Best for speed-clearing lower tiers
+    - High Gem efficiency
+  </Card>
+  <Card title="Group Farming">
+    - Best for **Secret Unit** hunting
+    - Lowers individual unit requirements
+    - Safer against lag-induced leaks
+  </Card>
+</CardGrid>
+
+<Callout type="info" title="Spirit Token Cap">
+There is currently no hard cap on Spirit Tokens, but the raid shop resets periodically. Ensure you buy out the "Secret Maniac" bundles if you plan on max-ascending your units.
+</Callout>
+
+| Item | Token Cost | Benefit | Recommendation |
+| :--- | :--- | :--- | :--- |
+| **Reroll Bundle** | 50 | 10 Trait Rerolls | Must Buy |
+| **Unit Food** | 20 | Fast Leveling | Optional |
+| **Secret Shard** | 100 | Used for Evolutions | High Priority |
+| **Cosmetic Skin** | 500 | Visual only | Low Priority |
+
+</Section>
+
+<Section icon={Sparkles} title="Frequently Asked Questions">
+
+<FAQ items={[
+  {
+    question: "What is the fastest way to get Spirit Tokens in anime expeditions raids?",
+    answer: "The fastest way is to join a 3-player lobby with players who already have the 1.9x damage totem. You can clear the stage in under 5 minutes, yielding 15 tokens per run."
+  },
+  {
+    question: "Does the Kenpachi secret unit require evolution?",
+    answer: "Yes, the base secret unit must be evolved using Raid Axes and Spirit Shards found in the raid shop to reach its Unbound potential."
+  },
+  {
+    question: "Is the Unbound trait better than Primordial for raids?",
+    answer: "For Kenpachi, Unbound is superior because it scales better with his multi-hit passives. Primordial is excellent for burst damage but falls off in long raid boss fights."
+  },
+  {
+    question: "Can I solo the anime expeditions raids without totems?",
+    answer: "It is extremely difficult to solo without at least one damage totem. Most players will leak mobs during the boss phase because the damage threshold is too high for standard units."
+  }
+]} />
+
+</Section>

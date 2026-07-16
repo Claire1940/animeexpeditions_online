@@ -1,46 +1,73 @@
 {
   "categories": [
     {
-      "category": "Guides",
+      "category": "Codes",
       "keywords": [
-        "lucid blocks guide"
+        "anime expeditions codes"
       ]
     },
     {
-      "category": "Crafting",
+      "category": "Guide",
       "keywords": [
-        "lucid blocks crafting recipes",
-        "lucid blocks apotheosis"
+        "anime expeditions beginner guide",
+        "anime expeditions f2p guide",
+        "anime expeditions progression guide",
+        "anime expeditions summoning guide",
+        "anime expeditions team building guide",
+        "anime expeditions unit placement guide",
+        "anime expeditions upgrade order"
       ]
     },
     {
-      "category": "Items",
+      "category": "Units",
       "keywords": [
-        "lucid blocks faith wand",
-        "lucid blocks bee glider",
-        "lucid blocks chest",
-        "lucid blocks osmium"
+        "anime expeditions units",
+        "anime expeditions frieren",
+        "anime expeditions true saint",
+        "anime expeditions gowther",
+        "anime expeditions megumi",
+        "anime expeditions choso",
+        "anime expeditions kenpachi",
+        "anime expeditions secret units"
       ]
     },
     {
-      "category": "Biomes",
+      "category": "Ranking",
       "keywords": [
-        "lucid blocks tiamana leyline"
+        "anime expeditions tier list",
+        "anime expeditions best starter units",
+        "anime expeditions best damage units",
+        "anime expeditions best support units"
       ]
     },
     {
-      "category": "Building",
+      "category": "Progression",
       "keywords": [
-        "lucid blocks qualia"
+        "anime expeditions evolution guide",
+        "anime expeditions unbound units",
+        "anime expeditions shiny units",
+        "anime expeditions gems farming",
+        "anime expeditions player exp farming"
       ]
     },
     {
-      "category": "Support",
+      "category": "Features",
       "keywords": [
-        "lucid blocks steam deck",
-        "lucid blocks full screen",
-        "lucid blocks multiplayer",
-        "lucid blocks android"
+        "anime expeditions time chamber",
+        "anime expeditions raids",
+        "anime expeditions game passes",
+        "anime expeditions maps"
+      ]
+    },
+    {
+      "category": "Release",
+      "keywords": [
+        "anime expeditions release date",
+        "anime expeditions launch time",
+        "anime expeditions early access",
+        "anime expeditions afk early access",
+        "anime expeditions early access requirements",
+        "anime expeditions early access rewards"
       ]
     }
   ]

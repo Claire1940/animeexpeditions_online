@@ -1,0 +1,185 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Guía F2P de Anime Expeditions: Equipos de Nivel S y Farmeo de Gemas",
+  description: "Domina Anime Expeditions como jugador F2P. Aprende las mejores configuraciones de equipo, prioridades de invocación, rutas de farmeo de gemas y consejos de evolución para 2026.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1e3a8a/fff?text=F2P+Progression+Guide",
+  date: "2026-07-16",
+  author: "Equipo de la Wiki de Anime Expeditions"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **Estrategia F2P**: Aprovecha los códigos de lanzamiento activos para asegurar 7,500 Gemas y 80 Cristales de Rasgo de inmediato.
+- **Prioridad de Invocación**: Enfócate en unidades Míticas de alto valor como Cursed Student en el Banner de Principiante antes de gastar Gemas en otros lugares.
+- **Gestión de Recursos**: Guarda tus Cristales de Rasgo exclusivamente para unidades Míticas o Secretas permanentes para maximizar el valor de tu cuenta.
+- **Eficiencia de Farmeo**: Utiliza las recompensas pasivas de la Cámara del Tiempo para obtener Yen y EXP mientras avanzas activamente en el modo Historia.
+- **Composición de Equipo**: Construye un equipo equilibrado con una unidad de apertura barata, un atacante de área y un asesino de jefes.
+</Callout>
+
+<Section icon={Map} title="Guía F2P de Anime Expeditions: Primeros Pasos">
+
+Comenzar tu viaje en Anime Expeditions como jugador gratuito requiere un enfoque estructurado para la gestión de recursos y la construcción de equipos. El inicio del juego te recompensa con una gran cantidad de Gemas y Cristales de Rasgo a través de códigos de lanzamiento y misiones para principiantes. Malgastar estos recursos iniciales en unidades temporales o de bajo nivel dificultará seriamente tu progresión en modos de juego más difíciles como Expediciones y Raids.
+
+Siguiendo esta **guía f2p de anime expeditions** optimizada, podrás superar fácilmente el contenido inicial y establecer una alineación poderosa y relevante para el meta sin gastar dinero real. Tu objetivo principal en la primera hora es reclamar todos los códigos activos, desbloquear el Banner de Principiante y establecer un equipo de farmeo estable.
+
+| Código | Estado | Recompensas | Requisito |
+| :--- | :--- | :--- | :--- |
+| **RELEASE** | Activo | 2,500 Gemas, 30 Cristales de Rasgo | Acceso al juego |
+| **EA** | Activo | 2,500 Gemas, 20 Cristales de Rasgo | Acceso Anticipado |
+| **EA+** | Activo | 2,500 Gemas, 30 Cristales de Rasgo | Acceso EA+ |
+
+<Callout type="warning" title="Advertencia de Canje de Códigos">
+Asegúrate de introducir todos los códigos exactamente como se muestran en la tabla anterior. Canjear estos códigos proporciona hasta 7,500 Gemas y 80 Cristales de Rasgo, que es la base exacta necesaria para garantizar tus primeras unidades de alto nivel en el Banner de Principiante.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Prioridad de Invocación y Estrategia de Banners">
+
+Entender las mecánicas de los banners es vital para los jugadores F2P que no pueden permitirse desperdiciar Gemas. Anime Expeditions cuenta con tres tipos principales de banners: el Banner de Principiante, el Banner Estándar y el Mini Banner rotativo. Cada banner tiene su propio sistema de pity (garantía) y requisitos de moneda, lo que hace que la selección estratégica sea esencial.
+
+Como jugador F2P, nunca debes invocar a ciegas. Comprueba siempre las tasas activas y los contadores de pity antes de comprometer tus Gemas ganadas con esfuerzo.
+
+| Tipo de Banner | Moneda Usada | Pity Mítico | Prioridad F2P | Mejores Unidades Objetivo |
+| :--- | :--- | :--- | :--- | :--- |
+| **Banner de Principiante** | Tickets de Principiante | 50 Invocaciones | **Máxima** | Cursed Student, Salmon Sorcerer, Puppet |
+| **Banner Estándar** | Gemas | 50 Invocaciones | **Baja** | Unidades de apoyo Legendarias y Míticas clave |
+| **Mini Banner** | Gemas | 50 Invocaciones | **Alta** | Carries de nivel S destacados |
+
+<CardGrid cols={3}>
+  <Card title="Cursed Student (True Love)">
+    - **Rareza**: Mítico
+    - **Rol**: DPS de Escalamiento
+    - **Valor F2P**: Asesino de jefes de nivel S con ataques de seguimiento copiados y súbditos Bat Spirit.
+  </Card>
+  <Card title="Salmon Sorcerer (Grade 1)">
+    - **Rareza**: Mítico
+    - **Rol**: Control de Masas
+    - **Valor F2P**: Apoyo de nivel A que proporciona un 20% de ralentización y un aturdimiento fiable de 2 segundos.
+  </Card>
+  <Card title="The Hero">
+    - **Rareza**: Legendario
+    - **Rol**: Apoyo de Buff Físico
+    - **Valor F2P**: Buffer de nivel A que aumenta el daño de las unidades físicas a través de Hero Blessing.
+  </Card>
+</CardGrid>
+
+<Callout type="tip" title="Preservación de Pity">
+Los contadores de pity se rastrean por separado para cada tipo de banner. Siempre ahorra suficientes Gemas para alcanzar el pity mítico de 50 invocaciones en un Mini Banner cuando aparezca un atacante de primer nivel, en lugar de repartir tus invocaciones en varios banners.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Ruta de Progresión F2P Paso a Paso">
+
+Para progresar de manera eficiente, debes seguir un camino estructurado que equilibre la finalización de la historia, el nivel de la cuenta y la recolección de recursos. Lanzarse a contenido de alto nivel con un equipo de bajo nivel resultará en intentos fallidos y pérdida de tiempo. Sigue esta ruta de progresión paso a paso para optimizar tu cuenta.
+
+<Steps>
+  <Step num="1" title="Canjear Códigos de Lanzamiento">
+    Abre el menú de tres puntos en la esquina superior izquierda de la pantalla, selecciona la opción Canjear Códigos e introduce los códigos de lanzamiento activos para asegurar tu reserva inicial de Gemas y Cristales de Rasgo.
+  </Step>
+  <Step num="2" title="Completar el Camino del Principiante True Saint">
+    Sigue las misiones para principiantes de inmediato. Estos objetivos te enseñan las mecánicas principales de invocación, mejora y colocación de equipos, mientras te recompensan con tickets para el Banner de Principiante y la unidad exclusiva True Saint.
+  </Step>
+  <Step num="3" title="Invocar tu Alineación Principal">
+    Gasta tus tickets del Banner de Principiante para adquirir tu equipo inicial. Busca un equipo equilibrado que consista en una unidad de apertura barata, un atacante de área fiable y un asesino de jefes fuerte.
+  </Step>
+  <Step num="4" title="Avanzar en los Actos del Modo Historia">
+    Supera las etapas del Modo Historia para desbloquear niveles de cuenta más altos y recompensas de estrellas. Concéntrate en colocar tu unidad barata más confiable cerca de las esquinas o curvas del camino para maximizar su cobertura de ataque antes de colocar carries caros.
+  </Step>
+  <Step num="5" title="Desbloquear y Farmear Expediciones">
+    Una vez alcances el nivel de cuenta 20, entra en los modos Expediciones y Payload para recolectar materiales de progresión esenciales y recursos relacionados con el equipo. Coopera con otros jugadores para asegurar tiempos de limpieza más rápidos.
+  </Step>
+</Steps>
+
+<Callout type="info" title="Estrategia de Colocación">
+En los juegos de defensa de torres, mejorar un solo atacante fuerte es casi siempre más eficiente que colocar múltiples unidades sin mejorar. Enfoca tu moneda de batalla de las primeras oleadas en tu carry principal para evitar que los enemigos rápidos se escapen.
+</Callout>
+
+| Modo de Juego | Desbloqueo de Nivel | Objetivos Principales | Recompensas F2P Clave |
+| :--- | :--- | :--- | :--- |
+| **Modo Historia** | Nivel 1 | Defender rutas, completar hitos de estrellas | Gemas, Yen, EXP de Jugador, EXP de Unidad |
+| **Expediciones** | Nivel 20 | Escoltas, construir estructuras de base | Objetos de progresión, materiales de mejora |
+| **Raids** | Nivel 25 | Derrotar jefes de gran salud y oleadas | Tokens de Espíritu, Drops de personajes, Cristales de Rasgo |
+
+</Section>
+
+<Section icon={Trophy} title="Farmeo de Recursos y Optimización de la Cámara del Tiempo">
+
+La progresión F2P depende en gran medida de maximizar tus rendimientos diarios de recursos. Las Gemas, el Yen y los Cristales de Rasgo son los pilares del progreso de tu cuenta. Mientras que el juego activo produce las recompensas inmediatas más altas, utilizar sistemas pasivos como la Cámara del Tiempo garantiza un crecimiento continuo incluso cuando estás desconectado.
+
+El farmeo activo de etapas siempre debe ser tu prioridad durante las sesiones de juego, mientras que la Cámara del Tiempo debe reservarse para los períodos nocturnos o de desconexión.
+
+| Recurso | Fuente F2P Principal | Prioridad de Gasto | Rendimiento Cámara del Tiempo |
+| :--- | :--- | :--- | :--- |
+| **Gemas** | Estrellas de Historia, Misiones Diarias | Ahorradas para Mini Banners nivel S | Generación pasiva baja |
+| **Yen** | Limpieza de Historia, Cámara del Tiempo | Subida de nivel de unidades, Evolución | Generación pasiva alta |
+| **Cristales de Rasgo** | Raids, Pase de Batalla, Códigos | Exclusivo para carries Míticos/Secretos | Drop ocasional |
+| **Materiales de Evolución** | Capítulos de Historia, Raids | Evolucionar tu DPS principal primero | Disponible mediante objetos de tienda |
+
+<Callout type="success" title="Consejo de la Cámara del Tiempo">
+La Cámara del Tiempo es la herramienta pasiva definitiva para los jugadores F2P. Asegúrate siempre de que tu cuenta esté registrada en la Cámara del Tiempo antes de cerrar sesión para acumular Yen y EXP de Unidad, manteniendo a tu equipo principal en el límite de nivel.
+</Callout>
+
+<Checklist
+  id="f2p-daily-goals"
+  title="Lista de Verificación Diaria y Semanal F2P:"
+  items={[
+    "Completa las 5 misiones diarias para obtener Gemas y EXP garantizadas.",
+    "Supera los objetivos semanales de Raid para recoger Tokens de Espíritu y Cristales de Rasgo.",
+    "Gasta todo el Yen acumulado en subir de nivel a los carries de tu equipo principal.",
+    "Reclama las recompensas pasivas de la Cámara del Tiempo antes de comenzar sesiones activas.",
+    "Monitorea los canales oficiales para nuevos códigos promocionales y anuncios de actualizaciones."
+  ]}
+/>
+
+</Section>
+
+<Section icon={Sparkles} title="Mejores Rasgos F2P y Prioridades de Evolución">
+
+Los rasgos proporcionan enormes bonificaciones pasivas permanentes a tus unidades, pero obtenerlos requiere Cristales de Rasgo raros. Como jugador F2P, debes ser extremadamente conservador con tus rerolls. Nunca malgastes Cristales de Rasgo en unidades Épicas o Raras que eventualmente serán reemplazadas. Guárdalos para tus carries Míticos y Secretos de nivel S.
+
+Del mismo modo, la evolución de unidades transforma completamente las capacidades de un personaje, desbloqueando patrones de ataque más fuertes y estadísticas base más altas. Prioriza evolucionar a tu atacante principal antes de invertir en unidades de apoyo.
+
+| Nombre del Rasgo | Tasa de Obtención | Bonificaciones Pasivas Clave | Consejo de Reroll F2P |
+| :--- | :--- | :--- | :--- |
+| **Unbound** | 0.1% | **+350% Daño**, -5% SPA, +10% Rango (Máx 1 Colocación) | Mantener de inmediato en cualquier carry de jefes. |
+| **Primordial** | Nivel Mítico | **+35% Daño**, -15% SPA, +20% Rango | Excelente punto de parada para todas las unidades DPS. |
+| **Forsaken** | Nivel Mítico | **+35% Prob. Crítico**, +35% Daño Crítico, +10% Rango | Perfecto para unidades de ataque rápido y múltiples golpes. |
+| **Draconic** | Nivel Mítico | **+20% Daño**, +50% Daño DoT, -10% Coste | Mantener en unidades con mecánicas de quemadura o sangrado. |
+
+<Callout type="warning" title="Precaución con Rerolls">
+No busques el rasgo Unbound del 0.1% a menos que tengas cientos de Cristales de Rasgo almacenados. Primordial y Forsaken son alternativas altamente competitivas que proporcionan un rendimiento excepcional en todo el contenido final.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Preguntas Frecuentes">
+
+<FAQ items={[
+  {
+    question: "¿Cuál es la forma más rápida de obtener Gemas como jugador F2P en Anime Expeditions?",
+    answer: "La forma más rápida absoluta de ganar Gemas es completando los capítulos del Modo Historia con calificaciones de 3 estrellas, terminando tus misiones diarias y semanales, y canjeando los códigos promocionales activos."
+  },
+  {
+    question: "¿Debería gastar mis Gemas en el Banner Estándar?",
+    answer: "No. Los jugadores F2P deben evitar el Banner Estándar. Ahorra tus Gemas para los Mini Banners que presentan unidades Míticas o Secretas específicas de nivel S para asegurar el mejor valor para tu pity."
+  },
+  {
+    question: "¿Cómo beneficia la Cámara del Tiempo a la progresión F2P?",
+    answer: "La Cámara del Tiempo genera Yen y EXP de Unidad de forma pasiva mientras estás desconectado. Esto te permite mantener a tu equipo principal subido de nivel sin tener que farmear constantemente etapas de bajo nivel."
+  },
+  {
+    question: "¿Qué unidad debería evolucionar primero en mi equipo F2P?",
+    answer: "Evoluciona siempre primero a tu carry de daño principal (como Shadow o Lady Giant). Evolucionar a tu DPS principal aumenta tu velocidad de limpieza en Raids y Expediciones, facilitando enormemente el farmeo posterior."
+  }
+]} />
+
+</Section>

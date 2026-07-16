@@ -1,0 +1,193 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Incursiones de Expediciones de Anime: Guía de Jefes y Farmeo de Unidades Secretas",
+  description: "Domina las incursiones de Expediciones de Anime con nuestra guía sobre cómo farmear a Kenpachi Desatado (0.1%), gestionar tótems de incursión y contrarrestar las pasivas de los jefes para 2026.",
+  category: "Features",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Anime+Expeditions+Raids",
+  date: "2026-07-16",
+  author: "Equipo de la Wiki de Expediciones de Anime"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **Incursiones de Expediciones de Anime**: Contenido de endgame de alta dificultad diseñado para jugar en equipo y obtener unidades secretas con una probabilidad del 0.1%.
+- **Mecánica Clave**: Jefes como Kenpachi poseen pasivas de robo de vida (HP) que castigan a los jugadores que no logran eliminar rápidamente a los enemigos pequeños al aparecer.
+- **Tótems de Incursión**: Objetos esenciales que cuestan 75 Fichas de Espíritu y proporcionan multiplicadores de daño masivos (hasta 1.9x).
+- **Unidad Secreta**: Obtener a Kenpachi Desatado requiere completar fases de incursión específicas con una baja probabilidad de obtención del 1% o alcanzar la piedad de 35 fases.
+- **Estrategia Óptima**: Acumula unidades de soporte como Rukia y prioriza los rasgos "Desatado" (Unbound) para una máxima eficiencia de DPS.
+</Callout>
+
+<Section icon={Map} title="Mecánicas y Descripción General de las Incursiones de Expediciones de Anime">
+
+El sistema de **incursiones de Expediciones de Anime** representa la cumbre del desafío en el meta actual. A diferencia de las fases estándar, las incursiones requieren una comprensión profunda de la sinergia de unidades, la gestión de tótems y los modificadores específicos de los jefes. Los jugadores deben avanzar a través de múltiples fases de dificultad creciente, lo que a menudo requiere un equipo completo de tres jugadores para derrotar con éxito al jefe final. El objetivo principal para la mayoría de los jugadores de alto nivel es la adquisición de unidades secretas, como Kenpachi Desatado, que cuenta con una probabilidad de obtención base de tan solo el 1%.
+
+**Puntos Destacados del Video:**
+- **Dificultad de la Incursión**: Por qué jugar en equipo es obligatorio para unidades incapaces de avanzar en solitario.
+- **Jefe Kenpachi**: Comprender la pasiva de robo de vida (HP) que hace que la fase sea difícil.
+- **Poder del Tótem**: Cómo el aumento de daño de 1.9x cambia la velocidad de farmeo.
+- **Obtención Secreta**: La adquisición y demostración de Kenpachi Desatado al 0.1%.
+
+<YouTubeEmbed videoId="SyEhkcuPBqM" title="¡ESTÁ ROTÍSIMO! ¡Obteniendo a Kenpachi DESATADO al 0.1% en Expediciones de Anime!" />
+
+<Callout type="tip" title="Sinergia de Equipo">
+Lleva siempre al menos a un jugador dedicado a las unidades de soporte. Colocar unidades como Rukia temprano puede proporcionar el control de masas necesario para evitar que el jefe alcance su máximo potencial.
+</Callout>
+
+| Característica de Incursión | Descripción | Importancia |
+| :--- | :--- | :--- |
+| **Fichas de Espíritu** | Moneda obtenida por fase (normalmente 15) | Alta |
+| **Tótems de Incursión** | Potenciadores de daño comprados en la tienda de incursiones | Crítica |
+| **Sistema de Piedad** | Unidad secreta garantizada tras 35 victorias exitosas | Alta |
+| **Unidades Secretas** | Unidades con probabilidad de obtención del 0.1% al 1% y pasivas únicas | Máxima |
+| **Pasivas de Jefes** | Modificadores únicos que cambian cada 24 horas | Media |
+
+</Section>
+
+<Section icon={Target} title="Cómo Farmear la Unidad Secreta de la Incursión de Kenpachi">
+
+Farmear la unidad secreta de Kenpachi en las **incursiones de Expediciones de Anime** es una prueba de resistencia y gestión de recursos. El jefe de esta incursión es particularmente famoso por su habilidad pasiva: roba un 10% de vida (HP) de todos los enemigos cercanos. Si no eliminas rápidamente a los enemigos más pequeños, el jefe tendrá de forma efectiva salud infinita, lo que hará imposible terminar la fase dentro del límite de tiempo.
+
+<Steps>
+  <Step num="1" title="Acumulación de Moneda">
+    Completa las fases iniciales de la incursión para ganar Fichas de Espíritu. Recibirás aproximadamente 15 fichas por cada victoria exitosa.
+  </Step>
+  <Step num="2" title="Inversión en Tótems">
+    Ahorra 75 Fichas de Espíritu para comprar un Tótem de Incursión. Este objeto es costoso pero proporciona un aumento de daño significativo que permite completar las fases más rápido.
+  </Step>
+  <Step num="3" title="Composición del Equipo">
+    Asegúrate de que tu equipo tenga una mezcla de unidades de alto DPS (como Gala o Megumi) y soportes de ralentización/aturdimiento para mantener a los enemigos dentro de tu zona de eliminación.
+  </Step>
+  <Step num="4" title="La Fase del Jefe">
+    Concentra todo el fuego en el jefe mientras te aseguras de que ningún enemigo pequeño entre en su radio de robo de vida del 10%. Este es el punto de falla más común.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Problemas de Optimización">
+Las grandes oleadas de enemigos en las incursiones pueden causar un lag significativo en computadoras de gama baja. Si tu tasa de fotogramas disminuye, coloca tus unidades más atrás para asegurarte de que tengan más tiempo para procesar los ataques.
+</Callout>
+
+| Nivel de Tótem | Costo en Fichas | Multiplicador de Daño | Impacto en Tiempo de Victoria |
+| :--- | :--- | :--- | :--- |
+| **Sin Tótem** | 0 | 1.0x | Muy lento (más de 10 min) |
+| **Nivel 1** | 75 | 1.3x | Moderado (8 min) |
+| **Nivel 2** | 150 | 1.6x | Rápido (6 min) |
+| **Tótem Máx** | 225 | 1.9x | Muy rápido (4-5 min) |
+
+</Section>
+
+<Section icon={Swords} title="Kenpachi Desatado: Análisis de Unidad y Pasivas">
+
+Una vez que obtengas la unidad secreta de las **incursiones de Expediciones de Anime**, comienza el verdadero farmeo: obtener el rasgo "Desatado" (Unbound). Esta unidad es una potencia de daño en área circular (Circle AOE) que evoluciona de un ataque en cono a una presencia en toda la pantalla. Sus pasivas la convierten en una de las mejores opciones tanto para incursiones como para el modo infinito.
+
+<CardGrid cols={3}>
+  <Card title="Estado Berserk">
+    Después de **25 eliminaciones**, Kenpachi entra en un estado berserk durante 15 segundos, lo que aumenta significativamente el daño mientras disminuye el SPA.
+  </Card>
+  <Card title="Limpieza de Aturdimiento">
+    Si Kenpachi es aturdido por un jefe, limpia inmediatamente el efecto y realiza un contraataque de seguimiento pesado.
+  </Card>
+  <Card title="Verdugo">
+    Cualquier enemigo en rango con menos del **10% de vida** activa un ataque de seguimiento inmediato con un 100% de daño.
+  </Card>
+</CardGrid>
+
+<Callout type="success" title="Rasgo Desatado">
+El rasgo "Desatado" (Unbound) es el estándar de oro para Kenpachi. Aunque "Primordial" es una sólida segunda opción, Desatado proporciona el escalado necesario para completar incursiones de juego tardío en solitario.
+</Callout>
+
+| Fase de Mejora | Tipo de Ataque | Daño Base (Nivel 50) | Tipo de Rango |
+| :--- | :--- | :--- | :--- |
+| **Base** | Objetivo Único | 2,000 | Círculo Pequeño |
+| **Mejora Media** | Daño en Cono (Cone AOE) | 15,000 | Cono Medio |
+| **Mejora Final** | Daño en Círculo Completo (Full Circle AOE) | 64,000+ | Círculo Grande |
+| **Desatado Máx** | Daño en Círculo Completo (Full Circle AOE) | 120,000+ | Pantalla Completa |
+
+</Section>
+
+<Section icon={Trophy} title="Lista de Verificación para la Preparación de Incursiones">
+
+Antes de saltar a las **incursiones de Expediciones de Anime**, debes asegurarte de que tu cuenta esté debidamente preparada. Entrar a una incursión con bajo nivel o sin los rasgos correctos resultará en tiempo desperdiciado y fichas perdidas.
+
+<Checklist
+  id="raid-readiness"
+  title="Lista de Verificación de Preparación para Incursiones:"
+  items={[
+    "Alcanzar el nivel 50 en al menos 3 unidades de DPS principales",
+    "Equipar la Espada Shinigami o equipamiento de unidad equivalente",
+    "Acumular al menos 500 gemas para giros de rasgos (rerolls)",
+    "Desbloquear la unidad de soporte Rukia para las mecánicas de congelación",
+    "Verificar la estabilidad de Internet para evitar desconexiones en la oleada 15"
+  ]}
+/>
+
+<Callout type="tip" title="Girar Rasgos">
+No te conformes con rasgos Raros o Épicos. Para las incursiones, querrás específicamente rasgos Míticos como Desatado (Unbound), Primordial o Divino (Godly) para compensar las enormes reservas de vida de los jefes.
+</Callout>
+
+| Unidad de Soporte | Rol | Mejor Rasgo | Sinergia |
+| :--- | :--- | :--- | :--- |
+| **Rukia** | Congelación/Ralentización | Veloz (Swift) | Todo DPS |
+| **Uta** | Potenciador/Energía | Ingenioso (Resourceful) | Kenpachi/Gala |
+| **Bulma** | Dinero/Economía | Rico (Wealthy) | Unidades de alto costo |
+
+</Section>
+
+<Section icon={Shield} title="Estrategias Avanzadas de Incursión y Economía">
+
+Gestionar tu economía dentro de las **incursiones de Expediciones de Anime** es tan importante como la colocación de tus unidades. Debido a que los tótems de incursión son muy caros (75 fichas), muchos jugadores eligen ser "acarreados" (leech) en sus primeras partidas para ahorrar. Sin embargo, una vez que tengas tu primer tótem, deberías hacer la transición a una configuración de farmeo en solitario o en dúo para maximizar la eficiencia.
+
+<CardGrid cols={2}>
+  <Card title="Farmeo en Solitario">
+    - Requiere **Tótem Máximo** (1.9x de daño)
+    - Ideal para completar rápidamente niveles inferiores
+    - Alta eficiencia de gemas
+  </Card>
+  <Card title="Farmeo en Grupo">
+    - Ideal para buscar la **Unidad Secreta**
+    - Reduce los requisitos de unidades individuales
+    - Más seguro contra filtraciones (leaks) causadas por el lag
+  </Card>
+</CardGrid>
+
+<Callout type="info" title="Límite de Fichas de Espíritu">
+Actualmente no hay un límite estricto para las Fichas de Espíritu, pero la tienda de incursiones se reinicia periódicamente. Asegúrate de comprar todos los paquetes "Secret Maniac" si planeas ascender al máximo tus unidades.
+</Callout>
+
+| Objeto | Costo en Fichas | Beneficio | Recomendación |
+| :--- | :--- | :--- | :--- |
+| **Paquete de Giros** | 50 | 10 giros de rasgo (rerolls) | Compra obligatoria |
+| **Comida de Unidad** | 20 | Subida de nivel rápida | Opcional |
+| **Fragmento Secreto** | 100 | Usado para evoluciones | Alta prioridad |
+| **Aspecto Cosmético** | 500 | Solo visual | Baja prioridad |
+
+</Section>
+
+<Section icon={Sparkles} title="Preguntas Frecuentes">
+
+<FAQ items={[
+  {
+    question: "¿Cuál es la forma más rápida de obtener Fichas de Espíritu en las incursiones de Expediciones de Anime?",
+    answer: "La forma más rápida es unirse a una sala de 3 jugadores con personas que ya tengan el tótem de daño de 1.9x. Puedes completar la fase en menos de 5 minutos, lo que otorga 15 fichas por partida."
+  },
+  {
+    question: "¿La unidad secreta de Kenpachi requiere evolución?",
+    answer: "Sí, la unidad secreta base debe ser evolucionada usando Hachas de Incursión y Fragmentos de Espíritu que se encuentran en la tienda de incursiones para alcanzar su potencial Desatado."
+  },
+  {
+    question: "¿El rasgo Desatado es mejor que Primordial para las incursiones?",
+    answer: "Para Kenpachi, Desatado es superior porque escala mejor con sus pasivas de múltiples golpes. Primordial es excelente para daño de ráfaga, pero pierde efectividad en combates largos contra jefes de incursión."
+  },
+  {
+    question: "¿Puedo completar las incursiones de Expediciones de Anime en solitario sin tótems?",
+    answer: "Es extremadamente difícil jugar en solitario sin al menos un tótem de daño. La mayoría de los jugadores filtrarán enemigos (leak) durante la fase del jefe porque el umbral de daño es demasiado alto para las unidades estándar."
+  }
+]} />
+
+</Section>
