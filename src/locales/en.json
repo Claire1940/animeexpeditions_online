@@ -10,14 +10,7 @@
       "twitterDescription": "Anime Expeditions Wiki with working codes, unit tier lists, traits, evolutions, banners, raids, and Time Chamber guides for the Roblox anime tower defense game."
     }
   },
-  "nav": {
-    "guides": "Guides",
-    "crafting": "Crafting",
-    "items": "Items",
-    "biomes": "Biomes",
-    "building": "Building",
-    "support": "Support"
-  },
+  "nav": {},
   "common": {
     "home": "Home",
     "more": "More",
