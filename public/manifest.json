@@ -1,12 +1,12 @@
 {
-  "name": "Lucid Blocks Wiki - Crafting, Biomes & Achievements",
-  "short_name": "Lucid Blocks",
-  "description": "Lucid Blocks Wiki covers crafting, biomes, creatures, items, achievements, endings, and survival tips for the surreal voxel sandbox adventure on Steam.",
+  "name": "Anime Expeditions Wiki - Codes, Tier List & Units",
+  "short_name": "Anime Expeditions",
+  "description": "Anime Expeditions Wiki with working codes, unit tier lists, traits, evolutions, banners, raids, farming routes, Time Chamber tips, and update guides.",
   "start_url": "/",
   "display": "standalone",
   "orientation": "any",
-  "theme_color": "#1a7a7a",
-  "background_color": "#0a0a0a",
+  "theme_color": "#2077e9",
+  "background_color": "#0a0f1a",
   "icons": [
     {
       "src": "/android-chrome-192x192.png",
