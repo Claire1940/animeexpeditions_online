@@ -329,13 +329,13 @@
           "detail": "Mini Banners destacam uma seleção menor de unidades e são ideais quando o Mítico em destaque preenche uma função que falta em sua equipe."
         },
         {
-          "type": "sistema",
+          "type": "system",
           "name": "Pity de Invocação",
           "meta": "Pity Lendário: 20 invocações / Pity Mítico: 50 invocações",
           "detail": "A interface de invocação mostra ambos os contadores de pity ao lado do banner ativo e permite Invocar 1x e Invocar 10x. Uma unidade de raridade alta qualificada completa o ciclo de pity correspondente."
         },
         {
-          "type": "grupo-de-raridade",
+          "type": "rarity-group",
           "name": "Secreta",
           "units": [
             {
@@ -349,7 +349,7 @@
           ]
         },
         {
-          "type": "grupo-de-raridade",
+          "type": "rarity-group",
           "name": "Exclusiva",
           "units": [
             {
@@ -367,7 +367,7 @@
           ]
         },
         {
-          "type": "grupo-de-raridade",
+          "type": "rarity-group",
           "name": "Mítica",
           "units": [
             {
@@ -409,7 +409,7 @@
           ]
         },
         {
-          "type": "grupo de raridade",
+          "type": "rarity-group",
           "name": "Lendário",
           "units": [
             {
@@ -443,7 +443,7 @@
           ]
         },
         {
-          "type": "grupo de raridade",
+          "type": "rarity-group",
           "name": "Épicos e Raros",
           "units": [
             {

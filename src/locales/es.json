@@ -329,13 +329,13 @@
           "detail": "Los mini banners destacan una selección más pequeña de unidades y es mejor usarlos cuando el Mítico destacado cubre un rol que te falte en el equipo."
         },
         {
-          "type": "sistema",
+          "type": "system",
           "name": "Pity de invocación",
           "meta": "Pity legendario 20 invocaciones / Pity mítico 50 invocaciones",
           "detail": "La interfaz de invocación muestra ambos contadores de pity junto al banner activo y permite realizar Invocación 1x e Invocación 10x. Obtener una unidad elegible de alta rareza completa el ciclo de pity correspondiente."
         },
         {
-          "type": "Grupo de rareza",
+          "type": "rarity-group",
           "name": "Secreto",
           "units": [
             {
@@ -349,7 +349,7 @@
           ]
         },
         {
-          "type": "Grupo de rareza",
+          "type": "rarity-group",
           "name": "Exclusivo",
           "units": [
             {
@@ -367,7 +367,7 @@
           ]
         },
         {
-          "type": "Grupo de rareza",
+          "type": "rarity-group",
           "name": "Mítico",
           "units": [
             {
@@ -409,7 +409,7 @@
           ]
         },
         {
-          "type": "grupo-de-rareza",
+          "type": "rarity-group",
           "name": "Legendario",
           "units": [
             {
@@ -443,7 +443,7 @@
           ]
         },
         {
-          "type": "grupo-de-rareza",
+          "type": "rarity-group",
           "name": "Épico y Raro",
           "units": [
             {
