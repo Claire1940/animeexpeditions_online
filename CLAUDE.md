@@ -11,7 +11,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 - **内容完全可变** - 游戏主题、内容类型、支持语言、具体文章根据项目需求调整
 - **快速部署新游戏** - 修改配置文件 + 替换内容目录即可适配新游戏项目
 
-**当前实例**: Bizarre Lineage（JOJO 主题 Roblox 游戏），支持 8 种语言
+**当前实例**: Anime Expeditions（Roblox 动漫塔防游戏），支持 en/pt/es 三种语言
 
 ## 重要工作规则
 

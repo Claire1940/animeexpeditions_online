@@ -1,46 +1,65 @@
 {
   "categories": [
     {
+      "category": "兑换码",
+      "keywords": [
+        "anime expeditions 兑换码"
+      ]
+    },
+    {
       "category": "指南",
       "keywords": [
-        "lucid blocks 指南"
+        "anime expeditions 新手指南",
+        "anime expeditions 免费指南",
+        "anime expeditions 进阶指南",
+        "anime expeditions 召唤指南",
+        "anime expeditions 队伍搭配指南",
+        "anime expeditions 单位放置指南",
+        "anime expeditions 升级顺序"
       ]
     },
     {
-      "category": "合成",
+      "category": "单位",
       "keywords": [
-        "lucid blocks 合成配方",
-        "lucid blocks 神化系统"
+        "anime expeditions 单位",
+        "anime expeditions 隐藏单位",
+        "anime expeditions 最强单位"
       ]
     },
     {
-      "category": "物品",
+      "category": "排行榜",
       "keywords": [
-        "lucid blocks 信仰法杖",
-        "lucid blocks 蜜蜂滑翔器",
-        "lucid blocks 箱子",
-        "lucid blocks 锇"
+        "anime expeditions 强度榜",
+        "anime expeditions 最佳开局单位",
+        "anime expeditions 最佳输出单位",
+        "anime expeditions 最佳辅助单位"
       ]
     },
     {
-      "category": "生物群系",
+      "category": "进阶",
       "keywords": [
-        "lucid blocks 提亚玛纳地脉"
+        "anime expeditions 进化指南",
+        "anime expeditions 解锁单位",
+        "anime expeditions 闪光单位",
+        "anime expeditions 宝石刷取",
+        "anime expeditions 经验刷取"
       ]
     },
     {
-      "category": "建造",
+      "category": "特色",
       "keywords": [
-        "lucid blocks 感质空间"
+        "anime expeditions 时间之厅",
+        "anime expeditions 突袭战",
+        "anime expeditions 游戏通行证",
+        "anime expeditions 地图"
       ]
     },
     {
-      "category": "技术支持",
+      "category": "发布",
       "keywords": [
-        "lucid blocks steam deck",
-        "lucid blocks 全屏",
-        "lucid blocks 多人模式",
-        "lucid blocks 安卓版"
+        "anime expeditions 更新",
+        "anime expeditions 上线时间",
+        "anime expeditions 更新日志"
       ]
     }
   ]

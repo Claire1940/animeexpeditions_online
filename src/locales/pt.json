@@ -1,1 +1,858 @@
-{}
+{
+  "seo": {
+    "home": {
+      "title": "Wiki de Expedições de Anime - Códigos, Tier List e Unidades",
+      "description": "Wiki de Expedições de Anime com códigos ativos, tier lists de unidades, traits, evoluções, banners, raids, rotas de farm, dicas da Time Chamber e guias de atualização.",
+      "keywords": "Expedições de Anime, Roblox, códigos, tier list, unidades, traits, evoluções, raids, Time Chamber",
+      "ogTitle": "Wiki de Expedições de Anime - Códigos, Tier List e Unidades",
+      "ogDescription": "Wiki de Expedições de Anime com códigos ativos, tier lists de unidades, traits, evoluções, banners, raids, rotas de farm, dicas da Time Chamber e guias de atualização.",
+      "twitterTitle": "Wiki de Expedições de Anime - Códigos, Tier List e Unidades",
+      "twitterDescription": "Wiki de Expedições de Anime com códigos ativos, tier lists de unidades, traits, evoluções, banners, raids e guias da Time Chamber para o jogo de tower defense de anime do Roblox."
+    }
+  },
+  "nav": {
+    "codes": "Códigos",
+    "guide": "Guia",
+    "units": "Unidades",
+    "ranking": "Ranking",
+    "progression": "Progressão",
+    "features": "Recursos",
+    "release": "Lançamento"
+  },
+  "common": {
+    "home": "Início",
+    "more": "Mais",
+    "playNow": "Jogar no Roblox",
+    "switchLanguage": "Mudar Idioma",
+    "switchTheme": "Mudar Tema",
+    "lightMode": "Modo Claro",
+    "darkMode": "Modo Escuro",
+    "notFound": "Página Não Encontrada",
+    "notFoundDescription": "A página que você está procurando não existe.",
+    "backToHome": "Voltar ao Início",
+    "relatedArticles": "Artigos Relacionados",
+    "readMore": "Ler Mais",
+    "articlesComingSoon": "Artigos em breve"
+  },
+  "hero": {
+    "badge": "Aventura de Tower Defense de Anime",
+    "title": "Wiki de Expedições de Anime",
+    "description": "Invoque unidades inspiradas em animes, evolua habilidades poderosas, conclua Expedições, vença ondas de inimigos e chefes, e monte sua equipe mais forte com amigos.",
+    "getFreeCodesCTA": "Obter códigos grátis",
+    "playOnRobloxCTA": "Jogue no Roblox",
+    "stats": {
+      "stat1": {
+        "value": "1,1M+",
+        "label": "Total de visitas"
+      },
+      "stat2": {
+        "value": "8,2K+",
+        "label": "Favoritos"
+      },
+      "stat3": {
+        "value": "206K+",
+        "label": "Membros do Discord"
+      },
+      "stat4": {
+        "value": "17 de julho de 2026",
+        "label": "Lançamento completo"
+      }
+    }
+  },
+  "gameFeature": {
+    "title": "Gameplay de Expedições de Anime",
+    "description": "Invoque unidades inspiradas em animes, evolua habilidades poderosas, conclua Expedições, derrote ondas de inimigos e chefes, e monte sua equipe mais forte nesta aventura de tower defense de anime no Roblox."
+  },
+  "tools": {
+    "title": "Expedições de Anime",
+    "titleHighlight": "Recursos",
+    "subtitle": "Tudo o que você precisa para códigos, unidades, características, evoluções, raids e farming em Expedições de Anime.",
+    "cards": [
+      {
+        "icon": "Presente",
+        "title": "Códigos de Expedições de Anime",
+        "description": "Códigos ativos, recompensas e etapas de resgate"
+      },
+      {
+        "icon": "BookOpen",
+        "title": "Guia para Iniciantes de Expedições de Anime",
+        "description": "Rota da primeira hora, invocação e equipe inicial"
+      },
+      {
+        "icon": "Crown",
+        "title": "Tier List de Unidades de Expedições de Anime",
+        "description": "Rankings para equipes de História, Chefes e Raids"
+      },
+      {
+        "icon": "Users",
+        "title": "Guia de Unidades e Invocação de Expedições de Anime",
+        "description": "Banners, regras de pity e a lista completa de unidades"
+      },
+      {
+        "icon": "Shuffle",
+        "title": "Características e Rerolls de Expedições de Anime",
+        "description": "Melhores características, taxas de rolagem e dicas de reroll"
+      },
+      {
+        "icon": "Zap",
+        "title": "Guia de Evolução de Expedições de Anime",
+        "description": "Alvos de evolução, materiais e ordem"
+      },
+      {
+        "icon": "Espadas",
+        "title": "História, Expedições e Raids de Expedições de Anime",
+        "description": "Regras do modo, níveis de desbloqueio e planos de equipe"
+      },
+      {
+        "icon": "Moedas",
+        "title": "Farm de Gemas, Yen e Time Chamber em Expedições de Anime",
+        "description": "Melhores rotas de moedas e prioridades de gastos"
+      }
+    ]
+  },
+  "modules": {
+    "animeExpeditionsCodes": {
+      "title": "Códigos de Expedições de Anime",
+      "eyebrow": "Recompensas Gratuitas",
+      "subtitle": "Resgate os códigos mais recentes para obter Gemas e Cristais de Traços grátis. Insira cada código exatamente como exibido.",
+      "intro": "Abra o Expedições de Anime, selecione o menu de três pontos no canto superior esquerdo e escolha Resgatar Códigos. Cole um código funcional no campo Inserir Código e pressione Resgatar Código para coletar as recompensas.",
+      "codes": [
+        {
+          "code": "EA+",
+          "status": "Ativo",
+          "rewards": [
+            "2.500 Gemas",
+            "30 Cristais de Traços"
+          ],
+          "requirement": "Acesso ao EA+",
+          "expires": "Nenhuma data de validade listada"
+        },
+        {
+          "code": "EA",
+          "status": "Ativo",
+          "rewards": [
+            "2.500 Gemas",
+            "20 Cristais de Traços"
+          ],
+          "requirement": "Acesso Antecipado",
+          "expires": "Nenhuma data de validade listada"
+        },
+        {
+          "code": "RELEASE",
+          "status": "Ativo",
+          "rewards": [
+            "2.500 Gemas",
+            "30 Cristais de Traços"
+          ],
+          "requirement": "Acesso ao jogo",
+          "expires": "Sem data de expiração listada"
+        }
+      ]
+    },
+    "animeExpeditionsBeginnerGuide": {
+      "title": "Guia de Iniciante de Expedições de Anime",
+      "eyebrow": "Guia para Novos Jogadores",
+      "subtitle": "Monte uma equipe inicial utilizável, conclua as fases iniciais da História e evite desperdiçar Gemas, Cristais de Traço ou moedas de melhoria.",
+      "intro": "Expedições de Anime combina a invocação de unidades com a defesa de torres baseada em ondas. Seu objetivo inicial é obter uma lista equilibrada, posicionar uma unidade de abertura acessível e investir a maior parte da sua moeda de batalha em um causador de dano confiável.",
+      "steps": [
+        {
+          "step": 1,
+          "title": "Resgate os Códigos de Lançamento",
+          "description": "Resgate EA+, EA e RELEASE no menu de três pontos antes de invocar. As recompensas fornecem até 7.500 Gemas e 80 Cristais de Traço quando todos os requisitos de acesso forem cumpridos.",
+          "tip": "Guarde os Cristais de Traço até possuir uma unidade que permanecerá na sua equipe principal."
+        },
+        {
+          "step": 2,
+          "title": "Complete o Caminho do Iniciante",
+          "description": "Siga os objetivos do Caminho do Iniciante do Santo Verdadeiro e colete todas as recompensas de iniciante disponíveis. Essas missões apresentam a invocação, o gerenciamento de unidades e os principais sistemas de progressão.",
+          "tip": "Resgate cada objetivo concluído imediatamente para que seus tickets e recursos possam ser usados no próximo passo."
+        },
+        {
+          "step": 3,
+          "title": "Use o Banner de Iniciante",
+          "description": "Gaste os tickets do Banner de Iniciante antes de comprometer grandes quantidades de Gemas em outros banners. Monte uma lista contendo uma abertura barata, uma unidade de dano em área, um causador de dano a chefes e controle ou suporte.",
+          "tip": "Use o botão de Taxas e observe os contadores de pity Lendário e Mítico antes de cada grande sessão de invocação."
+        },
+        {
+          "step": 4,
+          "title": "Inicie o Modo História",
+          "description": "Posicione sua unidade confiável mais barata perto de uma seção do caminho onde ela possa atacar inimigos por um longo tempo. Adicione uma segunda unidade apenas quando o primeiro posicionamento não conseguir lidar com segurança com a onda que se aproxima.",
+          "tip": "Cantos, curvas e faixas sobrepostas geralmente oferecem melhor cobertura do que posicionar diretamente ao lado da entrada."
+        },
+        {
+          "step": 5,
+          "title": "Melhore Antes de Posicionar em Excesso",
+          "description": "Concentre a moeda de batalha inicial na unidade que produz a maior parte do seu dano. Adicione controle, suporte e cobertura extra após o seu carry principal conseguir derrotar ondas normais sem deixar inimigos passarem.",
+          "tip": "Várias unidades com pouca melhoria costumam ser mais fracas do que um carry devidamente melhorado com suporte de lentidão ou bônus de dano."
+        },
+        {
+          "step": 6,
+          "title": "Suba o Nível e Evolua sua Equipe Principal",
+          "description": "Use a História, Expedições e outros modos disponíveis para obter recursos de conta, experiência de unidade e materiais de evolução. Invista primeiro nas unidades que aparecem na maioria das suas equipes de sucesso.",
+          "tip": "Não gaste materiais raros de evolução ou de reroll em unidades temporárias que você planeja substituir após o próximo banner."
+        }
+      ]
+    },
+    "animeExpeditionsTierList": {
+      "title": "Tier List de Unidades de Expedições de Anime",
+      "eyebrow": "Ranking de Unidades",
+      "subtitle": "Um ranking baseado em funções para História, Expedições, Raids e progressão geral. A utilidade da equipe, o valor de melhoria e a cobertura de modo importam mais do que a raridade isolada.",
+      "intro": "Cursed Student fornece o kit de dano escalonável mais forte revelado, enquanto Salmon Sorcerer e The Hero preenchem papéis importantes de controle e suporte. Outras unidades Míticas, Secretas e Exclusivas devem ser selecionadas de acordo com sua cobertura de ataque, evolução e sinergia de equipe.",
+      "tiers": [
+        {
+          "tier": "S",
+          "label": "Carry de Escalonamento",
+          "units": [
+            {
+              "name": "Cursed Student (True Love)",
+              "rarity": "Mítico",
+              "role": "DPS de Escalonamento",
+              "reason": "Cada terceiro ataque regular ativa um ataque de acompanhamento copiado. Acúmulos de Sangramento dentro de seu alcance também podem criar até três Espíritos de Morcego que realizam ataques adicionais."
+            }
+          ]
+        },
+        {
+          "tier": "A",
+          "label": "Controle",
+          "units": [
+            {
+              "name": "Feiticeiro Salmão (Grau 1)",
+              "rarity": "Mítico",
+              "role": "Controle de Lentidão e Atordoamento",
+              "reason": "Aplica 20% de Lentidão através de seus upgrades e pode Atordoar inimigos próximos por dois segundos quando o Mergulho é ativado."
+            }
+          ]
+        },
+        {
+          "tier": "A",
+          "label": "Suporte de Equipe",
+          "units": [
+            {
+              "name": "O Herói",
+              "rarity": "Lendário",
+              "role": "Suporte de dano físico",
+              "reason": "A Bênção do Herói aumenta o dano de unidades Físicas dentro do alcance, com o bônus aumentando em mais 5% a cada upgrade."
+            }
+          ]
+        },
+        {
+          "tier": "Especialista",
+          "label": "Míticos Dependentes de Build",
+          "units": [
+            {
+              "name": "Imperador das Chamas (Reencarnado)",
+              "rarity": "Mítico",
+              "role": "Dano de fogo em área"
+            },
+            {
+              "name": "Demônio dos Fios (Desperto)",
+              "rarity": "Mítico",
+              "role": "Dano à distância em área"
+            },
+            {
+              "name": "Marionete (Telecinética)",
+              "rarity": "Mítico",
+              "role": "Invocação e controle"
+            },
+            {
+              "name": "Gigante Feminina (Inveja)",
+              "rarity": "Mítico",
+              "role": "Dano em área de curto alcance"
+            },
+            {
+              "name": "Elfa Maga (Libertada)",
+              "rarity": "Mítico",
+              "role": "Dano mágico e suporte"
+            },
+            {
+              "name": "Hollow (Blaze)",
+              "rarity": "Mítico",
+              "role": "Causador de dano"
+            },
+            {
+              "name": "Ceifador (Liberado)",
+              "rarity": "Mítico",
+              "role": "Causador de dano"
+            }
+          ]
+        },
+        {
+          "tier": "Endgame",
+          "label": "Alvos Secretos e Exclusivos",
+          "units": [
+            {
+              "name": "8ª Espada (Berserker)",
+              "rarity": "Secreto"
+            },
+            {
+              "name": "Sombra (Divino)",
+              "rarity": "Secreto"
+            },
+            {
+              "name": "Carmesim (Irmão)",
+              "rarity": "Exclusivo"
+            },
+            {
+              "name": "Fabricante de Brinquedos",
+              "rarity": "Exclusivo"
+            },
+            {
+              "name": "Santo Verdadeiro (Sagrado)",
+              "rarity": "Exclusivo"
+            }
+          ]
+        }
+      ]
+    },
+    "animeExpeditionsUnitsAndSummon": {
+      "title": "Guia de Unidades e Invocações de Expedições de Anime",
+      "eyebrow": "Unidades e Banners",
+      "subtitle": "Saiba como funcionam os banners de Iniciante, Padrão e Mini e, em seguida, navegue pelo catálogo conhecido por raridade e função de combate.",
+      "intro": "Gemas são a principal moeda de invocação, enquanto as missões do Caminho do Iniciante fornecem tickets para o banner inicial. A tela de invocação suporta puxadas únicas e de 10x, exibe as taxas de drop atuais e rastreia metas de pity Lendárias e Míticas separadas.",
+      "groups": [
+        {
+          "type": "banner",
+          "name": "Banner de Iniciante",
+          "meta": "Banner de recompensa do Caminho do Iniciante",
+          "detail": "Complete o Caminho do Iniciante do Santo Verdadeiro para ganhar tickets. O conjunto em destaque inclui Marionete, Demônio dos Fios, Hollow, Gigante Feminina, Mago Elfo, Imperador das Chamas, Feiticeiro do Salmão e Estudante Amaldiçoado."
+        },
+        {
+          "type": "banner",
+          "name": "Banner Padrão",
+          "meta": "Banner de invocação permanente",
+          "detail": "Use este banner para a construção geral do elenco e progresso de pity a longo prazo. Abra o painel de Taxas antes de invocar para ver o conjunto atual de unidades e as porcentagens de drop."
+        },
+        {
+          "type": "banner",
+          "name": "Mini Banner",
+          "meta": "Banner de destaque rotativo",
+          "detail": "Mini Banners destacam uma seleção menor de unidades e são ideais quando o Mítico em destaque preenche uma função que falta em sua equipe."
+        },
+        {
+          "type": "sistema",
+          "name": "Pity de Invocação",
+          "meta": "Pity Lendário: 20 invocações / Pity Mítico: 50 invocações",
+          "detail": "A interface de invocação mostra ambos os contadores de pity ao lado do banner ativo e permite Invocar 1x e Invocar 10x. Uma unidade de raridade alta qualificada completa o ciclo de pity correspondente."
+        },
+        {
+          "type": "grupo-de-raridade",
+          "name": "Secreta",
+          "units": [
+            {
+              "name": "8ª Espada (Berserker)",
+              "role": "Unidade de dano Secreta"
+            },
+            {
+              "name": "Shadow (Divino)",
+              "role": "Carry Secreto"
+            }
+          ]
+        },
+        {
+          "type": "grupo-de-raridade",
+          "name": "Exclusiva",
+          "units": [
+            {
+              "name": "Crimson (Irmão)",
+              "role": "Unidade exclusiva"
+            },
+            {
+              "name": "Fabricante de Brinquedos",
+              "role": "Unidade exclusiva"
+            },
+            {
+              "name": "Santo Verdadeiro (Sagrado)",
+              "role": "Caminho do Iniciante e unidade de progressão exclusiva"
+            }
+          ]
+        },
+        {
+          "type": "grupo-de-raridade",
+          "name": "Mítica",
+          "units": [
+            {
+              "name": "Estudante Amaldiçoado (Amor Verdadeiro)",
+              "role": "DPS de escalonamento"
+            },
+            {
+              "name": "Mago Elfo (Libertado)",
+              "role": "Dano mágico e suporte"
+            },
+            {
+              "name": "Imperador das Chamas (Reencarnado)",
+              "role": "Dano em área"
+            },
+            {
+              "name": "Hollow (Chama)",
+              "role": "Causador de dano"
+            },
+            {
+              "name": "Lady Giant (Inveja)",
+              "role": "Dano em área de curto alcance"
+            },
+            {
+              "name": "Marionete (Telecinética)",
+              "role": "Invocação e controle"
+            },
+            {
+              "name": "Ceifador (Liberado)",
+              "role": "Causador de dano"
+            },
+            {
+              "name": "Feiticeiro do Salmão (Grau 1)",
+              "role": "Controle de grupo"
+            },
+            {
+              "name": "Demônio dos Fios (Despertado)",
+              "role": "Dano em área de longo alcance"
+            }
+          ]
+        },
+        {
+          "type": "grupo de raridade",
+          "name": "Lendário",
+          "units": [
+            {
+              "name": "Rainha do Gelo",
+              "role": "Unidade Lendária"
+            },
+            {
+              "name": "Ganância",
+              "role": "Unidade Lendária"
+            },
+            {
+              "name": "Professor Proibido",
+              "role": "Unidade Lendária"
+            },
+            {
+              "name": "Cara do Lámen",
+              "role": "Unidade Lendária"
+            },
+            {
+              "name": "Tesoura",
+              "role": "Unidade Lendária"
+            },
+            {
+              "name": "Princesa da Água",
+              "role": "Unidade Lendária"
+            },
+            {
+              "name": "O Herói",
+              "role": "Suporte de dano físico"
+            }
+          ]
+        },
+        {
+          "type": "grupo de raridade",
+          "name": "Épicos e Raros",
+          "units": [
+            {
+              "name": "Alquimista de Pedra",
+              "role": "Unidade épica"
+            },
+            {
+              "name": "Caçador de Recompensas",
+              "role": "Unidade épica"
+            },
+            {
+              "name": "Mago de Gelo",
+              "role": "Unidade épica"
+            },
+            {
+              "name": "Ciborgue Demoníaco",
+              "role": "Unidade épica"
+            },
+            {
+              "name": "Caçador de Nen",
+              "role": "Unidade épica"
+            },
+            {
+              "name": "Capitão do Esquadrão",
+              "role": "Unidade épica"
+            },
+            {
+              "name": "Sobrancelha Enrolada",
+              "role": "Unidade rara"
+            },
+            {
+              "name": "Assassino Mirim",
+              "role": "Unidade rara"
+            },
+            {
+              "name": "Arqueiro de Reishi",
+              "role": "Unidade rara"
+            },
+            {
+              "name": "Shinobi do Trovão",
+              "role": "Unidade rara"
+            },
+            {
+              "name": "Carrot",
+              "role": "Unidade rara"
+            },
+            {
+              "name": "Menino de Borracha",
+              "role": "Unidade rara"
+            }
+          ]
+        }
+      ]
+    },
+    "animeExpeditionsTraits": {
+      "title": "Traços e Rerolls de Expedições de Anime",
+      "eyebrow": "Otimização de Unidades",
+      "subtitle": "Compare os bônus mais fortes de dano, velocidade, alcance, crítico e posicionamento. Guarde Cristais de Traço para unidades Míticas e Secretas permanentes.",
+      "intro": "Traços são bônus passivos permanentes obtidos na estação de Traços na área de Melhorias. O Autoroll pode repetir giros automaticamente, enquanto o histórico de traços registra os resultados recentes. Priorize sua unidade principal de dano e pare em um traço forte de nível alto em vez de gastar cada Cristal de Traço tentando conseguir o Unbound.",
+      "traits": [
+        {
+          "trait": "Desencadeado",
+          "rollRate": "0,1%",
+          "bonuses": "+350% de dano, -5% de SPA, +10% de alcance",
+          "bestFor": "Um único carry de chefe de alto investimento com melhorias e habilidades fortes",
+          "advice": "Mantenha imediatamente. Busque apenas em uma unidade que permaneça eficaz com um único posicionamento."
+        },
+        {
+          "trait": "Primordial",
+          "rollRate": "Rolagem de nível Mítico",
+          "bonuses": "+35% de dano, -15% de SPA, +20% de alcance",
+          "bestFor": "Unidades de DPS geral, atacantes mágicos e carries de longo alcance",
+          "advice": "Um excelente ponto de parada para História, Expedições e Raides."
+        },
+        {
+          "trait": "Renegado",
+          "rollRate": "Rolagem de nível Mítico",
+          "bonuses": "+35% de chance crítica, +35% de dano crítico, +10% de alcance",
+          "bestFor": "Atacantes rápidos, unidades de múltiplos acertos e matadores de chefes de alto dano",
+          "advice": "Mantenha em carries focados em acertos críticos, a menos que esteja buscando especificamente Desencadeado."
+        },
+        {
+          "trait": "Dracônico",
+          "rollRate": "Rolagem de nível Mítico",
+          "bonuses": "+20% de dano, +50% de dano por tempo, -10% no custo de posicionamento",
+          "bestFor": "Unidades de dano por tempo e posicionamentos iniciais caros",
+          "advice": "Mantenha em unidades de queimadura ou sangramento; role novamente em atacantes puros apenas quando puder arcar com opções melhores."
+        }
+      ]
+    },
+    "animeExpeditionsEvolution": {
+      "title": "Guia de Evolução de Expedições de Anime",
+      "eyebrow": "Progressão de Unidades",
+      "subtitle": "A evolução muda a forma de uma unidade e desbloqueia ataques ou habilidades mais fortes. Desenvolva um carry confiável antes de distribuir materiais pelo resto do elenco.",
+      "intro": "Use a estação de Evolução na área de Melhorias para inspecionar o requisito de nível de cada unidade, os itens de evolução e o custo em Yen. As receitas de evolução são específicas para cada unidade, então selecione a unidade primeiro e farme os materiais exibidos em sua receita em vez de coletar drops não relacionados.",
+      "stages": [
+        {
+          "stage": 1,
+          "unit": "Sombra",
+          "evolvedForm": "Divino",
+          "role": "DPS de chefe secreto e carry baseado em invocações",
+          "requirements": "Nível de unidade necessário, materiais de evolução específicos de Sombra e o custo em Yen exibido na estação de Evolução",
+          "result": "Dano maior, atacantes invocados mais fortes e um conjunto de habilidades evoluídas expandido",
+          "priority": "Evolua primeiro quando Sombra for o principal matador de chefes nas equipes de História e Raide."
+        },
+        {
+          "stage": 2,
+          "unit": "Dama Gigante",
+          "evolvedForm": "Inveja",
+          "role": "Dano de área corpo a corpo e controle de trilha",
+          "requirements": "Nível de unidade necessário, materiais de evolução da Dama Gigante e o custo em Yen exibido na estação de Evolução",
+          "result": "Cobertura de área aprimorada, melhorias mais fortes e melhor desempenho contra inimigos agrupados",
+          "priority": "Evolua cedo quando a equipe carecer de uma limpeza de hordas confiável."
+        },
+        {
+          "stage": 3,
+          "unit": "Segundo Carry de Dano",
+          "evolvedForm": "Forma evoluída específica da unidade",
+          "role": "Cobre o tipo de dano ou alcance que falta na primeira unidade evoluída",
+          "requirements": "Complete a receita exibida sem usar materiais reservados para o carry principal",
+          "result": "Uma equipe equilibrada capaz de lidar tanto com ondas de inimigos quanto com chefes de vida alta",
+          "priority": "Escolha dano à distância se a primeira evolução for corpo a corpo, ou dano de chefe se a primeira evolução for principalmente em área (AoE)."
+        },
+        {
+          "stage": 4,
+          "unit": "Unidade de Suporte ou Economia",
+          "evolvedForm": "Forma evoluída específica da unidade",
+          "role": "Buffs, controle, farming ou utilidade de equipe",
+          "requirements": "Nível necessário, materiais de evolução e moeda após a equipe de dano principal estar completa",
+          "result": "Limpezas mais rápidas, dano de carry mais forte ou geração de recursos aprimorada",
+          "priority": "Evolua após duas unidades de dano confiáveis conseguirem limpar o conteúdo alvo de forma consistente."
+        }
+      ]
+    },
+    "animeExpeditionsStoryRaids": {
+      "title": "História de Expedições de Anime, Expedições e Raides",
+      "eyebrow": "Modos de Jogo",
+      "subtitle": "Comece pela História para desenvolver sua conta, entre em Expedições para missões baseadas em objetivos e prepare uma equipe especializada antes de farmar Raides.",
+      "intro": "Cada modo recompensa um tipo diferente de equipe. A História favorece unidades equilibradas e acessíveis, as Expedições exigem que os jogadores protejam um objetivo enquanto gerenciam recursos, e as Raides demandam dano concentrado em chefes com suporte de controle de grupo e cobertura de ondas iniciais.",
+      "modes": [
+        {
+          "mode": "História",
+          "unlock": "Disponível no início da progressão da conta",
+          "objective": "Defenda a rota através de ondas de inimigos, complete cada ato e cumpra as condições de estrelas exibidas.",
+          "rewards": "Gemas, Yen ou Ouro, EXP do jogador, EXP da unidade, recompensas de estrelas, Rerolls de Trait e materiais de evolução",
+          "teamPlan": "Use uma unidade de abertura barata, um atacante de área (AoE) e um carry focado em chefes. Posicione as unidades onde os caminhos se sobrepõem e melhore a unidade que responde à primeira onda perigosa."
+        },
+        {
+          "mode": "Expedições e Payload",
+          "unlock": "Nível de conta 20",
+          "objective": "Colete recursos, construa as estruturas de base necessárias e complete um objetivo rotativo de Payload, como escoltar, defender ou entregar.",
+          "rewards": "Materiais de progressão, recursos relacionados a equipamentos, moedas e recompensas de conclusão de objetivos",
+          "teamPlan": "Designe um jogador para a defesa inicial e outro para as chamadas de objetivos. Traga cobertura barata, AoE amplo, controle perto do Payload e uma unidade de escalonamento para a ameaça final."
+        },
+        {
+          "mode": "Raids",
+          "unlock": "Nível de conta 25",
+          "objective": "Sobreviva às ondas iniciais, elimine os inimigos de suporte e derrote um chefe poderoso antes que o tempo acabe.",
+          "rewards": "Materiais de evolução, Tokens de Espírito, drops de personagens, Gemas, Yen ou Ouro e Rerolls de Traços",
+          "teamPlan": "Traga um carry dedicado para o chefe, uma unidade AoE para inimigos adicionais, um buffer ou debuffer e defesa barata suficiente para sobreviver antes do carry principal ser aprimorado."
+        }
+      ]
+    },
+    "animeExpeditionsFarming": {
+      "title": "Farm de Gemas, Yen e Time Chamber de Expedições de Anime",
+      "eyebrow": "Farm de Recursos",
+      "subtitle": "Use as recompensas de primeira conclusão e missões para obter moedas de alto valor, depois mude para fases repetíveis ou para o Time Chamber com base no seu objetivo de aprimoramento atual.",
+      "intro": "O jogo ativo oferece a progressão de conta mais rápida porque estrelas do Modo História, missões, Expedições e Raids concedem recursos específicos. O Time Chamber é melhor utilizado entre as sessões ativas para coletar recompensas passivas sem substituir os bônus limitados diários, semanais ou de primeira conclusão.",
+      "resources": [
+        {
+          "resource": "Gemas",
+          "usedFor": "Invocação de unidades e alcance do pity do banner",
+          "bestSources": "Primeiras conclusões da História, objetivos de estrelas, missões diárias e semanais, conquistas, Caminho do Iniciante, Passe de Batalha e eventos",
+          "activeFarm": "Complete primeiro as estrelas e missões não resgatadas, depois repita a fase mais rápida que ofereça recompensas secundárias úteis.",
+          "spendingRule": "Economize Gemas para um banner alvo definido em vez de fazer invocações isoladas em vários banners."
+        },
+        {
+          "resource": "Yen ou Ouro",
+          "usedFor": "Progressão de unidades, custos de evolução e outros aprimoramentos de conta",
+          "bestSources": "Conclusões da História, missões, recompensas de modo, Expedições e rendimento passivo do Time Chamber",
+          "activeFarm": "Repita uma fase curta que seja concluída de forma consistente e que também suba o nível das unidades usadas na equipe principal.",
+          "spendingRule": "Aprimore o pequeno grupo de unidades usado na maioria das equipes antes de investir em unidades de coleção."
+        },
+        {
+          "resource": "Cristais de Traço e Rerolls",
+          "usedFor": "Substituir o traço passivo de uma unidade",
+          "bestSources": "Estrelas da História, missões diárias e semanais, recompensas de Raid, marcos do Passe de Batalha, eventos e recompensas de resgate",
+          "activeFarm": "Priorize objetivos que exibam diretamente recompensas de Cristais de Traço ou rerolls.",
+          "spendingRule": "Use rerolls em carries Míticos e Secretos permanentes; mantenha um roll Primordial, Forsaken ou um Draconic compatível com a função."
+        },
+        {
+          "resource": "Materiais de Evolução",
+          "usedFor": "Desbloquear formas evoluídas e habilidades mais fortes",
+          "bestSources": "Capítulos da História, Expedições, Raids, criação de itens e lojas de recompensas específicas de modo",
+          "activeFarm": "Selecione a unidade na estação de Evolução, identifique sua receita e farme apenas a fase ou modo que contém esse material.",
+          "spendingRule": "Finalize a unidade principal de dano (carry) antes de dividir materiais raros entre várias unidades."
+        },
+        {
+          "resource": "EXP de Unidade e de Jogador",
+          "usedFor": "Aumentando níveis de unidade, nível da conta e desbloqueios de modo",
+          "bestSources": "Progressão de História, fases repetíveis, missões, recompensas de EXP e a Time Chamber",
+          "activeFarm": "Avance em novos atos da História até a equipe encontrar uma barreira, então repita a conclusão estável mais rápida.",
+          "spendingRule": "Mantenha a equipe ativa de História e Raid perto do nível máximo antes de subir o nível de unidades não utilizadas."
+        }
+      ]
+    }
+  },
+  "faq": {
+    "title": "Perguntas",
+    "titleHighlight": "Frequentes",
+    "subtitle": "Tudo o que você precisa saber sobre Expedições de Anime",
+    "questions": [
+      {
+        "question": "O que é Expedições de Anime?",
+        "answer": "Expedições de Anime é um jogo de tower defense de anime no Roblox desenvolvido pela Expeditions Entertainment. Você invoca unidades inspiradas em animes, evolui suas habilidades e defende contra ondas de inimigos e chefes nos modos História, Expedições e Raid."
+      },
+      {
+        "question": "Como resgato códigos em Expedições de Anime?",
+        "answer": "Abra Expedições de Anime, toque no menu de três pontos no canto superior esquerdo e escolha Resgatar Códigos. Cole um código válido no campo Inserir Código e pressione Resgatar Código para coletar Gemas e Cristais de Trait gratuitos."
+      },
+      {
+        "question": "Quais são as melhores unidades em Expedições de Anime?",
+        "answer": "Cursed Student (True Love) é o carry de escalonamento mais forte revelado, Salmon Sorcerer (Grade 1) oferece controle de alto nível e The Hero é um suporte físico forte. Unidades Secretas e Exclusivas como Shadow (Divine) e True Saint (Holy) são objetivos de fim de jogo."
+      },
+      {
+        "question": "Como funciona o pity de invocação em Expedições de Anime?",
+        "answer": "A tela de invocação rastreia um pity Lendário a cada 20 invocações e um pity Mítico a cada 50 invocações. Uma unidade de alta raridade qualificada completa o ciclo de pity correspondente, e você pode invocar 1x ou 10x por vez."
+      },
+      {
+        "question": "O que são Traits em Expedições de Anime?",
+        "answer": "Traits são bônus passivos permanentes sorteados na estação de Trait na área de Upgrades. Unbound, Primordial, Forsaken e Draconic são as opções mais fortes, e você deve guardar Cristais de Trait para carries Míticos e Secretos permanentes."
+      },
+      {
+        "question": "Como evoluo unidades em Expedições de Anime?",
+        "answer": "Use a estação de Evolução na área de Upgrades para verificar o requisito de nível de cada unidade, itens de evolução e custo em Yen. As receitas são específicas por unidade, então selecione a unidade primeiro e farme apenas os materiais mostrados em sua receita."
+      },
+      {
+        "question": "O que é a Time Chamber em Expedições de Anime?",
+        "answer": "A Time Chamber coleta recompensas passivas entre as sessões ativas. Ela complementa, mas não substitui, os bônus limitados diários, semanais e de primeira conclusão de História, missões, Expedições e Raids."
+      },
+      {
+        "question": "Expedições de Anime é gratuito para jogar?",
+        "answer": "Sim. Expedições de Anime é gratuito para jogar no Roblox. Invocações opcionais e a progressão são aceleradas através de códigos, missões, Passe de Batalha e eventos."
+      }
+    ]
+  },
+  "cta": {
+    "title": "Pronto para jogar Expedições de Anime?",
+    "description": "Junte-se à comunidade de Expedições de Anime no Discord para códigos, atualizações, guias e discussões de Raid cooperativa!",
+    "joinCommunity": "Junte-se ao Discord",
+    "joinGame": "Jogue no Roblox"
+  },
+  "footer": {
+    "title": "Wiki de Expedições de Anime",
+    "description": "Seu hub completo de recursos para códigos de Expedições de Anime, tier lists, unidades, traits, evoluções, raids e guias da Time Chamber.",
+    "resources": "Recursos",
+    "community": "Comunidade",
+    "legal": "Legal",
+    "discord": "Discord",
+    "twitter": "X / Twitter",
+    "youtube": "YouTube",
+    "roblox": "Roblox",
+    "about": "Sobre",
+    "privacy": "Política de Privacidade",
+    "terms": "Termos de Serviço",
+    "copyrightNotice": "Direitos Autorais",
+    "copyright": "© 2026 Wiki de Expedições de Anime. Não afiliada à Expeditions Entertainment.",
+    "disclaimer": "Site de recursos não oficial feito por fãs."
+  },
+  "pages": {
+    "codes": {
+      "title": "Códigos de Expedições de Anime",
+      "description": "Últimos códigos ativos de Expedições de Anime para obter Gemas grátis, chips de status, rerolls de traits e tickets de invocação. Resgate instantaneamente e melhore sua equipe.",
+      "metaTitle": "Códigos de Expedições de Anime - Gemas e Tickets Grátis (Atualizado)",
+      "metaDescription": "Resgate os últimos códigos ativos de Expedições de Anime para obter Gemas grátis, chips de status, rerolls de traits e tickets de invocação míticos. Códigos ativos atualizados diariamente.",
+      "categoryLabel": "RESGATAR CÓDIGOS",
+      "whatIs": "O que são os códigos de Expedições de Anime?",
+      "whatIsDescription": "Os códigos de Expedições de Anime são códigos promocionais lançados pela Expeditions Entertainment que concedem Gemas grátis, chips de status, rerolls de traits e tickets de invocação. Insira-os na caixa de códigos do jogo para resgatar recompensas instantâneas para invocar e aprimorar.",
+      "why": "Por que resgatar códigos?",
+      "whySteps": {
+        "step1Title": "Recursos Gratuitos Instantâneos",
+        "step1Description": "Resgate Gemas e tickets sem gastar Robux para invocar e aprimorar mais rápido",
+        "step2Title": "Coleção de Unidades Mais Rápida",
+        "step2Description": "Use invocações e tickets grátis para desbloquear unidades Míticas e Secretas mais cedo",
+        "step3Title": "Nunca Perca Recompensas",
+        "step3Description": "Novos códigos são lançados junto com atualizações e eventos, então volte sempre para resgatar tudo"
+      },
+      "featured": "Destaques e Essenciais",
+      "all": "Todos os Códigos"
+    },
+    "guide": {
+      "title": "Guias de Expedições de Anime",
+      "description": "Guias passo a passo de Expedições de Anime cobrindo a progressão para iniciantes, invocação, posicionamento de unidades, montagem de equipes, rotas F2P e ordem de upgrades.",
+      "metaTitle": "Guias de Expedições de Anime - Estratégia do Iniciante ao Avançado",
+      "metaDescription": "Domine o Expedições de Anime com guias completos sobre progressão para iniciantes, invocação, posicionamento de unidades, montagem de equipes, rotas F2P e ordem de upgrades.",
+      "categoryLabel": "GUIAS DO JOGO",
+      "whatIs": "O que são os Guias de Expedições de Anime?",
+      "whatIsDescription": "Guias detalhados que explicam as mecânicas de Expedições de Anime, desde a primeira invocação até a estratégia de late-game, incluindo banners, pity, upgrades, posicionamento e composição de equipe.",
+      "why": "Por que ler guias?",
+      "whySteps": {
+        "step1Title": "Aprenda as Mecânicas Principais",
+        "step1Description": "Entenda a invocação, banners, pity e a ordem de upgrades para evitar erros iniciais",
+        "step2Title": "Progressão Mais Rápida",
+        "step2Description": "Siga rotas comprovadas pela História, Expedições e Raides",
+        "step3Title": "Montagem de Equipe Mais Inteligente",
+        "step3Description": "Combine as unidades e posicionamentos certos para superar cada onda e chefe"
+      },
+      "featured": "Destaques e Essenciais",
+      "all": "Todos os Guias"
+    },
+    "units": {
+      "title": "Unidades de Expedições de Anime",
+      "description": "Banco de dados completo de unidades de Expedições de Anime com raridade, funções, atributos, habilidades, evoluções, fontes de banner e como desbloquear cada unidade.",
+      "metaTitle": "Unidades de Expedições de Anime - Atributos, Habilidades e Evoluções",
+      "metaDescription": "Explore cada unidade de Expedições de Anime com raridade, função, atributos básicos e melhorados, habilidades, evoluções, fontes de banner e requisitos de desbloqueio.",
+      "categoryLabel": "BANCO DE DADOS DE UNIDADES",
+      "whatIs": "O que são as Unidades de Expedições de Anime?",
+      "whatIsDescription": "Unidades são os personagens que você invoca e posiciona em Expedições de Anime. Cada uma tem raridade, função, alcance de ataque, habilidades e um caminho de evolução que define sua força em batalhas de História, Raide e Chefe.",
+      "why": "Por que estudar as unidades?",
+      "whySteps": {
+        "step1Title": "Conheça Todas as Fontes",
+        "step1Description": "Descubra quais banners e métodos desbloqueiam cada unidade, incluindo unidades Secretas e Míticas",
+        "step2Title": "Entenda os Atributos e Habilidades",
+        "step2Description": "Compare dano, alcance, custo e habilidades para montar a equipe certa",
+        "step3Title": "Planeje as Evoluções",
+        "step3Description": "Veja os materiais e requisitos necessários para evoluir suas melhores unidades"
+      },
+      "featured": "Destaques e Essenciais",
+      "all": "Todas as Unidades"
+    },
+    "ranking": {
+      "title": "Tier List de Expedições de Anime",
+      "description": "Tier lists de Expedições de Anime e rankings das melhores unidades para os modos História, Chefe, Reide e funções de suporte, além das unidades iniciais mais fortes para priorizar.",
+      "metaTitle": "Tier List de Expedições de Anime - Melhores Unidades e Rankings",
+      "metaDescription": "Encontre as melhores unidades de Expedições de Anime com tier lists para História, Chefe e Reide, além de rankings para unidades iniciais, de dano e de suporte.",
+      "categoryLabel": "TIER LISTS",
+      "whatIs": "O que é a Tier List de Expedições de Anime?",
+      "whatIsDescription": "Um ranking comparativo que classifica cada unidade de S a D com base em dano, utilidade, alcance e valor nos conteúdos de História, Chefe e Reide, para que você saiba quais unidades evoluir primeiro.",
+      "why": "Por que usar uma tier list?",
+      "whySteps": {
+        "step1Title": "Invista com Inteligência",
+        "step1Description": "Gaste Gemas e materiais nas unidades com melhor desempenho no meta atual",
+        "step2Title": "Monte as Funções Certas",
+        "step2Description": "Identifique as unidades de dano e suporte mais fortes para cada modo",
+        "step3Title": "Escolha Iniciantes Fortes",
+        "step3Description": "Escolha unidades amigáveis para iniciantes que facilitem o progresso no conteúdo inicial"
+      },
+      "featured": "Destaques e Essenciais",
+      "all": "Todas as Tier Lists"
+    },
+    "progression": {
+      "title": "Progressão em Expedições de Anime",
+      "description": "Guias de progressão de Expedições de Anime para evolução, unidades Unbound e Shiny, além de rotas eficientes de farm de Gemas e EXP de Jogador.",
+      "metaTitle": "Progressão em Expedições de Anime - Evolução e Farm",
+      "metaDescription": "Suba de nível mais rápido com guias de progressão de Expedições de Anime que cobrem evolução de unidades, melhorias Unbound e Shiny, além de farm de Gemas e EXP de Jogador.",
+      "categoryLabel": "PROGRESSÃO",
+      "whatIs": "O que é a Progressão em Expedições de Anime?",
+      "whatIsDescription": "A progressão abrange como você desenvolve suas unidades e sua conta ao longo do tempo, incluindo a evolução de unidades, o desbloqueio de formas Unbound e Shiny, e o farm eficiente de Gemas e EXP de Jogador.",
+      "why": "Por que focar na progressão?",
+      "whySteps": {
+        "step1Title": "Evolua suas Melhores Unidades",
+        "step1Description": "Desbloqueie formas e habilidades mais fortes com os materiais de evolução corretos",
+        "step2Title": "Farme com Eficiência",
+        "step2Description": "Use as melhores rotas de Gemas e EXP para melhorar e invocar mais rápido",
+        "step3Title": "Desbloquear Melhorias Raras",
+        "step3Description": "Busque melhorias Unbound e Shiny que multiplicam o poder das unidades"
+      },
+      "featured": "Destaques e Essenciais",
+      "all": "Toda a Progressão"
+    },
+    "features": {
+      "title": "Recursos de Expedições de Anime",
+      "description": "Explore os principais recursos de Expedições de Anime, incluindo a Time Chamber, Raids, mapas e passes de jogo com mecânicas, recompensas e detalhes de desbloqueio.",
+      "metaTitle": "Recursos de Expedições de Anime - Time Chamber, Raids e Mapas",
+      "metaDescription": "Descubra recursos de Expedições de Anime como a Time Chamber para recompensas AFK, Raids, mapas e passes de jogo com mecânicas e recompensas completas.",
+      "categoryLabel": "RECURSOS DO JOGO",
+      "whatIs": "O que são os Recursos de Expedições de Anime?",
+      "whatIsDescription": "Os recursos são os sistemas que moldam como você joga Expedições de Anime, desde a Time Chamber ideal para AFK e Raids desafiadoras até os mapas que você completa e os passes de jogo que melhoram suas partidas.",
+      "why": "Por que explorar os recursos?",
+      "whySteps": {
+        "step1Title": "Ganhe Recompensas Passivas",
+        "step1Description": "Use a Time Chamber para coletar Gemas e itens enquanto estiver longe do jogo",
+        "step2Title": "Conquiste Raids",
+        "step2Description": "Aprenda as mecânicas de raid, chefes e equipes recomendadas para obter os melhores drops",
+        "step3Title": "Maximize os Passes de Jogo",
+        "step3Description": "Veja quais passes e boosts oferecem o melhor valor para um progresso mais rápido"
+      },
+      "featured": "Destaques e Essenciais",
+      "all": "Todos os Recursos"
+    },
+    "release": {
+      "title": "Lançamento de Expedições de Anime",
+      "description": "Tudo sobre o lançamento de Expedições de Anime: data oficial de lançamento, horário de lançamento, detalhes do acesso antecipado, requisitos e recompensas exclusivas.",
+      "metaTitle": "Data de Lançamento e Acesso Antecipado de Expedições de Anime",
+      "metaDescription": "Obtenha a data oficial de lançamento de Expedições de Anime, horário de lançamento, detalhes do acesso antecipado, requisitos e as recompensas exclusivas que você pode resgatar.",
+      "categoryLabel": "LANÇAMENTO E ESTREIA",
+      "whatIs": "O que é o Lançamento de Expedições de Anime?",
+      "whatIsDescription": "O conteúdo de lançamento cobre o cronograma oficial de lançamento de Expedições de Anime, incluindo a data de lançamento completo, horário de lançamento, opções de acesso antecipado, requisitos de entrada e as recompensas vinculadas aos eventos de lançamento.",
+      "why": "Por que acompanhar o lançamento?",
+      "whySteps": {
+        "step1Title": "Saiba a Data de Lançamento",
+        "step1Description": "Planeje-se com antecedência com a data de lançamento completo e horários de lançamento confirmados",
+        "step2Title": "Obter Acesso Antecipado",
+        "step2Description": "Entenda as opções de acesso antecipado e como se qualificar para elas",
+        "step3Title": "Resgatar Recompensas de Lançamento",
+        "step3Description": "Encontre as recompensas e bônus exclusivos disponíveis no lançamento"
+      },
+      "featured": "Destaques e Essenciais",
+      "all": "Todas as Informações de Lançamento"
+    }
+  }
+}

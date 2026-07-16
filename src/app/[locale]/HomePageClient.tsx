@@ -154,11 +154,6 @@ export default function HomePageClient({
           height: 1080,
           caption: "Anime Expeditions - Roblox Anime Tower Defense",
         },
-        potentialAction: {
-          "@type": "SearchAction",
-          target: `${siteUrl}/search?q={search_term_string}`,
-          "query-input": "required name=search_term_string",
-        },
       },
       {
         "@type": "Organization",
