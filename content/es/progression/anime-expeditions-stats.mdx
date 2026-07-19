@@ -1,0 +1,189 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Estadísticas de Expediciones de Anime: Guía de Rerolls de Estadísticas y Optimización de Unidades",
+  description: "Domina las estadísticas de Expediciones de Anime con nuestra guía sobre rerolls de estadísticas, bloqueos de potencial y transferencia de unidades para maximizar tu daño y golpes críticos en 2026.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/2563eb/fff?text=Anime+Expeditions+Stats+Guide",
+  date: "2026-07-19",
+  author: "Equipo de la Wiki de Expediciones de Anime"
+}
+
+<Callout type="info" title="Guía Rápida">
+- Las **estadísticas de Expediciones de Anime** determinan el daño, la velocidad y el potencial crítico de tus unidades en cada partida.
+- Los **Rerolls de Estadísticas** te permiten cambiar las estadísticas existentes de las unidades usando objetos de reroll específicos que se encuentran en la Tienda de Oro o mediante códigos.
+- Los **Bloqueos de Estadísticas** son esenciales para proteger las tiradas de nivel alto (como las estadísticas de nivel S) mientras sigues haciendo reroll en otras casillas.
+- La **Transferencia de Estadísticas** es una función única que te permite mover tiradas de estadísticas perfectas de una unidad a otra, conservando el progreso que tanto te costó conseguir.
+- Los **Rasgos** actúan como encantamientos secundarios, proporcionando aumentos masivos a la probabilidad de golpe crítico y al daño general infligido.
+</Callout>
+
+<Section icon={Sparkles} title="Introducción a las Estadísticas de Expediciones de Anime">
+
+Comprender las **estadísticas de Expediciones de Anime** es la base para pasar de ser un principiante a un jugador de primer nivel en 2026. Cada unidad que invocas desde los banners de Principiante, Estándar o Mini viene con un conjunto único de atributos básicos. Estos atributos dictan con qué eficacia tus torres pueden repeler oleadas en los actos del modo historia, como los Terrenos de la Escuela. A diferencia de los juegos de defensa de torres simples, este sistema permite una personalización profunda a través de rerolls y transferencias.
+
+**Puntos Destacados del Video:**
+- **Canje de Códigos**: Usa códigos como "RELEASE" y "30K LIKES" para obtener materiales de reroll iniciales.
+- **Conceptos Básicos de Reroll**: Cómo navegar por el menú de mejoras para modificar el potencial de las unidades.
+- **Farmear AFK**: Usar TinyTask para automatizar partidas para obtener oro y botín de equipamiento.
+- **Evolución de Unidades**: Cómo usar materiales de artesanía para ascender tus unidades a niveles de poder más altos.
+
+<YouTubeEmbed videoId="LnEvj5cdzg8" title="¡Guía de Expediciones de Anime! (CÓDIGOS, Mejores Unidades, Farmeo AFK, Rerolls de Estadísticas, Consejos y Trucos, Más) Roblox" />
+
+<Callout type="tip" title="Consejo Profesional">
+Revisa siempre tu Índice después de invocar. Reclamar las recompensas del índice de unidades y enemigos proporciona gemas gratis, que son vitales para comprar más invocaciones u objetos relacionados con las estadísticas.
+</Callout>
+
+<CardGrid cols={3}>
+  <Card title="Estadísticas Básicas">
+    - **Daño de Ataque**: Impacto directo en la velocidad de limpieza de oleadas.
+    - **Velocidad de Ataque**: Con qué frecuencia ataca la unidad.
+    - **Alcance**: El área de cobertura en el mapa.
+  </Card>
+  <Card title="Estadísticas Avanzadas">
+    - **Probabilidad de Crítico**: Probabilidad de infligir daño adicional.
+    - **Multiplicador de Crítico**: La magnitud de los golpes críticos.
+    - **Bonificaciones de Rasgo**: Encantamientos únicos como Precisión.
+  </Card>
+  <Card title="Potencial de la Unidad">
+    - **Niveles de Estadísticas**: Rango desde el nivel D hasta el nivel S.
+    - **Ranuras Bloqueables**: Protege tus mejores atributos.
+    - **Transferable**: Mueve estadísticas a mejores unidades.
+  </Card>
+</CardGrid>
+
+</Section>
+
+<Section icon={Target} title="Rerolls de Estadísticas y Sistema de Potencial">
+
+El núcleo del sistema de **estadísticas de Expediciones de Anime** se encuentra en el menú de Potencial de Estadísticas. Cuando seleccionas una unidad en la sección de mejoras, verás una lista de sus calificaciones de potencial actuales. Estas calificaciones no son permanentes; puedes usar Rerolls de Estadísticas para apostar por mejores porcentajes. Esto es particularmente importante para las unidades Míticas que planeas usar en Incursiones o Expediciones de alto nivel.
+
+| Tipo de Objeto | Uso Principal | Método de Obtención |
+| :--- | :--- | :--- |
+| **Reroll de Estadísticas** | Cambia todas las estadísticas desbloqueadas de una unidad | Tienda de Oro, Códigos, Recompensas de Incursión |
+| **Bloqueo de Estadísticas** | Evita que se cambie una estadística específica | Tienda de Oro, Eventos Especiales |
+| **Reroll de Rasgo** | Cambia el Encantamiento/Rasgo de la unidad | Artesanía, Tienda de Música, Incursiones |
+| **Transferencia Variocolor** | Mueve el estado variocolor a una unidad normal | Sección de Mejoras (Transferencia Variocolor) |
+
+Al hacer reroll, el juego genera nuevos valores para cada ranura que no esté bloqueada. Si obtienes una estadística de velocidad de ataque de nivel "S", debes usar inmediatamente un Bloqueo de Estadísticas antes de volver a tirar. Ten en cuenta que el uso de bloqueos aumenta el costo de los rerolls posteriores, así que prioriza bloquear solo las estadísticas más impactantes para ese tipo de unidad específico.
+
+<Callout type="warning" title="Gestión de Recursos">
+Los Bloqueos de Estadísticas son más raros que los Rerolls. Solo úsalos en unidades Míticas o Secretas. Usarlos en unidades Raras o Épicas generalmente se considera un desperdicio de recursos al principio del juego.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Mecánicas de Transferencia de Estadísticas">
+
+Una de las características más amigables para el jugador con respecto a las **estadísticas de Expediciones de Anime** es la capacidad de transferir estadísticas entre unidades. Si has gastado docenas de rerolls para conseguir que una unidad legendaria tenga estadísticas perfectas, pero luego invocas una versión Mítica más poderosa de ese mismo personaje, no tienes que empezar de nuevo. El sistema de Transferencia de Estadísticas te permite migrar esos atributos de nivel alto directamente.
+
+<Steps>
+  <Step num="1" title="Accede al Menú de Mejoras">
+    Navega a la sección de Mejoras en el lobby principal y selecciona la opción 'Transferencia de Estadísticas'.
+  </Step>
+  <Step num="2" title="Selecciona la Unidad de Origen">
+    Elige la unidad que posee actualmente las estadísticas de nivel alto que deseas mover.
+  </Step>
+  <Step num="3" title="Selecciona la Unidad de Destino">
+    Elige la nueva unidad más poderosa que recibirá las estadísticas. Ten en cuenta que las estadísticas originales de la unidad de origen se sobrescribirán.
+  </Step>
+  <Step num="4" title="Confirma la Transferencia">
+    Paga el oro o el costo de material requerido para finalizar el proceso. Tu nueva unidad ahora tiene la distribución de estadísticas optimizada.
+  </Step>
+</Steps>
+
+| Tipo de Transferencia | Nivel de Costo | Resultado |
+| :--- | :--- | :--- |
+| **Normal a Normal** | Bajo | Las estadísticas se mueven, la unidad de origen permanece |
+| **Variocolor a Normal** | Medio | El objetivo se vuelve Variocolor, el origen se consume |
+| **Transferencia Mítica** | Alto | Migración completa de estadísticas entre unidades de nivel alto |
+
+<Callout type="success" title="Nota de Estrategia">
+Esta mecánica hace que sea seguro invertir en tus mejores unidades actuales. Nunca "pierdes" progreso porque esas estadísticas siempre se pueden mover al siguiente personaje que defina el meta que consigas.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Rasgos y Optimización Crítica">
+
+Más allá de las **estadísticas estándar de Expediciones de Anime**, los Rasgos (también conocidos como encantamientos) proporcionan una capa masiva de poder. Los Rasgos son independientes del sistema de potencial y ofrecen multiplicadores únicos que pueden definir el rol de una unidad en tu equipo. Por ejemplo, una unidad con un gran alcance base pero baja velocidad se puede "solucionar" con un rasgo orientado a la velocidad.
+
+El rasgo "Precisión" es actualmente uno de los encantamientos más codiciados en el meta de 2026. Precisión II, por ejemplo, ofrece un aumento del 10% al Daño Crítico y un aumento del 20% a la Probabilidad de Crítico. Cuando se combina con estadísticas críticas base de nivel S, tus unidades pueden lograr casi un 100% de tiempo de actividad crítico, duplicando efectivamente su DPS en las Incursiones.
+
+| Nombre del Rasgo | Bonificación de Estadística | Rareza/Probabilidad |
+| :--- | :--- | :--- |
+| **Precisión I** | +5% Daño Crítico, +10% Prob. Crítica | Común (15%) |
+| **Precisión II** | +10% Daño Crítico, +20% Prob. Crítica | Raro (4%) |
+| **Presteza (Swiftness)** | +15% Velocidad de Ataque | Poco común (10%) |
+| **Gigante (Giant)** | +20% Alcance, +10% Daño | Raro (2%) |
+| **Divino (Godly)** | +50% Daño, +20% Velocidad | Secreto (&lt;1%) |
+
+<Callout type="info" title="Índice de Rasgos">
+Puedes ver la lista completa de posibles encantamientos en el Índice de Rasgos. Esto te ayuda a decidir si conservar una tirada actual o arriesgarte por un mejor multiplicador.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Progresión y Evolución de Unidades">
+
+Para maximizar verdaderamente tus **estadísticas de Expediciones de Anime**, debes investigar la Evolución y la Ascensión. La Ascensión requiere que tengas múltiples copias de la misma unidad Mítica. Al sacrificar tres duplicados, puedes ascender tu unidad principal, lo que otorga un multiplicador masivo a todas las estadísticas básicas existentes.
+
+| Etapa de Evolución | Requisitos | Multiplicador de Estadísticas |
+| :--- | :--- | :--- |
+| **Unidad Base** | Ninguno | 1.0x |
+| **Ascendido I** | 3 Unidades Duplicadas | 1.5x |
+| **Evolucionado** | Materiales de Artesanía Específicos | 2.0x + Nueva Habilidad |
+| **Evolucionado Variocolor** | Estado Variocolor + Materiales | 2.5x + Efectos Visuales |
+
+El equipamiento también juega un papel importante. Al final de las partidas, el equipamiento puede caer de forma aleatoria. Estos objetos se pueden equipar para proporcionar bonificaciones fijas a las estadísticas de tu unidad, como +100 de Ataque o +5% de Alcance. Al igual que las unidades, el equipamiento se puede volver a tirar y bloquear para garantizar que obtengas las mejores bonificaciones posibles para tu equipación.
+
+<Checklist
+  id="stat-optimization-goals"
+  title="Lista de Verificación Diaria de Optimización de Estadísticas:"
+  items={[
+    "Revisar la Tienda de Oro para obtener Rerolls y Bloqueos de Estadísticas",
+    "Completar el Inicio de Sesión Diario para obtener materiales de mejora gratuitos",
+    "Realizar al menos 3 Incursiones para obtener botín de equipamiento de nivel alto",
+    "Usar el farmeo AFK para acumular oro para la artesanía",
+    "Revisar el Índice de Unidades para reclamar recompensas de aumento de estadísticas no reclamadas"
+  ]}
+/>
+
+<Callout type="tip" title="Estrategia de la Tienda de Oro">
+La Tienda de Oro se reinicia periódicamente. Compra siempre todos los Bloqueos de Estadísticas, incluso si no los necesitas de inmediato, ya que son el mayor cuello de botella en la optimización de unidades al final del juego.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Preguntas Frecuentes sobre las Estadísticas de Expediciones de Anime">
+
+<FAQ items={[
+  {
+    question: "¿Cómo obtengo más Rerolls de Estadísticas en Expediciones de Anime?",
+    answer: "Puedes obtener Rerolls de Estadísticas canjeando códigos activos, comprándolos en la Tienda de Oro con la moneda del juego o completando Incursiones y Expediciones de alto nivel."
+  },
+  {
+    question: "¿Cuál es la diferencia entre el Potencial de Estadísticas y los Rasgos?",
+    answer: "El potencial de estadísticas se refiere a los atributos básicos (ATQ, VEL, Alcance) que van desde el nivel D al S. Los Rasgos son encantamientos que proporcionan multiplicadores basados en porcentajes o efectos especiales como una mayor probabilidad de golpe crítico."
+  },
+  {
+    question: "¿Puedo transferir estadísticas de una unidad normal a una unidad Variocolor (Shiny)?",
+    answer: "Sí, el sistema de Transferencia de Estadísticas te permite mover potenciales entre unidades independientemente de su estado Variocolor, aunque transferir un estado Variocolor a una unidad normal generalmente consume la unidad Variocolor original."
+  },
+  {
+    question: "¿Es mejor priorizar la Velocidad de Ataque o las estadísticas de Daño?",
+    answer: "Depende de la unidad. Para unidades con ataques lentos y pesados, aumentar la Velocidad de Ataque a menudo proporciona un mayor incremento de DPS. Para unidades de ataque rápido, potenciar el Daño plano o la Probabilidad de Crítico suele ser más efectivo."
+  }
+]} />
+
+<Callout type="success" title="Consejo Final">
+Concéntrate en alcanzar el nivel 20 rápidamente para desbloquear el conjunto completo de recompensas de expedición. Esto te dará el flujo constante de materiales necesarios para perfeccionar tus **estadísticas de Expediciones de Anime** y dominar las tablas de clasificación.
+</Callout>
+
+</Section>

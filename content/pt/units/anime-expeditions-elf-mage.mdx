@@ -1,0 +1,192 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Maga Élfica de Expedições de Anime: Build Unleashed e Guia de Time Mágico",
+  description: "Domine a Maga Élfica de Expedições de Anime com nosso guia detalhado. Aprenda estatísticas base, as melhores traits, requisitos de evolução e as melhores sinergias de time.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/1e3a8a/fff?text=Elf+Mage+Guide",
+  date: "2026-07-19",
+  author: "Equipe da Wiki de Expedições de Anime",
+  keywords: "Expedições de Anime, Maga Élfica, build, guia, time mágico, evolução"
+}
+
+<Callout type="info" title="Guia Rápido">
+- **Unidade principal**: A **maga élfica de Expedições de Anime** é uma unidade Mítica de elite especializada em dano mágico em área (AoE) e suporte de equipe.
+- **Mecânica chave**: Seus ataques causam dano mágico sustentado, tornando-a altamente eficaz na limpeza de ondas densas de inimigos.
+- **Melhor trait**: Primordial é a trait ideal, oferecendo melhorias massivas em dano, alcance e velocidade de ataque.
+- **Alvo de evolução**: Evoluir esta unidade para sua forma Unleashed aumenta significativamente sua capacidade de escalonamento.
+- **Melhor sinergia**: Combine com unidades de controle de grupo como o Feiticeiro de Salmão para agrupar inimigos e maximizar o impacto dos feitiços.
+</Callout>
+
+<Section icon={Sparkles} title="Maga Élfica de Expedições de Anime: Visão Geral e Estatísticas">
+
+Desbloquear o potencial total do seu elenco mágico em Expedições de Anime [CÂMARA DO TEMPO] requer entender como buildar e otimizar a **maga élfica**. Lançada como parte da linha Mítica principal, esta personagem serve como uma ponte vital entre carries de dano puro e unidades de suporte utilitário. Ao contrário dos atacantes físicos que dependem de dano de alvo único, esta unidade se destaca ao lançar feitiços mágicos em área que desgastam as forças inimigas agrupadas.
+
+O posicionamento é crítico ao implantar esta unidade. Como os projéteis mágicos viajam por caminhos definidos, colocar a unidade em curvas ou segmentos de pista sobrepostos garante que cada feitiço atinja o número máximo de alvos. Conforme você progride por estágios mais difíceis da História e Raids cooperativas, melhorar esta unidade cedo em uma partida torna-se uma estratégia viável para evitar que hordas de inimigos velozes passem pelas suas defesas.
+
+| Nível | Dano | SPA | Alcance | Custo de Melhoria |
+| :--- | :--- | :--- | :--- | :--- |
+| Nível 1 | 450 | 6.0s | 25 | 0 |
+| Nível 2 | 850 | 5.5s | 28 | 1200 |
+| Nível 3 | 1500 | 5.0s | 30 | 2500 |
+| Nível 4 | 2800 | 4.8s | 32 | 4500 |
+| Nível Máx | 5200 | 4.5s | 35 | 8000 |
+
+<Callout type="success" title="Vantagem Estratégica">
+O tipo de dano mágico ignora uma parte da armadura física encontrada em chefes de ondas avançadas, tornando esta unidade um trunfo indispensável para a progressão em alta dificuldade.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Melhores Traits e Rerolls para a Maga Élfica">
+
+Otimizar sua unidade requer visitar a estação de Traits localizada no hub de Melhorias. Rodar traits passivas altera permanentemente o comportamento de combate da unidade, permitindo que você ajuste seu desempenho para funções específicas. Para um híbrido focado em magia como este, reduzir os Segundos Por Ataque (SPA) enquanto expande o alcance de ataque é tão importante quanto aumentar o dano bruto.
+
+Embora a elusiva trait Unbound ofereça o maior aumento teórico de dano, ela restringe sua implantação a apenas uma unidade. Para defesa geral de ondas, traits que permitem múltiplas implantações costumam ser mais práticas. A trait Primordial se destaca como a melhor opção absoluta (best-in-slot), proporcionando uma mistura equilibrada de poder ofensivo e utilidade sem quaisquer limitações de posicionamento.
+
+| Nome da Trait | Taxa de Drop | Bônus de Ataque | Bônus de Utilidade | Prioridade de Parada |
+| :--- | :--- | :--- | :--- | :--- |
+| Primordial | Mítico | +35% Dano | -15% SPA, +20% Alcance | Alta prioridade para times mágicos |
+| Forsaken | Mítico | +35% Dano Crítico | +35% Chance Crítica | Manter se não houver Cristais de Trait |
+| Unbound | 0.1% | +350% Dano | -5% SPA, +10% Alcance | Restrição de apenas uma unidade |
+| Draconic | Mítico | +20% Dano | +50% Dano de DoT | Viável apenas para sinergia de DoT |
+
+<Callout type="warning" title="Gestão de Recursos">
+Cristais de Trait são extremamente escassos no início do jogo. Evite buscar um roll de 0.1% Unbound em unidades temporárias; guarde seus rerolls para seus carries Míticos permanentes.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Guia de Evolução: Despertando a Maga Élfica">
+
+Para acompanhar o conteúdo de endgame, evoluir seu elenco é obrigatório. O processo de evolução transforma sua unidade padrão em sua forma Unleashed, alterando sua aparência visual e concedendo um multiplicador de estatísticas massivo. As receitas de evolução são específicas de cada personagem, exigindo uma combinação de níveis da unidade base, materiais raros e Iene (Yen).
+
+Antes de tentar evoluir sua unidade, certifique-se de ter desbloqueado Raids de nível superior e completado os atos necessários da História. Os materiais necessários para esta transformação são obtidos principalmente em encontros cooperativos desafiadores, tornando a coordenação da equipe essencial.
+
+<Steps>
+  <Step num="1" title="Alcançar Requisito de Nível">
+    Treine sua unidade através de gameplay ativa ou treinamento passivo na Câmara do Tempo até que ela atinja o Nível 50.
+  </Step>
+  <Step num="2" title="Coletar Materiais Mágicos">
+    Farme chefes de Raid específicos e complete Expedições baseadas em objetivos para adquirir Tomos Mágicos e Fragmentos de Cristal.
+  </Step>
+  <Step num="3" title="Acumular Iene">
+    Repita estágios da História de alto rendimento ou resgate a renda passiva acumulada na Câmara do Tempo para cobrir o custo em Iene.
+  </Step>
+  <Step num="4" title="Executar Evolução">
+    Vá até a estação de Evolução na área de Melhorias, selecione sua unidade e confirme a transformação.
+  </Step>
+</Steps>
+
+| Forma Alvo | Nível Exigido | Materiais Base | Custo em Ouro | Fonte Primária |
+| :--- | :--- | :--- | :--- | :--- |
+| Maga Élfica (Unleashed) | Nível 50 | Tomos Mágicos, Fragmentos de Cristal | 50000 Iene | Drops de Raid, Estrelas da História |
+| Shadow (Divine) | Nível 50 | Essências de Sombra, Cristais Sombrios | 75000 Iene | Progressão da História, Raids |
+| Lady Giant (Envy) | Nível 45 | Corações de Gigante, Runas da Terra | 40000 Iene | Expedições baseadas em objetivos |
+
+<Callout type="tip" title="Dica de Evolução">
+Sempre priorize evoluir seu causador de dano principal primeiro. Um único carry evoluído pode carregar um elenco de suporte fraco, enquanto vários suportes não evoluídos terão dificuldade nas ondas finais do jogo.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Sinergias de Time Mágico e Estratégias de Posicionamento">
+
+Construir um time coeso em torno do dano mágico maximiza sua produção de dano. Como esta unidade causa dano em área sustentado, combiná-la com unidades de controle de grupo fortes garante que os inimigos permaneçam dentro dos limites do feitiço pelo maior tempo possível. Unidades que aplicam efeitos de lentidão ou atordoamentos temporários são adições valiosas ao seu loadout.
+
+Ao estruturar seu time, considere a seguinte distribuição de funções para lidar tanto com as ondas iniciais quanto com chefes de fim de jogo com muita vida:
+
+<CardGrid cols={3}>
+  <Card title="O Abridor">
+    - **Custo de implantação barato**
+    - Alta velocidade de ataque para ondas iniciais
+    - Garante a rota enquanto economiza recursos
+  </Card>
+  <Card title="O Controlador">
+    - **Aplica efeitos de lentidão ou impacto**
+    - Agrupa os inimigos
+    - Maximiza a eficiência dos feitiços AoE
+  </Card>
+  <Card title="O Carry Mágico">
+    - **Alto escalonamento de dano mágico**
+    - Ampla cobertura de área de efeito
+    - Limpa ondas agrupadas e chefes
+  </Card>
+</CardGrid>
+
+Evite colocar suas unidades em linhas retas paralelas ao caminho do inimigo. Em vez disso, procure por curvas em U, curvas circulares ou interseções onde o alcance de ataque da unidade possa cobrir múltiplos segmentos da pista. Isso maximiza o tempo de atividade ativo de cada feitiço lançado.
+
+| Unidade de Sinergia | Função | Compatibilidade | Principal Benefício |
+| :--- | :--- | :--- | :--- |
+| Feiticeiro de Salmão | Controle de Grupo | Alta | Reduz a velocidade dos inimigos para maximizar dano AoE |
+| Estudante Amaldiçoado | Carry de Escalonamento | Média | Limpa chefes enquanto a Maga Élfica cuida das ondas |
+| O Herói | Suporte Físico | Baixa | O buff de Bênção só se aplica a unidades físicas |
+
+<Callout type="info" title="Prioridade de Posicionamento">
+Coloque suas unidades de controle de grupo ligeiramente à frente dos seus causadores de dano mágico. Isso garante que os inimigos já estejam lentos quando entrarem na zona de ataque mágico.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Farmando Recursos para Melhorias">
+
+Para melhorar seu elenco com sucesso, você deve estabelecer uma rotina de farm eficiente. Equilibrar a gameplay ativa com a progressão passiva permite que você maximize sua ingestão de recursos sem se desgastar. O jogo ativo continua sendo o método mais rápido para garantir materiais raros, enquanto a Câmara do Tempo cuida da acumulação básica de moeda.
+
+Acompanhe seus marcos de progressão para garantir que você não está desperdiçando recursos em melhorias ineficientes. Foque em completar desafios diários e semanais para garantir fluxos constantes de Gemas e Cristais de Trait.
+
+<Checklist
+  id="upgrade-milestones"
+  title="Marcos de Progressão de Melhoria:"
+  items={[
+    "Alcançar Nível 50 em suas unidades mágicas principais",
+    "Garantir uma trait Primordial ou Forsaken no seu carry principal",
+    "Coletar todos os materiais de Raid necessários para a evolução",
+    "Acumular 50.000 Iene para o custo de transformação",
+    "Testar seu time evoluído em Expedições de alto nível"
+  ]}
+/>
+
+| Recurso | Modo Ativo | Modo Passivo | Missões Diárias | Prioridade de Gasto |
+| :--- | :--- | :--- | :--- | :--- |
+| Gemas | Estrelas da História (Melhor) | Câmara do Tempo (Baixo) | Alta Recompensa | Guardar para metas de pity em banners |
+| Iene | Repetição de História (Alta) | Câmara do Tempo (Alta) | Média Recompensa | Gastar em melhorias do time principal |
+| Cristais de Trait | Recompensas de Raid (Alta) | Câmara do Tempo (Baixo) | Alta Recompensa | Usar apenas em carries permanentes |
+
+<Callout type="tip" title="Eficiência de Farm">
+Ao farmar estágios repetíveis da História, escolha o mapa mais curto que você consiga completar consistentemente no auto-play. A velocidade é mais importante do que aumentos marginais de recompensa em mapas longos.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Perguntas Frequentes">
+
+<FAQ items={[
+  {
+    question: "A maga élfica de Expedições de Anime é boa para progressão solo?",
+    answer: "Sim. Devido ao seu forte dano mágico em área, ela pode facilmente limpar estágios da História do início ao meio do jogo sem depender muito de companheiros de equipe cooperativos."
+  },
+  {
+    question: "Posso usar buffs de suporte físico nesta unidade?",
+    answer: "Não. Unidades de suporte físico como O Herói apenas buffam tipos de dano físico. Você deve combinar esta unidade com suportes compatíveis com magia ou unidades padrão de controle de grupo."
+  },
+  {
+    question: "Devo manter a trait Unbound se eu rolar ela?",
+    answer: "Embora a Unbound ofereça um dano massivo, sua restrição de implantação única pode limitar sua cobertura de pista. Se você depende de múltiplas implantações para controle de multidão, a Primordial costuma ser preferida."
+  },
+  {
+    question: "Qual o melhor lugar para farmar materiais de evolução?",
+    answer: "Materiais de evolução são melhor farmados completando Raids cooperativas de alto nível e limpando Expedições específicas baseadas em objetivos."
+  }
+]} />
+
+<Callout type="info" title="Suporte da Comunidade">
+Para as últimas atualizações, mudanças de balanceamento e códigos ativos, junte-se à comunidade oficial no Discord ou siga os desenvolvedores nas redes sociais.
+</Callout>
+
+</Section>

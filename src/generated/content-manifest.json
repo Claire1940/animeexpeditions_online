@@ -20,6 +20,10 @@
         "file": "anime-expeditions-raids"
       },
       {
+        "slug": "anime-expeditions-skins",
+        "file": "anime-expeditions-skins"
+      },
+      {
         "slug": "anime-expeditions-time-chamber",
         "file": "anime-expeditions-time-chamber"
       }
@@ -30,12 +34,36 @@
         "file": "anime-expeditions-beginner-guide"
       },
       {
+        "slug": "anime-expeditions-discord",
+        "file": "anime-expeditions-discord"
+      },
+      {
         "slug": "anime-expeditions-f2p-guide",
         "file": "anime-expeditions-f2p-guide"
       },
       {
+        "slug": "anime-expeditions-game-link",
+        "file": "anime-expeditions-game-link"
+      },
+      {
+        "slug": "anime-expeditions-guilds",
+        "file": "anime-expeditions-guilds"
+      },
+      {
+        "slug": "anime-expeditions-meta",
+        "file": "anime-expeditions-meta"
+      },
+      {
+        "slug": "anime-expeditions-official-trailer",
+        "file": "anime-expeditions-official-trailer"
+      },
+      {
         "slug": "anime-expeditions-progression-guide",
         "file": "anime-expeditions-progression-guide"
+      },
+      {
+        "slug": "anime-expeditions-roblox-group",
+        "file": "anime-expeditions-roblox-group"
       },
       {
         "slug": "anime-expeditions-summoning-guide",
@@ -52,9 +80,29 @@
       {
         "slug": "anime-expeditions-upgrade-order",
         "file": "anime-expeditions-upgrade-order"
+      },
+      {
+        "slug": "anime-expeditions-youtube",
+        "file": "anime-expeditions-youtube"
       }
     ],
     "progression": [
+      {
+        "slug": "anime-expeditions-afk-chamber",
+        "file": "anime-expeditions-afk-chamber"
+      },
+      {
+        "slug": "anime-expeditions-ascension",
+        "file": "anime-expeditions-ascension"
+      },
+      {
+        "slug": "anime-expeditions-equipment-reroll",
+        "file": "anime-expeditions-equipment-reroll"
+      },
+      {
+        "slug": "anime-expeditions-equipment",
+        "file": "anime-expeditions-equipment"
+      },
       {
         "slug": "anime-expeditions-evolution-guide",
         "file": "anime-expeditions-evolution-guide"
@@ -70,6 +118,14 @@
       {
         "slug": "anime-expeditions-shiny-units",
         "file": "anime-expeditions-shiny-units"
+      },
+      {
+        "slug": "anime-expeditions-stats",
+        "file": "anime-expeditions-stats"
+      },
+      {
+        "slug": "anime-expeditions-traits",
+        "file": "anime-expeditions-traits"
       },
       {
         "slug": "anime-expeditions-unbound-units",
@@ -122,8 +178,24 @@
     ],
     "units": [
       {
+        "slug": "anime-expeditions-best-units",
+        "file": "anime-expeditions-best-units"
+      },
+      {
         "slug": "anime-expeditions-choso",
         "file": "anime-expeditions-choso"
+      },
+      {
+        "slug": "anime-expeditions-elf-mage-best-trait",
+        "file": "anime-expeditions-elf-mage-best-trait"
+      },
+      {
+        "slug": "anime-expeditions-elf-mage-trial",
+        "file": "anime-expeditions-elf-mage-trial"
+      },
+      {
+        "slug": "anime-expeditions-elf-mage",
+        "file": "anime-expeditions-elf-mage"
       },
       {
         "slug": "anime-expeditions-frieren",
@@ -132,6 +204,10 @@
       {
         "slug": "anime-expeditions-gowther",
         "file": "anime-expeditions-gowther"
+      },
+      {
+        "slug": "anime-expeditions-ichigo",
+        "file": "anime-expeditions-ichigo"
       },
       {
         "slug": "anime-expeditions-kenpachi",
@@ -144,6 +220,14 @@
       {
         "slug": "anime-expeditions-secret-units",
         "file": "anime-expeditions-secret-units"
+      },
+      {
+        "slug": "anime-expeditions-shadow",
+        "file": "anime-expeditions-shadow"
+      },
+      {
+        "slug": "anime-expeditions-shield-breaker",
+        "file": "anime-expeditions-shield-breaker"
       },
       {
         "slug": "anime-expeditions-true-saint",
@@ -176,6 +260,10 @@
         "file": "anime-expeditions-raids"
       },
       {
+        "slug": "anime-expeditions-skins",
+        "file": "anime-expeditions-skins"
+      },
+      {
         "slug": "anime-expeditions-time-chamber",
         "file": "anime-expeditions-time-chamber"
       }
@@ -186,12 +274,36 @@
         "file": "anime-expeditions-beginner-guide"
       },
       {
+        "slug": "anime-expeditions-discord",
+        "file": "anime-expeditions-discord"
+      },
+      {
         "slug": "anime-expeditions-f2p-guide",
         "file": "anime-expeditions-f2p-guide"
       },
       {
+        "slug": "anime-expeditions-game-link",
+        "file": "anime-expeditions-game-link"
+      },
+      {
+        "slug": "anime-expeditions-guilds",
+        "file": "anime-expeditions-guilds"
+      },
+      {
+        "slug": "anime-expeditions-meta",
+        "file": "anime-expeditions-meta"
+      },
+      {
+        "slug": "anime-expeditions-official-trailer",
+        "file": "anime-expeditions-official-trailer"
+      },
+      {
         "slug": "anime-expeditions-progression-guide",
         "file": "anime-expeditions-progression-guide"
+      },
+      {
+        "slug": "anime-expeditions-roblox-group",
+        "file": "anime-expeditions-roblox-group"
       },
       {
         "slug": "anime-expeditions-summoning-guide",
@@ -208,9 +320,29 @@
       {
         "slug": "anime-expeditions-upgrade-order",
         "file": "anime-expeditions-upgrade-order"
+      },
+      {
+        "slug": "anime-expeditions-youtube",
+        "file": "anime-expeditions-youtube"
       }
     ],
     "progression": [
+      {
+        "slug": "anime-expeditions-afk-chamber",
+        "file": "anime-expeditions-afk-chamber"
+      },
+      {
+        "slug": "anime-expeditions-ascension",
+        "file": "anime-expeditions-ascension"
+      },
+      {
+        "slug": "anime-expeditions-equipment-reroll",
+        "file": "anime-expeditions-equipment-reroll"
+      },
+      {
+        "slug": "anime-expeditions-equipment",
+        "file": "anime-expeditions-equipment"
+      },
       {
         "slug": "anime-expeditions-evolution-guide",
         "file": "anime-expeditions-evolution-guide"
@@ -226,6 +358,14 @@
       {
         "slug": "anime-expeditions-shiny-units",
         "file": "anime-expeditions-shiny-units"
+      },
+      {
+        "slug": "anime-expeditions-stats",
+        "file": "anime-expeditions-stats"
+      },
+      {
+        "slug": "anime-expeditions-traits",
+        "file": "anime-expeditions-traits"
       },
       {
         "slug": "anime-expeditions-unbound-units",
@@ -278,8 +418,24 @@
     ],
     "units": [
       {
+        "slug": "anime-expeditions-best-units",
+        "file": "anime-expeditions-best-units"
+      },
+      {
         "slug": "anime-expeditions-choso",
         "file": "anime-expeditions-choso"
+      },
+      {
+        "slug": "anime-expeditions-elf-mage-best-trait",
+        "file": "anime-expeditions-elf-mage-best-trait"
+      },
+      {
+        "slug": "anime-expeditions-elf-mage-trial",
+        "file": "anime-expeditions-elf-mage-trial"
+      },
+      {
+        "slug": "anime-expeditions-elf-mage",
+        "file": "anime-expeditions-elf-mage"
       },
       {
         "slug": "anime-expeditions-frieren",
@@ -288,6 +444,10 @@
       {
         "slug": "anime-expeditions-gowther",
         "file": "anime-expeditions-gowther"
+      },
+      {
+        "slug": "anime-expeditions-ichigo",
+        "file": "anime-expeditions-ichigo"
       },
       {
         "slug": "anime-expeditions-kenpachi",
@@ -300,6 +460,14 @@
       {
         "slug": "anime-expeditions-secret-units",
         "file": "anime-expeditions-secret-units"
+      },
+      {
+        "slug": "anime-expeditions-shadow",
+        "file": "anime-expeditions-shadow"
+      },
+      {
+        "slug": "anime-expeditions-shield-breaker",
+        "file": "anime-expeditions-shield-breaker"
       },
       {
         "slug": "anime-expeditions-true-saint",
@@ -332,6 +500,10 @@
         "file": "anime-expeditions-raids"
       },
       {
+        "slug": "anime-expeditions-skins",
+        "file": "anime-expeditions-skins"
+      },
+      {
         "slug": "anime-expeditions-time-chamber",
         "file": "anime-expeditions-time-chamber"
       }
@@ -342,12 +514,36 @@
         "file": "anime-expeditions-beginner-guide"
       },
       {
+        "slug": "anime-expeditions-discord",
+        "file": "anime-expeditions-discord"
+      },
+      {
         "slug": "anime-expeditions-f2p-guide",
         "file": "anime-expeditions-f2p-guide"
       },
       {
+        "slug": "anime-expeditions-game-link",
+        "file": "anime-expeditions-game-link"
+      },
+      {
+        "slug": "anime-expeditions-guilds",
+        "file": "anime-expeditions-guilds"
+      },
+      {
+        "slug": "anime-expeditions-meta",
+        "file": "anime-expeditions-meta"
+      },
+      {
+        "slug": "anime-expeditions-official-trailer",
+        "file": "anime-expeditions-official-trailer"
+      },
+      {
         "slug": "anime-expeditions-progression-guide",
         "file": "anime-expeditions-progression-guide"
+      },
+      {
+        "slug": "anime-expeditions-roblox-group",
+        "file": "anime-expeditions-roblox-group"
       },
       {
         "slug": "anime-expeditions-summoning-guide",
@@ -364,9 +560,29 @@
       {
         "slug": "anime-expeditions-upgrade-order",
         "file": "anime-expeditions-upgrade-order"
+      },
+      {
+        "slug": "anime-expeditions-youtube",
+        "file": "anime-expeditions-youtube"
       }
     ],
     "progression": [
+      {
+        "slug": "anime-expeditions-afk-chamber",
+        "file": "anime-expeditions-afk-chamber"
+      },
+      {
+        "slug": "anime-expeditions-ascension",
+        "file": "anime-expeditions-ascension"
+      },
+      {
+        "slug": "anime-expeditions-equipment-reroll",
+        "file": "anime-expeditions-equipment-reroll"
+      },
+      {
+        "slug": "anime-expeditions-equipment",
+        "file": "anime-expeditions-equipment"
+      },
       {
         "slug": "anime-expeditions-evolution-guide",
         "file": "anime-expeditions-evolution-guide"
@@ -382,6 +598,14 @@
       {
         "slug": "anime-expeditions-shiny-units",
         "file": "anime-expeditions-shiny-units"
+      },
+      {
+        "slug": "anime-expeditions-stats",
+        "file": "anime-expeditions-stats"
+      },
+      {
+        "slug": "anime-expeditions-traits",
+        "file": "anime-expeditions-traits"
       },
       {
         "slug": "anime-expeditions-unbound-units",
@@ -434,8 +658,24 @@
     ],
     "units": [
       {
+        "slug": "anime-expeditions-best-units",
+        "file": "anime-expeditions-best-units"
+      },
+      {
         "slug": "anime-expeditions-choso",
         "file": "anime-expeditions-choso"
+      },
+      {
+        "slug": "anime-expeditions-elf-mage-best-trait",
+        "file": "anime-expeditions-elf-mage-best-trait"
+      },
+      {
+        "slug": "anime-expeditions-elf-mage-trial",
+        "file": "anime-expeditions-elf-mage-trial"
+      },
+      {
+        "slug": "anime-expeditions-elf-mage",
+        "file": "anime-expeditions-elf-mage"
       },
       {
         "slug": "anime-expeditions-frieren",
@@ -444,6 +684,10 @@
       {
         "slug": "anime-expeditions-gowther",
         "file": "anime-expeditions-gowther"
+      },
+      {
+        "slug": "anime-expeditions-ichigo",
+        "file": "anime-expeditions-ichigo"
       },
       {
         "slug": "anime-expeditions-kenpachi",
@@ -456,6 +700,14 @@
       {
         "slug": "anime-expeditions-secret-units",
         "file": "anime-expeditions-secret-units"
+      },
+      {
+        "slug": "anime-expeditions-shadow",
+        "file": "anime-expeditions-shadow"
+      },
+      {
+        "slug": "anime-expeditions-shield-breaker",
+        "file": "anime-expeditions-shield-breaker"
       },
       {
         "slug": "anime-expeditions-true-saint",

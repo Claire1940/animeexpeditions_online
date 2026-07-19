@@ -1,0 +1,176 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Equipamentos de Anime Expeditions: Guia Definitivo de Melhoria de Atributos e Farm de 2026",
+  description: "Domine o sistema de equipamentos de Anime Expeditions. Aprenda a farmar itens exclusivos de personagens, forjar itens lendários e resetar atributos para obter o poder máximo de combate.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Equipment+Mastery+Guide",
+  date: "2026-07-19",
+  author: "Equipe da Wiki de Anime Expeditions"
+}
+
+<Callout type="info" title="Guia Rápido">
+- Os **equipamentos de Anime Expeditions** fornecem melhorias vitais de atributos e passivas únicas que definem o meta para raides de alto nível.
+- **Equipamentos específicos de unidades** são frequentemente obtidos através da Maestria de Mapa com uma taxa de drop de 5% e um sistema de pity de 20 rodadas.
+- **Equipamentos padrão** como Kunais e Katanas podem ser equipados por qualquer unidade para aumentos básicos de dano Físico ou Mágico.
+- **Resetar atributos** requer 2.500 de Ouro ou recompensas de desafios para atingir o teto máximo de +10% de dano.
+- **Requisito de evolução**: A maioria dos equipamentos exclusivos exige que a unidade correspondente esteja evoluída antes de poder ser equipada.
+</Callout>
+
+<Section icon={Map} title="Entendendo o Sistema de Equipamentos">
+
+No meta de 2026 de Anime Expeditions, dominar seus equipamentos é tão importante quanto invocar unidades de alto nível. Os equipamentos servem como um multiplicador de poder permanente, oferecendo tanto incrementos brutos de atributos quanto passivas que mudam o jogo e podem alterar a função de uma unidade na composição do time. Esteja você enfrentando a raide da Cidade dos Espíritos (Spirit City) ou farmando na Tumba do Rei (King's Tomb), ter o conjunto certo de equipamentos é a diferença entre uma vitória bem-sucedida e uma derrota total.
+
+**Destaques do Vídeo:**
+- Detalhamento de todas as localizações de equipamentos específicos de unidades.
+- Explicação sobre a taxa de drop de 5% e a mecânica de pity de 20 rodadas.
+- Demonstração do sistema de criação da Forja do Arsenal (Armory Forge) no Hub de Expedição.
+- Demonstração de passivas únicas como "Espíritos de Morcego" (Bat Spirits) e "Fogo Selvagem" (Wildfire).
+
+<YouTubeEmbed videoId="l5JozgvsEzs" title="GUIA COMPLETO de EQUIPAMENTOS em Anime Expeditions" />
+
+O sistema de equipamentos é dividido em duas categorias principais: Padrão (Standard) e Específico de Unidade (Unit-Specific). Itens padrão fornecem utilidade geral, enquanto itens específicos de unidades desbloqueiam estados "Despertados" (Awakened) ou ativações de ataques secundários que aumentam significativamente o DPS (Dano por Segundo) ou as capacidades de CC (Controle de Grupo).
+
+<Callout type="success" title="Requisito do Sistema">
+Sempre certifique-se de que suas unidades estão evoluídas. A maioria dos equipamentos de nível lendário, como o Traje do Imperador (Emperor's Attire) ou o Anel da Promessa (Promise Ring), não funcionará em unidades de nível básico. A evolução é o pré-requisito para desbloquear os slots de equipamentos.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Equipamentos e Passivas Específicas de Unidades">
+
+Os **equipamentos de Anime Expeditions** específicos de unidades são o ápice da otimização de personagens. Esses itens são feitos sob medida para heróis específicos, frequentemente referenciando suas histórias enquanto fornecem vantagens mecânicas que os equipamentos padrão não conseguem igualar. Por exemplo, o Anel da Promessa (Promise Ring) não apenas adiciona dano; ele invoca espíritos autônomos que atacam independentemente dos tempos de recarga principais da unidade.
+
+| Equipamento | Unidade Compatível | Atributos Principais | Efeito Passivo Único |
+| :--- | :--- | :--- | :--- |
+| **Promise Ring** | Cursed Student | +10% DMG | Invoca Espíritos de Morcego a cada 20 acúmulos de Sangramento |
+| **Technique Amp** | Salmon Sorcerer | +5% de Alcance | Aplica Lentidão/Esmagamento com base no tipo de ataque |
+| **House Flower** | Hollow (Blaze) | +10% DMG | Converte Queimadura em Chamas Austeras (85% de DMG) |
+| **Emperor's Attire** | Flame Emperor | +10% DMG | Fogo Selvagem: Espalha Queimadura para até 5 inimigos próximos |
+| **Web Fruit** | Strength Demon | +10% de Alcance | Casulo da Carnificina: Atordoa por 5s ou 10 acertos |
+| **Calamity Eye** | Puppet | +10% DMG | Criação de Marionetes: Invoca bonecos após a morte de inimigos |
+| **11 Battle Staff** | Elf Mage | -5% SPA | Feitiços Arcanos: Conjura magia em área (AOE) em marcos de carga |
+
+<CardGrid cols={3}>
+  <Card title="Rei do Controle de Grupo">
+    A **Web Fruit** é essencial para a sobrevivência em ondas altas. Sua mecânica de casulo fornece um atordoamento confiável de 5 segundos, permitindo que seus atacantes mais fortes recarreguem.
+  </Card>
+  <Card title="Sinergia de Queimadura">
+    Combine o **Emperor's Attire** com a **House Flower** na mesma equipe para maximizar o dano de fogo através da propagação de queimaduras e conversões de alto dano.
+  </Card>
+  <Card title="Escalonamento Crítico">
+    A **Spirit of Moon Blade** oferece um bônus de escalonamento exclusivo chamado Adaptação, aumentando o dano e o dano crítico para cada tipo de inimigo diferente atacado.
+  </Card>
+</CardGrid>
+
+<Callout type="tip" title="Estratégia Pro">
+Ao usar o 11 Battle Staff, concentre-se na redução de SPA (Segundos por Ataque). Quanto mais rápido sua Elf Mage atacar, mais rápido você alcançará o "Storm" AOE de 7 cargas, que causa 150% do dano atual.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Locais de Farm de Equipamentos Padrão">
+
+Para novos jogadores ou unidades secundárias, os **equipamentos padrão de Anime Expeditions** fornecem uma base sólida. Esses itens não possuem um sistema de pity tão generoso quanto os equipamentos exclusivos, mas são mais fáceis de obter durante a progressão rotineira da história. Eles são categorizados pelo tipo de dano que aumentam: Físico, Mágico ou Geral.
+
+| Item Padrão | Mapa Principal | Bônus de Atributo 1 | Bônus de Atributo 2 |
+| :--- | :--- | :--- | :--- |
+| **Kunai** | School Grounds | +10% de Dano Total | -5% SPA |
+| **Katana** | Flower Forest | +10% de DMG Físico | +5% de Dano Total |
+| **Magic Orb** | Rose Kingdom | +10% de Alcance de Ataque | +5% de Dano Total |
+| **Warrior's Axe** | Fairy King Forest | +1% a +10% DMG | Escalonamento Variável |
+| **Magic Book** | King's Tomb | +20% de DMG Mágico | Alta Prioridade para Magos |
+
+<Callout type="info" title="Dica de Farm">
+Os atributos dos equipamentos padrão são aleatórios ao dropar. Uma Kunai pode dropar com apenas +2% de dano. Não descarte itens com atributos baixos imediatamente; você pode resetá-los mais tarde, quando acumular Ouro suficiente.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Como Obter e Criar Equipamentos">
+
+Garantir os melhores **equipamentos de Anime Expeditions** exige uma mistura de sorte, persistência e gerenciamento de recursos. O jogo utiliza um sistema de "Maestria" (Mastery) para mapas de história, onde níveis de dificuldade mais altos rendem melhores recompensas. Se o RNG (Geração de Números Aleatórios) não estiver a seu favor, a Forja do Arsenal (Armory Forge) serve como um caminho garantido para o poder.
+
+<Steps>
+  <Step num="1" title="Desbloqueie a Maestria de Mapa">
+    Complete o modo de história básico de uma região (por exemplo, Cidade dos Espíritos ou Reino das Rosas) para desbloquear a dificuldade Maestria. Este é o único lugar onde dropam equipamentos exclusivos.
+  </Step>
+  <Step num="2" title="Farme a Barra de Pity">
+    Cada rodada de Maestria tem 5% de chance de dropar o item exclusivo. Se você falhar 19 vezes, a 20ª rodada garante o drop. Monitore sua contagem de rodadas na tela de seleção de fase.
+  </Step>
+  <Step num="3" title="Utilize a Forja do Arsenal">
+    Visite o Hub de Expedição para criar itens específicos como a Lâmina Hexagonal (Hex Blade) ou o Amplificador de Técnica (Technique Amplifier). Isso geralmente requer materiais coletados em Raides e desafios de alto nível.
+  </Step>
+  <Step num="4" title="Equipe e Evolua">
+    Abra o inventário de sua unidade, selecione um personagem evoluído e equipe o item. Lembre-se de que uma unidade só pode carregar uma peça de equipamento por vez no início do jogo.
+  </Step>
+</Steps>
+
+<Checklist
+  id="farming-checklist"
+  title="Metas Diárias de Farm:"
+  items={[
+    "Completar 20 rodadas de Maestria para obter um drop garantido no Pity",
+    "Verificar a Loja de Ouro em busca de itens para resetar atributos de equipamentos",
+    "Concluir o Ato 1 da Raide da Cidade dos Espíritos para obter equipamentos do Ceifador/Berserk",
+    "Coletar materiais para criação na Forja do Arsenal"
+  ]}
+/>
+
+<Callout type="warning" title="Gerenciamento de Inventário">
+Os slots de equipamentos são limitados. Venda ou use regularmente equipamentos padrão de nível baixo como material para abrir espaço para os drops de Maestria. Perder um drop de 5% porque seu inventário estava cheio é um erro comum para iniciantes.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Resetando e Otimizando Atributos">
+
+Conseguir o item é apenas metade da batalha. Para otimizar verdadeiramente seus **equipamentos de Anime Expeditions**, você deve usar o sistema de reset de atributos (reroll). Cada peça de equipamento dropa com uma variação de atributos potenciais (por exemplo, +1% a +10% de Dano). Se o seu Anel da Promessa (Promise Ring) lendário dropar com os atributos mínimos, sua eficácia será severamente prejudicada.
+
+| Item de Reroll | Fonte | Custo | Uso |
+| :--- | :--- | :--- | :--- |
+| **Reroll Básico** | Loja de Ouro / Desafios | 2.500 de Ouro | Aleatoriza todos os atributos de um item |
+| **Bloqueador de Equipamento** | Loja Premium / Drops Raros | Variável | Bloqueia um atributo enquanto reseta os outros |
+| **Resetador de Atributos** | Eventos Especiais | N/A | Redefine o item para a base para um novo começo |
+
+O objetivo de qualquer jogador dedicado é alcançar o roll "Perfeito". Para unidades focadas em dano, isso significa +10% de Dano e -5% de SPA. Para unidades de suporte, concentre-se em +10% de Alcance para garantir que suas melhorias ou penalidades cubram a maior área possível do mapa.
+
+<Callout type="tip" title="Conselho de Eficiência">
+Use Bloqueadores de Equipamento apenas em itens que já possuem um atributo "Perfeito". Por exemplo, se você tiver -5% de SPA, mas apenas +2% de Dano, bloqueie o SPA antes de resetar para buscar os +10% de Dano.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Perguntas Frequentes sobre Equipamentos de Anime Expeditions">
+
+<FAQ items={[
+  {
+    question: "Como obtenho o equipamento exclusivo para a unidade Ceifador (Reaper)?",
+    answer: "A Lâmina Espiritual da Lua (Spirit of Moon Blade) para a unidade Ceifador é obtida no Ato 1 da raide da Cidade dos Espíritos. Ela tem 5% de chance de drop e um sistema de pity de 20 rodadas."
+  },
+  {
+    question: "Posso usar o Traje do Imperador (Emperor's Attire) em qualquer unidade de fogo?",
+    answer: "Não. Equipamentos específicos de unidades de Anime Expeditions, como o Emperor's Attire, só podem ser equipados pela Reencarnação do Imperador das Chamas (Flame Emperor Reincarnate)."
+  },
+  {
+    question: "Qual é o melhor equipamento padrão para um causador de dano físico?",
+    answer: "A Katana da Floresta das Flores (Flower Forest) é a melhor escolha, pois fornece +10% de Dano Físico e um bônus adicional de +5% de Dano Total."
+  },
+  {
+    question: "Os equipamentos funcionam nos modos PvP?",
+    answer: "Sim, os atributos e passivas dos equipamentos ficam ativos na maioria dos modos de jogo, tornando a otimização de itens crucial para o jogo competitivo."
+  }
+]} />
+
+<Callout type="info" title="Nota Final">
+O meta de equipamentos muda conforme novas unidades e raides são lançadas. Fique atento à Forja do Arsenal para novas receitas de criação que podem introduzir passivas ainda mais poderosas em atualizações futuras de 2026.
+</Callout>
+
+</Section>

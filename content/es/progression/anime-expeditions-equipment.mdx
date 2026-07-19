@@ -1,0 +1,176 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Equipamiento de Expediciones de Anime: Guía definitiva de mejoras de estadísticas y farmeo de 2026",
+  description: "Domina el sistema de equipamiento de Expediciones de Anime. Aprende a farmear equipo específico de unidades, fabricar objetos legendarios y relanzar estadísticas para obtener el máximo poder de combate.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Equipment+Mastery+Guide",
+  date: "2026-07-19",
+  author: "Equipo de la Wiki de Expediciones de Anime"
+}
+
+<Callout type="info" title="Guía rápida">
+- El **equipamiento de Expediciones de Anime** proporciona mejoras de estadísticas vitales y pasivas únicas que definen el meta para las incursiones de alto nivel.
+- El **equipo específico de unidad** se obtiene a menudo a través de la Maestría de Mapa con una probabilidad de obtención del 5% y un sistema de piedad de 20 intentos.
+- El **equipamiento estándar** como Kunais y Katanas puede ser equipado por cualquier unidad para aumentos básicos de daño físico o mágico.
+- **Relanzar estadísticas** requiere 2,500 de oro o recompensas de desafíos para alcanzar el límite máximo de daño de +10%.
+- **Requisito de evolución**: La mayoría del equipo exclusivo requiere que la unidad correspondiente esté evolucionada antes de poder equiparse.
+</Callout>
+
+<Section icon={Map} title="Comprendiendo el sistema de equipamiento">
+
+En el meta de 2026 de Expediciones de Anime, dominar tu equipo es tan importante como invocar unidades de nivel alto. El equipamiento sirve como un multiplicador de poder permanente, ofreciendo tanto incrementos de estadísticas básicas como pasivas que cambian el juego y que pueden alterar el rol de una unidad en la composición de un equipo. Ya sea que te enfrentes a la incursión de la Ciudad de los Espíritus o que avances por la Tumba del Rey, tener el equipamiento adecuado es la diferencia entre una victoria exitosa y una derrota total.
+
+**Puntos destacados del video:**
+- Desglose de todas las ubicaciones de equipamiento específico de unidad.
+- Explicación de la probabilidad de obtención del 5% y la mecánica de piedad de 20 intentos.
+- Muestra del sistema de fabricación de la Forja del Arsenal en el Nexo de Expedición.
+- Demostración de pasivas únicas como "Espíritus de murciélago" y "Fuego salvaje".
+
+<YouTubeEmbed videoId="l5JozgvsEzs" title="GUÍA COMPLETA de EQUIPAMIENTO en Expediciones de Anime" />
+
+El sistema de equipamiento se divide en dos categorías principales: Estándar y Específico de unidad. Los objetos estándar proporcionan utilidad general, mientras que los objetos específicos de unidad desbloquean estados "Despertados" o efectos de ataque secundarios que aumentan significativamente el DPS (Daño por segundo) o las capacidades de CC (Control de masas).
+
+<Callout type="success" title="Requisito del sistema">
+Asegúrate siempre de que tus unidades estén evolucionadas. La mayoría del equipamiento de nivel legendario, como el Atuendo del Emperador o el Anillo de la Promesa, no funcionará en unidades de nivel base. La evolución es el prerrequisito para desbloquear las ranuras de equipamiento.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Equipamiento específico de unidad y pasivas">
+
+El **equipamiento específico de unidad de Expediciones de Anime** es la cúspide de la optimización de personajes. Estos objetos están hechos a medida para héroes específicos, a menudo haciendo referencia a su historia de fondo y proporcionando ventajas mecánicas que el equipo estándar no puede igualar. Por ejemplo, el Anillo de la Promesa no solo añade daño; invoca espíritus autónomos que atacan independientemente de los tiempos de reutilización principales de la unidad.
+
+| Equipamiento | Unidad compatible | Estadísticas clave | Efecto pasivo único |
+| :--- | :--- | :--- | :--- |
+| **Anillo de la Promesa** | Estudiante Maldito | +10% DMG | Invoca Espíritus de Murciélago cada 20 acumulaciones de Sangrado |
+| **Amplificador de Técnica** | Hechicero del Salmón | +5% Rango | Aplica Ralentización/Aplastamiento según el tipo de ataque |
+| **Flor de la Casa** | Hollow (Llamarada) | +10% DMG | Convierte la Quemadura en Llamas Austeras (85% de daño) |
+| **Atuendo del Emperador** | Emperador de la Llama | +10% DMG | Fuego salvaje: Propaga la Quemadura a 5 enemigos cercanos |
+| **Fruta de Telaraña** | Demonio de la Fuerza | +10% Rango | Capullo de Carnicería: Aturde durante 5s o 10 golpes |
+| **Ojo de la Calamidad** | Marioneta | +10% DMG | Creación de Marionetas: Invoca muñecos al morir un enemigo |
+| **Bastón de Batalla 11** | Mago Elfo | -5% SPA | Hechizos Arcanos: Lanza magia de área (AOE) al alcanzar hitos de carga |
+
+<CardGrid cols={3}>
+  <Card title="Rey del control de masas">
+    La **Fruta de Telaraña** es esencial para la supervivencia en oleadas altas. Su mecánica de capullo proporciona un aturdimiento confiable de 5 segundos, lo que permite que tus atacantes pesados se recarguen.
+  </Card>
+  <Card title="Sinergia de quemadura">
+    Combina el **Atuendo del Emperador** con la **Flor de la Casa** en el mismo equipo para maximizar el daño de fuego mediante la propagación de quemaduras y conversiones de alto daño.
+  </Card>
+  <Card title="Escalado crítico">
+    El **Espíritu de la Espada Lunar** ofrece una mejora de escalado única llamada Adaptación, que aumenta el daño y el daño crítico por cada tipo de enemigo diferente atacado.
+  </Card>
+</CardGrid>
+
+<Callout type="tip" title="Estrategia profesional">
+Al usar el Bastón de Batalla 11, concéntrate en la reducción de SPA (segundos por ataque). Cuanto más rápido ataque tu Mago Elfo, más rápido alcanzarás el área de efecto (AOE) "Tormenta" de 7 cargas, que inflige el 150% del daño actual.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Ubicaciones de farmeo de equipamiento estándar">
+
+Para los jugadores más nuevos o las unidades secundarias, el **equipamiento estándar de Expediciones de Anime** proporciona una base sólida. Estos objetos no tienen un sistema de piedad tan generoso como el del equipo exclusivo, pero son más fáciles de obtener durante la progresión rutinaria de la historia. Se clasifican según el tipo de daño que potencian: Físico, Mágico o General.
+
+| Objeto estándar | Mapa principal | Bonificación de estadística 1 | Bonificación de estadística 2 |
+| :--- | :--- | :--- | :--- |
+| **Kunai** | Patio de la Escuela | +10% de Daño Total | -5% SPA |
+| **Katana** | Bosque de Flores | +10% de Daño Físico | +5% de Daño Total |
+| **Orbe Mágico** | Reino de las Rosas | +10% de Rango de Ataque | +5% de Daño Total |
+| **Hacha de Guerrero** | Bosque del Rey Hada | +1% a +10% DMG | Escalado variable |
+| **Libro Mágico** | Tumba del Rey | +20% de Daño Mágico | Alta prioridad para magos |
+
+<Callout type="info" title="Consejo de farmeo">
+Las estadísticas del equipamiento estándar son aleatorias al caer. Un Kunai podría caer con solo +2% de daño. No descartes los objetos con estadísticas bajas de inmediato; puedes relanzarlos más tarde una vez que hayas acumulado suficiente oro.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Cómo obtener y fabricar equipamiento">
+
+Asegurar el mejor **equipamiento de Expediciones de Anime** requiere una mezcla de suerte, persistencia y gestión de recursos. El juego utiliza un sistema de "Maestría" para los mapas de la historia, donde los niveles de dificultad más altos otorgan mejores recompensas. Si el RNG (Generación de Números Aleatorios) no está de tu lado, la Forja del Arsenal sirve como un camino determinista hacia el poder.
+
+<Steps>
+  <Step num="1" title="Desbloquear la Maestría de Mapa">
+    Completa el modo de historia base para una región (por ejemplo, Ciudad de los Espíritus o Reino de las Rosas) para desbloquear la dificultad de Maestría. Este es el único lugar donde cae el equipo exclusivo.
+  </Step>
+  <Step num="2" title="Avanzar en el medidor de piedad">
+    Cada intento en Maestría tiene una probabilidad del 5% de obtener el objeto exclusivo. Si fallas 19 veces, el vigésimo intento es una obtención garantizada. Monitorea tu conteo de intentos en la pantalla de selección de fase.
+  </Step>
+  <Step num="3" title="Utilizar la Forja del Arsenal">
+    Visita el Nexo de Expedición para fabricar objetos específicos como la Espada Hexagonal o el Amplificador de Técnica. Esto generalmente requiere materiales recolectados en Incursiones y desafíos de alto nivel.
+  </Step>
+  <Step num="4" title="Equipar y evolucionar">
+    Abre el inventario de tu unidad, selecciona un personaje evolucionado y coloca el equipo. Recuerda que una unidad solo puede tener una pieza de equipamiento a la vez en el juego temprano.
+  </Step>
+</Steps>
+
+<Checklist
+  id="farming-checklist"
+  title="Objetivos diarios de farmeo:"
+  items={[
+    "Completa 20 intentos en Maestría para una obtención de piedad garantizada",
+    "Revisa la Tienda de Oro para ver si hay objetos de relanzamiento de equipamiento",
+    "Completa el Acto 1 de la Incursión de la Ciudad de los Espíritus para obtener equipo de Segador/Berserker",
+    "Recolecta materiales para la fabricación en la Forja del Arsenal"
+  ]}
+/>
+
+<Callout type="warning" title="Gestión de inventario">
+Las ranuras de equipamiento son limitadas. Vende o usa regularmente como material el equipamiento estándar de nivel bajo para hacer espacio para las obtenciones de Maestría. Perder una obtención del 5% porque tu inventario estaba lleno es un error común para los principiantes.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Relanzar y optimizar estadísticas">
+
+Conseguir el objeto es solo la mitad de la batalla. Para optimizar verdaderamente tu **equipamiento de Expediciones de Anime**, debes interactuar con el sistema de relanzamiento. Cada pieza de equipo cae con un rango de estadísticas potenciales (por ejemplo, de +1% a +10% de daño). Si tu Anillo de la Promesa legendario cae con estadísticas mínimas, su efectividad se verá gravemente afectada.
+
+| Objeto de relanzamiento | Fuente | Costo | Uso |
+| :--- | :--- | :--- | :--- |
+| **Relanzamiento básico** | Tienda de Oro / Desafíos | 2,500 de Oro | Aleatoriza todas las estadísticas de un objeto |
+| **Bloqueo de equipamiento** | Tienda Premium / Obtenciones raras | Variable | Bloquea una estadística mientras se relanzan las demás |
+| **Restablecimiento de estadísticas** | Eventos especiales | N/D | Restablece el objeto a su estado base para un nuevo comienzo |
+
+El objetivo de cualquier jugador serio es lograr el lanzamiento "Perfecto". Para las unidades orientadas al daño, esto significa +10% de Daño y -5% de SPA. Para las unidades de soporte, concéntrate en +10% de Rango para asegurar que sus potenciadores o desventajas cubran la mayor área posible del mapa.
+
+<Callout type="tip" title="Consejo de eficiencia">
+Solo usa Bloqueos de equipamiento en equipos que ya tengan una estadística "Perfecta". Por ejemplo, si tienes -5% de SPA pero solo +2% de Daño, bloquea el SPA antes de relanzar para buscar ese +10% de Daño.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Preguntas frecuentes sobre el equipamiento de Expediciones de Anime">
+
+<FAQ items={[
+  {
+    question: "¿Cómo obtengo el equipamiento exclusivo para la unidad Segador?",
+    answer: "El Espíritu de la Espada Lunar para la unidad Segador se obtiene en el Acto 1 de la incursión de la Ciudad de los Espíritus. Tiene una probabilidad de obtención del 5% y un sistema de piedad de 20 intentos."
+  },
+  {
+    question: "¿Puedo usar el Atuendo del Emperador en cualquier unidad de fuego?",
+    answer: "No. El equipamiento específico de unidad de Expediciones de Anime, como el Atuendo del Emperador, solo puede ser equipado por la Reencarnación del Emperador de la Llama."
+  },
+  {
+    question: "¿Cuál es el mejor equipamiento estándar para un atacante de daño físico?",
+    answer: "La Katana del Bosque de Flores es la mejor opción, ya que proporciona +10% de Daño Físico y un +5% adicional de Daño Total."
+  },
+  {
+    question: "¿Funciona el equipamiento en los modos PvP?",
+    answer: "Sí, las estadísticas y pasivas del equipamiento están activas en la mayoría de los modos de juego, lo que hace que la optimización del equipo sea crucial para el juego competitivo."
+  }
+]} />
+
+<Callout type="info" title="Nota final">
+El meta del equipamiento cambia a medida que se lanzan nuevas unidades e incursiones. Mantente atento a la Forja del Arsenal para nuevas recetas de fabricación que puedan introducir pasivas aún más poderosas en futuras actualizaciones de 2026.
+</Callout>
+
+</Section>
